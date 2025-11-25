@@ -47,3 +47,25 @@ This is the source code for the Freight Labs website, a premium B2B SaaS-style s
 -   **Images:** You can replace the placeholder images in the root directory with your own assets.
 -   **Colors:** Edit the `:root` variables in `style.css` to change the color scheme.
 -   **Content:** Update the text in `index.html` to match your specific messaging.
+
+## How to Update Your Site
+
+Whenever you want to make changes (like adding a new page or changing text), just follow this simple cycle:
+
+1.  **Edit:** Make your changes to the files on your computer.
+2.  **Save:** Save the files.
+3.  **Deploy:** Run these 3 commands in your terminal:
+
+```bash
+# 1. Stage your changes
+git add .
+
+# 2. Commit them (describe what you changed)
+git commit -m "Updated the homepage text"
+
+# 3. Push to GitHub
+git push
+```
+
+**That's it!** Netlify is watching your GitHub repository. As soon as you push, Netlify will see the new code, build it, and update your live website automatically (usually within seconds).
+
