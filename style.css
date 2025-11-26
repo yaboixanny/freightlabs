@@ -799,14 +799,142 @@ footer {
     .overview-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
 
-    .integrations-grid-simple {
-        grid-template-columns: repeat(3, 1fr);
-    }
+/* =========================================
+   FREIGHT SEO PAGE STYLES
+   ========================================= */
 
-    .cta-actions {
-        flex-direction: column;
-    }
+/* Hero SEO */
+.hero-seo .highlight-box {
+    background: rgba(59, 130, 246, 0.1);
+    border-left: 4px solid var(--primary-blue);
+    padding: 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    font-size: 1rem;
+    color: var(--text-main);
+    margin-bottom: 2rem;
+}
+
+/* Challenges Section */
+.challenges {
+    padding: 6rem 0;
+}
+
+.challenges-grid {
+    gap: 1.5rem;
+}
+
+.challenge-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s;
+}
+
+.challenge-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.challenge-card p {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.icon-box-small {
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+/* How It Works & Reporting */
+.how-it-works,
+.reporting {
+    padding: 6rem 0;
+    background: white;
+}
+
+.card-simple {
+    background: #f8fafc;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #e2e8f0;
+}
+
+.card-simple h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-simple p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* Link Building */
+.link-building {
+    padding: 6rem 0;
+}
+
+.content-max-width {
+    max-width: 800px;
+    margin-bottom: 3rem;
+}
+
+/* Team Section */
+.team {
+    padding: 6rem 0;
+}
+
+.bg-light {
+    background: #f8fafc;
+}
+
+.team-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid var(--primary-blue);
+}
+
+.team-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.team-card p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    color: var(--text-muted);
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+}
+
+.integrations-grid-simple {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cta-actions {
+    flex-direction: column;
+}
 }
 
 @media (max-width: 640px) {
