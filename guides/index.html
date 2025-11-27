@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freight Labs Guides | Logistics Marketing Insights</title>
+    <meta name="description"
+        content="Expert guides, tips, and strategies for 3PL marketing, freight broker lead generation, and logistics business growth.">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Guides Specific Styles */
+        .guides-hero {
+            padding: 8rem 0 4rem;
+            background: var(--light-bg);
+            text-align: center;
+        }
+
+        .guides-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-img {
+            height: 200px;
+            background-color: #e2e8f0;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .blog-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-category {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--primary-blue);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-date {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .blog-excerpt {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .read-more {
+            color: var(--primary-blue);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .page-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid #e2e8f0;
+            background: white;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-main);
+            transition: all 0.2s;
+        }
+
+        .page-btn:hover:not(:disabled) {
+            background: #f1f5f9;
+            border-color: #cbd5e1;
+        }
+
+        .page-btn.active {
+            background: var(--primary-blue);
+            color: white;
+            border-color: var(--primary-blue);
+        }
+
+        .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        @media (max-width: 1024px) {
+            .guides-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .guides-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">Freight Labs</div>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <div class="dropdown">
+                    <a href="../services/index.html" class="dropdown-toggle">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="../freightads/index.html">FreightAds™</a>
+                        <a href="../freightseo/index.html">FreightSEO™</a>
+                        <a href="../freightleads/index.html">FreightLeads™</a>
+                        <a href="../freightdesign/index.html">FreightDesign™</a>
+                    </div>
+                </div>
+                <a href="../process/index.html">Process</a>
+                <a href="../about/index.html">About</a>
+                <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-nav">Book a Call</a>
+            </div>
+            <div class="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="guides-hero">
+        <div class="container">
+            <h1>Freight Labs <span class="gradient-text">Guides</span></h1>
+            <p style="max-width: 600px; margin: 0 auto;">Actionable insights, strategies, and tutorials to help you grow
+                your logistics business.</p>
+        </div>
+    </header>
+
+    <!-- Blog Grid -->
+    <section class="guides-section" style="padding: 4rem 0;">
+        <div class="container">
+            <div id="blog-grid" class="guides-grid">
+                <!-- Blog posts will be injected here via JS -->
+            </div>
+
+            <!-- Pagination Controls -->
+            <div id="pagination" class="pagination">
+                <!-- Pagination buttons will be injected here via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="final-cta">
+        <div class="container text-center">
+            <h2>Ready to Implement These Strategies?</h2>
+            <p class="subheadline">Let us handle the marketing so you can focus on moving freight.</p>
+            <div class="btn-group centered">
+                <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a
+                    Strategy Call</a>
+            </div>
+        </div>
+        <div class="bg-pattern"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">Freight Labs</div>
+                <p>The logistics marketing agency that moves freight forward.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="../freightads/index.html">FreightAds™</a>
+                <a href="../freightseo/index.html">FreightSEO™</a>
+                <a href="../freightleads/index.html">FreightLeads™</a>
+                <a href="../freightdesign/index.html">FreightDesign™</a>
+                <a href="../freightcontent/index.html">FreightContent™</a>
+                <a href="../process/index.html">Our Process</a>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="../about/index.html">About Us</a>
+                <a href="#">Case Studies</a>
+            </div>
+            <div class="footer-col">
+                <h4>Guides</h4>
+                <a href="index.html">All Guides</a>
+                <a href="#">Freight Broker Leads</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>hello@freightlabs.com</p>
+                <p>(123) 456-7890</p>
+                <p>North America</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2025 Freight Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="posts.js"></script>
+    <script>
+        // Pagination Logic
+        const postsPerPage = 5;
+        let currentPage = 1;
+
+        function renderPosts(page) {
+            const grid = document.getElementById('blog-grid');
+            grid.innerHTML = '';
+
+            const start = (page - 1) * postsPerPage;
+            const end = start + postsPerPage;
+            const paginatedPosts = blogPosts.slice(start, end);
+
+            paginatedPosts.forEach(post => {
+                const postEl = document.createElement('div');
+                postEl.className = 'blog-card';
+                postEl.innerHTML = `
+                    <div class="blog-img" style="background-image: url('${post.image}');"></div>
+                    <div class="blog-content">
+                        <div class="blog-category">${post.category}</div>
+                        <h3 class="blog-title">${post.title}</h3>
+                        <div class="blog-date">${post.date}</div>
+                        <p class="blog-excerpt">${post.excerpt}</p>
+                        <a href="${post.slug}.html" class="read-more">Read Guide &rarr;</a>
+                    </div>
+                `;
+                grid.appendChild(postEl);
+            });
+
+            renderPagination();
+        }
+
+        function renderPagination() {
+            const pagination = document.getElementById('pagination');
+            pagination.innerHTML = '';
+
+            const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+
+            if (totalPages <= 1) return;
+
+            // Prev Button
+            const prevBtn = document.createElement('button');
+            prevBtn.className = 'page-btn';
+            prevBtn.innerText = '← Previous';
+            prevBtn.disabled = currentPage === 1;
+            prevBtn.onclick = () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderPosts(currentPage);
+                    window.scrollTo(0, 0);
+                }
+            };
+            pagination.appendChild(prevBtn);
+
+            // Page Numbers
+            for (let i = 1; i <= totalPages; i++) {
+                const btn = document.createElement('button');
+                btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+                btn.innerText = i;
+                btn.onclick = () => {
+                    currentPage = i;
+                    renderPosts(currentPage);
+                    window.scrollTo(0, 0);
+                };
+                pagination.appendChild(btn);
+            }
+
+            // Next Button
+            const nextBtn = document.createElement('button');
+            nextBtn.className = 'page-btn';
+            nextBtn.innerText = 'Next →';
+            nextBtn.disabled = currentPage === totalPages;
+            nextBtn.onclick = () => {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    renderPosts(currentPage);
+                    window.scrollTo(0, 0);
+                }
+            };
+            pagination.appendChild(nextBtn);
+        }
+
+        // Initial Render
+        document.addEventListener('DOMContentLoaded', () => {
+            renderPosts(currentPage);
+        });
+    </script>
+</body>
+
+</html>

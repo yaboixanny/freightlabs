@@ -69,3 +69,35 @@ git push
 
 **That's it!** Netlify is watching your GitHub repository. As soon as you push, Netlify will see the new code, build it, and update your live website automatically (usually within seconds).
 
+
+## How to Add a New Blog Post
+
+The `/guides` section is built to be easily updated. Follow these steps to add a new post:
+
+1.  **Create the Post File:**
+    *   Duplicate the `guides/template.html` file.
+    *   Rename it to your desired slug (e.g., `guides/my-new-post.html`).
+    *   Open the new file and replace the placeholder content (Title, Date, Body, etc.) with your actual blog post.
+
+2.  **Update the Index:**
+    *   Open `guides/posts.js`.
+    *   Add a new object to the **top** of the `blogPosts` array (this ensures it appears first).
+    *   Format it like this:
+        ```javascript
+        {
+            title: "Your Post Title",
+            slug: "my-new-post", // MUST match your filename (without .html)
+            excerpt: "A short summary of the post...",
+            date: "October 20, 2025",
+            category: "Strategy", // or SEO, Marketing, etc.
+            image: "../hero_dashboard.png" // Path to the thumbnail image
+        },
+        ```
+
+3.  **Deploy:**
+    *   Run the standard git commands to push your changes:
+        ```bash
+        git add .
+        git commit -m "Added new blog post: My New Post"
+        git push
+        ```
