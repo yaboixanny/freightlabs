@@ -75,7 +75,7 @@ git push
 The `/guides` section is built to be easily updated. Follow these steps to add a new post:
 
 1.  **Create the Post Directory and File:**
-    *   Create a new folder in `guides/` with your desired slug name (e.g., `guides/my-new-post/`).
+    *   Create a new folder in `guides/` with your desired slug name (e.g., `guides/my-new-post/`). **Do not include dates (years, months) in the slug/URL.**
     *   Duplicate the `guides/template.html` file into that folder and rename it to `index.html`.
     *   **Important:** You must update the relative paths in the new `index.html` file (change `../` to `../../` for CSS, JS, and links) since it is now one level deeper.
     *   Open the new file and replace the placeholder content.
