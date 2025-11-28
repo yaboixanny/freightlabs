@@ -25,8 +25,8 @@ const blogPosts = [
     },
     {
         title: "5 Common Mistakes in 3PL Marketing",
-        slug: "5-common-mistakes-3pl-marketing",
-        excerpt: "Are you making these critical errors in your marketing strategy? Find out how to fix them and improve your ROI.",
+        slug: "../3pl-marketing-mistakes",
+        excerpt: "Are you making these critical 3PL marketing errors? Find out how to fix them and improve your ROI.",
         date: "October 5, 2025",
         category: "Marketing",
         image: "../content_laptop.png" // Placeholder image
