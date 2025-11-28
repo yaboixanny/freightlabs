@@ -9,7 +9,7 @@ const blogPosts = [
     },
     {
         title: "The Ultimate Guide to Freight SEO",
-        slug: "ultimate-guide-freight-seo",
+        slug: "freight-seo-guide",
         excerpt: "Learn how to rank your logistics website higher on Google and attract more direct shipper leads without paying for ads.",
         date: "October 10, 2025",
         category: "SEO",
