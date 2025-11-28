@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        title: "Local SEO for 3PLs: How to Attract Nearby Shippers",
+        slug: "../local-seo-for-3pls",
+        excerpt: "Local SEO brings in high-intent shippers for 3PLs and logistics companies. Learn how to optimize Google Business Profile, build city pages, get reviews, and drive nearby shipper leads.",
+        date: "October 20, 2025",
+        category: "SEO",
+        image: "../seo_dashboard.png" // Placeholder image
+    },
+    {
         title: "How to Scale Your Freight Brokerage in 2026",
         slug: "how-to-scale-freight-brokerage",
         excerpt: "Discover the key strategies and technologies that top freight brokers are using to double their revenue in the coming year.",
