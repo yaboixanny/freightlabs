@@ -23,10 +23,14 @@ PAGE_CONFIG = {
     'freightleads/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'freightdesign/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'freightcontent/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'guides/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
 }
 
 # Directories to skip
 SKIP_DIRS = {'node_modules', '.git', 'dist', 'build', '__pycache__', '.vscode'}
+
+# Files to skip
+SKIP_FILES = {'template.html', 'google*.html'}  # Add any other files to skip
 
 
 def find_html_files(root_dir='.'):
@@ -36,8 +40,14 @@ def find_html_files(root_dir='.'):
 
     for file_path in root_path.rglob('*.html'):
         # Skip files in excluded directories
-        if not any(skip_dir in file_path.parts for skip_dir in SKIP_DIRS):
-            html_files.append(file_path)
+        if any(skip_dir in file_path.parts for skip_dir in SKIP_DIRS):
+            continue
+            
+        # Skip specific files
+        if file_path.name in SKIP_FILES:
+            continue
+            
+        html_files.append(file_path)
 
     return sorted(html_files)
 
@@ -67,11 +77,18 @@ def generate_sitemap():
         # Get modification time
         last_mod = get_file_mod_time(file_path)
 
-        # Build URL (remove index.html for cleaner URLs)
-        url = relative_path.replace('index.html', '')
-        if url and not url.endswith('/'):
-            url += '/'
-
+        # Build URL
+        if relative_path.endswith('index.html'):
+            # Directory style: path/to/index.html -> path/to/
+            url = relative_path[:-10]  # Remove 'index.html'
+            if not url: # Root index.html becomes empty string
+                url = '' 
+            elif not url.endswith('/'):
+                url += '/'
+        else:
+            # Clean URL style: path/to/page.html -> path/to/page
+            url = relative_path[:-5]  # Remove '.html'
+            
         # Get config or use defaults
         config = PAGE_CONFIG.get(relative_path, {
             'priority': '0.7',
