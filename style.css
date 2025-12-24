@@ -944,16 +944,19 @@ footer {
     padding: 2rem;
     border-radius: 1rem;
     border: 1px solid #e2e8f0;
+    color: var(--text-main);
 }
 
 .card-simple h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    color: var(--text-main);
 }
 
 .card-simple p {
     font-size: 1rem;
     margin-bottom: 0;
+    color: var(--text-muted);
 }
 
 /* Link Building */
@@ -1795,6 +1798,7 @@ cite {
     border-radius: 1.5rem;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
     border: 1px solid #f1f5f9;
+    color: var(--text-main);
 }
 
 .high-intent-form {
