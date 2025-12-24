@@ -135,6 +135,27 @@ p {
     color: var(--darker-bg);
 }
 
+.btn-purple-gradient {
+    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    color: white !important;
+    display: inline-block;
+    padding: 0.875rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-purple-gradient:hover {
+    background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.3);
+    color: white !important;
+}
+
 .btn-group {
     display: flex;
     gap: 1rem;
