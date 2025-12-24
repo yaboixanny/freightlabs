@@ -89,8 +89,10 @@ def generate_sitemap():
             elif not url.endswith('/'):
                 url += '/'
         else:
-            # Clean URL style: path/to/page.html -> path/to/page
+            # Clean URL style: path/to/page.html -> path/to/page/
             url = relative_path[:-5]  # Remove '.html'
+            if not url.endswith('/'):
+                url += '/'
             
         # Get config or use defaults
         config = PAGE_CONFIG.get(relative_path, {
