@@ -336,6 +336,14 @@ nav .container {
     margin-top: 3rem;
 }
 
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
 /* Trust */
 .trust {
     padding: 6rem 0;
