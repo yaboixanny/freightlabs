@@ -24,6 +24,9 @@ PAGE_CONFIG = {
     'freightdesign/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'freightcontent/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'guides/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'warehousing-fulfillment/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'local-seo-for-3pls/index.html': {'priority': '0.7', 'changefreq': 'monthly'},
+    '3pl-marketing-mistakes/index.html': {'priority': '0.7', 'changefreq': 'monthly'},
 }
 
 # Directories to skip
