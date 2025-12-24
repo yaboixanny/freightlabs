@@ -447,8 +447,9 @@ nav .container {
 
 /* Final CTA */
 .final-cta {
-    padding: 8rem 0;
-    background: var(--gradient-main);
+    padding: 10rem 0;
+    background: #020617;
+    /* Darker background for better contrast */
     color: white;
     position: relative;
     overflow: hidden;
@@ -941,7 +942,13 @@ footer {
 
 .content-max-width {
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 3rem;
+}
+
+.section-padding {
+    padding: 8rem 0;
 }
 
 /* Team Section */
