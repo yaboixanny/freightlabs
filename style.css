@@ -32,6 +32,11 @@ body {
     padding: 0 2rem;
 }
 
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1,
 h2,
 h3,
