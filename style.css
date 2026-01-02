@@ -44,6 +44,8 @@ h4 {
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 h1 {
@@ -549,7 +551,11 @@ footer {
 /* Responsive */
 @media (max-width: 1024px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 1.875rem;
     }
 
     .hero-grid,
@@ -1074,7 +1080,7 @@ footer {
 
 .process-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
     margin-top: 4rem;
 }
@@ -1218,7 +1224,11 @@ footer {
 
     .process-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
+    }
+
+    .process-step {
+        padding: 1.5rem;
     }
 
     .stat-card,
