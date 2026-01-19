@@ -29,6 +29,7 @@ PAGE_CONFIG = {
     '3pl-marketing-mistakes/index.html': {'priority': '0.7', 'changefreq': 'monthly'},
     'google-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
     'contact/index.html': {'priority': '0.8', 'changefreq': 'monthly'},
+    'case-studies/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
 }
 
 # Directories to skip
