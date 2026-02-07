@@ -23,76 +23,137 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --section-spacing: 6rem;
+        }
+
         .article-hero {
-            padding: 8rem 0 4rem;
-            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            padding: 10rem 0 6rem;
+            background: linear-gradient(165deg, #ffffff 0%, #f1f5f9 100%);
             text-align: center;
+            border-bottom: 1px solid #e2e8f0;
         }
 
         .article-meta {
-            font-size: 0.875rem;
-            color: var(--primary-purple);
-            margin-bottom: 1rem;
+            display: inline-block;
+            font-size: 0.75rem;
+            color: white;
+            background: var(--primary-purple);
+            padding: 0.25rem 1rem;
+            border-radius: 2rem;
+            margin-bottom: 1.5rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.1em;
         }
 
-        .article-content {
-            max-width: 850px;
+        .article-body {
+            background: white;
+        }
+
+        .article-section {
+            padding: var(--section-spacing) 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .article-section:nth-child(even) {
+            background: #fafafa;
+        }
+
+        .container-narrow {
+            max-width: 800px;
             margin: 0 auto;
-            padding: 4rem 2rem;
-            font-size: 1.125rem;
-            line-height: 1.8;
-            color: #334155;
+            padding: 0 2rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-main);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .article-p {
+            font-size: 1.25rem;
+            line-height: 1.7;
+            color: #475569;
+            margin-bottom: 2rem;
         }
 
         .results-box {
             background: var(--dark-main);
             color: white;
-            padding: 3rem;
-            border-radius: 1.5rem;
-            margin: 3rem 0;
+            padding: 4rem 2rem;
+            border-radius: 2rem;
+            margin: 2rem 0;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 10;
+        }
+
+        @media (max-width: 768px) {
+            .results-box {
+                grid-template-columns: 1fr;
+            }
         }
 
         .result-item h3 {
-            font-size: 3rem;
-            color: var(--primary-purple);
+            font-size: 3.5rem;
+            background: var(--gradient-purple);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin-bottom: 0.5rem;
+            font-weight: 800;
         }
 
         .result-item p {
             color: #94a3b8;
+            font-size: 1rem;
             font-weight: 600;
-            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
-        .article-content h2 {
-            font-size: 2.25rem;
-            margin-top: 4rem;
-            margin-bottom: 1.5rem;
-            color: var(--dark-main);
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 0.5rem;
+        .strategy-grid {
+            display: grid;
+            gap: 2.5rem;
+            margin-top: 3rem;
         }
 
-        .article-content h3 {
-            font-size: 1.5rem;
-            margin-top: 2.5rem;
+        .strategy-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 1.5rem;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .strategy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-purple);
+        }
+
+        .strategy-number {
+            font-size: 0.875rem;
+            font-weight: 800;
+            color: var(--primary-purple);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .strategy-card h3 {
+            font-size: 1.75rem;
             margin-bottom: 1rem;
             color: var(--dark-main);
-        }
-
-        .strategy-step {
-            background: #f8fafc;
-            padding: 2rem;
-            border-left: 4px solid var(--primary-purple);
-            border-radius: 0 1rem 1rem 0;
-            margin-bottom: 2rem;
         }
 
         .check-list {
@@ -103,15 +164,45 @@
         .check-list li {
             position: relative;
             padding-left: 2rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
+            font-size: 1.125rem;
+            color: #475569;
         }
 
         .check-list li::before {
-            content: '✓';
+            content: '→';
             position: absolute;
             left: 0;
             color: var(--primary-purple);
-            font-weight: bold;
+            font-weight: 900;
+        }
+
+        .quote-block {
+            padding: 4rem;
+            background: #f8fafc;
+            border-radius: 2rem;
+            position: relative;
+            text-align: center;
+            margin: 4rem 0;
+        }
+
+        .quote-block::before {
+            content: '"';
+            font-size: 6rem;
+            color: var(--primary-purple);
+            opacity: 0.1;
+            position: absolute;
+            top: 1rem;
+            left: 2rem;
+            font-family: serif;
+        }
+
+        .quote-text {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: var(--dark-main);
+            line-height: 1.6;
+            font-weight: 500;
         }
     </style>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -162,86 +253,113 @@
         </div>
     </header>
 
-    <article class="article-content">
-        <h2>Client Overview</h2>
-        <p>A regional, family-owned freight brokerage wanted to grow beyond referrals and inconsistent outbound sales.
-            They needed predictable inbound shipper demand without wasting budget on low-quality freight inquiries.</p>
+    <main class="article-body">
+        <!-- Overview -->
+        <section class="article-section">
+            <div class="container-narrow">
+                <h2 class="section-title">Client Overview</h2>
+                <p class="article-p">A regional, family-owned freight brokerage wanted to grow beyond referrals and
+                    inconsistent outbound sales. They needed predictable inbound shipper demand without wasting budget
+                    on low-quality freight inquiries.</p>
 
-        <h2>The Challenge</h2>
-        <p>Before partnering with Freight Labs, the brokerage struggled with several key inhibitors to growth:</p>
-        <ul class="check-list">
-            <li>Unpredictable monthly lead volume</li>
-            <li>Heavy reliance on referrals and cold outreach</li>
-            <li>Wasted ad spend on broad freight searches</li>
-            <li>Low conversion rates from generic campaigns</li>
-            <li>Difficulty attracting profitable lane opportunities</li>
-        </ul>
-        <p>Their sales team needed consistent, qualified shipper conversations to fill their pipeline and scale
-            operations.</p>
-
-        <div class="results-box">
-            <div class="result-item">
-                <h3>312%</h3>
-                <p>Increase in Leads</p>
+                <div class="results-box">
+                    <div class="result-item">
+                        <h3>312%</h3>
+                        <p>Increase in Leads</p>
+                    </div>
+                    <div class="result-item">
+                        <h3>42%</h3>
+                        <p>Reduction in CPL</p>
+                    </div>
+                    <div class="result-item">
+                        <h3>3–5</h3>
+                        <p>Daily Shipper Leads</p>
+                    </div>
+                </div>
             </div>
-            <div class="result-item">
-                <h3>42%</h3>
-                <p>Reduction in CPL</p>
+        </section>
+
+        <!-- Challenge -->
+        <section class="article-section">
+            <div class="container-narrow">
+                <h2 class="section-title">The Challenge</h2>
+                <p class="article-p">Before partnering with Freight Labs, the brokerage struggled with several key
+                    inhibitors to growth that are common in the logistics space:</p>
+                <ul class="check-list">
+                    <li>Unpredictable monthly lead volume creating "feast or famine" cycles.</li>
+                    <li>Heavy reliance on referrals and grueling cold outbound outreach.</li>
+                    <li>Wasted ad spend on broad freight searches that attracted drivers, not shippers.</li>
+                    <li>Low conversion rates from generic landing pages that lacked lane-specific authority.</li>
+                    <li>Difficulty attracting profitable lane opportunities in specific geographic regions.</li>
+                </ul>
             </div>
-            <div class="result-item">
-                <h3>3–5</h3>
-                <p>Daily Shipper Leads</p>
+        </section>
+
+        <!-- Strategy -->
+        <section class="article-section">
+            <div class="container-narrow">
+                <h2 class="section-title">Our Strategy</h2>
+                <p class="article-p">We rebuilt their acquisition system around <strong>high-intent Google search
+                        traffic</strong>, focusing only on shippers actively moving freight in their core regions.</p>
+
+                <div class="strategy-grid">
+                    <div class="strategy-card">
+                        <span class="strategy-number">Phase 01</span>
+                        <h3>Lane-Specific Targeting</h3>
+                        <p>Instead of targeting generic, expensive searches like "freight broker," we targeted specific
+                            lanes such as:</p>
+                        <ul class="check-list">
+                            <li>FTL shipping Texas to Illinois</li>
+                            <li>Chicago to Dallas freight service</li>
+                            <li>Midwest LTL freight shipping</li>
+                        </ul>
+                    </div>
+
+                    <div class="strategy-card">
+                        <span class="strategy-number">Phase 02</span>
+                        <h3>Conversion-Focused Funnels</h3>
+                        <p>We built lane-focused landing pages designed to convert traffic into quote requests
+                            instantly. Each page emphasized regional lane expertise, carrier capacity reliability, and
+                            featured a simplified, high-converting form.</p>
+                    </div>
+
+                    <div class="strategy-card">
+                        <span class="strategy-number">Phase 03</span>
+                        <h3>Aggressive Intent Filtering</h3>
+                        <p>Using advanced negative keyword lists and bid adjustments, we filtered out non-buyer searches
+                            (driver jobs, consumer quotes) to ensure budget was allocated only to profitable shippers.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <h2>Our Strategy</h2>
-        <p>We rebuilt their acquisition system around high-intent Google search traffic, focusing only on shippers
-            actively moving freight. We didn't want traffic; we wanted <strong>shippers</strong>.</p>
+        <!-- Conclusion -->
+        <section class="article-section">
+            <div class="container-narrow">
+                <h2 class="section-title">Business Impact</h2>
+                <p class="article-p">The brokerage moved from unpredictable demand to a scalable inbound acquisition
+                    engine. This allowed them to:</p>
+                <ul class="check-list">
+                    <li>Expand carrier partnerships with confirmed volume confidence.</li>
+                    <li>Increase lane density and overall profit margins.</li>
+                    <li>Plan hiring and infrastructure growth based on predictable data.</li>
+                    <li>Significantly reduce the time sales reps spent on cold calling.</li>
+                </ul>
 
-        <div class="strategy-step">
-            <h3>1) Lane-Specific Campaign Targeting</h3>
-            <p>Instead of targeting generic, expensive searches like "freight broker" or "shipping company," we targeted
-                specific lanes such as:</p>
-            <ul class="check-list">
-                <li>FTL shipping Texas to Illinois</li>
-                <li>Chicago to Dallas freight service</li>
-                <li>Midwest LTL freight shipping</li>
-                <li>Dedicated shipping lanes searches</li>
-            </ul>
-        </div>
+                <div class="quote-block">
+                    <p class="quote-text">"In freight brokerage marketing, specific intent beats broad traffic every
+                        time. Shippers searching for exact lanes consistently convert better than generic freight
+                        traffic."</p>
+                </div>
 
-        <div class="strategy-step">
-            <h3>2) Conversion-Focused Landing Pages</h3>
-            <p>We built lane-focused landing pages designed to convert traffic into quote requests instantly. Each page
-                emphasized regional lane expertise, fast response quoting, and carrier capacity reliability.</p>
-        </div>
-
-        <div class="strategy-step">
-            <h3>3) Intent Filtering & Negative Keywords</h3>
-            <p>We filtered out non-buyer searches (like driver jobs or parcel shipping) to ensure every dollar was spent
-                on potential shippers.</p>
-        </div>
-
-        <h2>Business Impact</h2>
-        <p>The brokerage moved from unpredictable demand to a scalable inbound acquisition engine. This allowed them to:
-        </p>
-        <ul class="check-list">
-            <li>Expand carrier partnerships with confidence</li>
-            <li>Increase lane density and profit margins</li>
-            <li>Plan hiring based on data, not guesses</li>
-            <li>Reduce reliance on grueling cold outbound sales</li>
-        </ul>
-
-        <blockquote>
-            "In freight brokerage marketing, specific intent beats broad traffic every time. Shippers searching for
-            exact lanes consistently convert better than generic freight traffic."
-        </blockquote>
-
-        <div class="btn-group centered" style="margin-top: 4rem;">
-            <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-purple-gradient">Book
-                Your Strategy Call</a>
-        </div>
-    </article>
+                <div class="btn-group centered">
+                    <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call"
+                        class="btn-purple-gradient">Book Your Strategy Call</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
