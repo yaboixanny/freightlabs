@@ -14,7 +14,13 @@
   </url>
   <url>
     <loc>https://freightlabsagency.com/case-studies/</loc>
-    <lastmod>2026-01-19</lastmod>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://freightlabsagency.com/case-studies/scaling-regional-brokerage-google-ads.html/</loc>
+    <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
