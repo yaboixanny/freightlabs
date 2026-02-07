@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const DOMAIN = 'https://freightlabs.com'; // Update this to your actual domain
+const DOMAIN = 'https://freightlabsagency.com'; // Update this to your actual domain
 const OUTPUT_FILE = 'sitemap.xml';
 
 // Priority and change frequency for different page types

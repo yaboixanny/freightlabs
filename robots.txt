@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://freightlabs.com/sitemap.xml
+Sitemap: https://freightlabsagency.com/sitemap.xml
