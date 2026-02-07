@@ -92,4 +92,4 @@ SEO is a long-term investment that requires patience and consistent measurement.
 
 SEO success doesn't happen overnight, but the compounding returns make it one of the most valuable marketing investments you can make. Start with a technical audit of your current site, develop a keyword strategy aligned with your services, and commit to creating valuable content consistently.
 
-*Need help developing and executing an SEO strategy for your logistics company? Our team specializes in freight industry digital marketing. Contact us for a free website audit.*
+*Need help developing and executing an SEO strategy for your logistics company? Our team specializes in freight industry digital marketing. [Book a strategy call](https://cal.com/alexanderstefanseo/freight-labs-discovery-call) to get started.*

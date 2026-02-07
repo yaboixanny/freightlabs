@@ -40,9 +40,9 @@ GEOGRAPHIC_FOCUS: [e.g., "regional", "national", "specific lanes or markets"]
 
 **Subheadline:** Connect with {{SHIPPER_TYPES}} actively searching for {{PRIMARY_SERVICE}} partners
 
-**CTA Button Text:** Get Your Free Marketing Audit
+**CTA Button Text:** Book Your Strategy Call
 
-**CTA Button Link:** /audit/
+**CTA Button Link:** https://cal.com/alexanderstefanseo/freight-labs-discovery-call
 
 ---
 
@@ -225,10 +225,10 @@ Write a brief intro sentence, then use these four steps:
 **H2:** Ready to Build a Predictable Pipeline for Your {{PRIMARY_SERVICE}} Business?
 
 **Body Content:**
-Schedule a free marketing audit. We'll review your current digital presence, identify gaps, and show you where the opportunities are.
+Partner with the agency that understands logistics. Let's map out your growth strategy and show you how to dominate your market.
 
-**Primary CTA Button Text:** Get Your Free Audit
-**Primary CTA Button Link:** /audit/
+**Primary CTA Button Text:** Book Your Strategy Call
+**Primary CTA Button Link:** https://cal.com/alexanderstefanseo/freight-labs-discovery-call
 
 **Secondary CTA Text:** Or call us at [PHONE NUMBER]
 
@@ -266,7 +266,7 @@ Include contextual links to:
 - [ ] /services/linkedin-lead-generation/
 - [ ] /services/landing-page-optimization/
 - [ ] /results/ (case studies)
-- [ ] /audit/ (conversion page)
+- [ ] Form configured (conversion page)
 - [ ] 2-3 related blog posts (add when available)
 - [ ] Related industry pages where crossover exists
 
