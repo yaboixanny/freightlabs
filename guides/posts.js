@@ -32,14 +32,6 @@ const blogPosts = [
         image: "../content_laptop.png" // Placeholder image
     },
     {
-        title: "Google Ads vs. LinkedIn Ads for Logistics",
-        slug: "google-ads-vs-linkedin-ads-logistics",
-        excerpt: "We compare the two biggest ad platforms for freight companies to help you decide where to invest your marketing budget.",
-        date: "September 28, 2025",
-        category: "Paid Ads",
-        image: "../freight_ads_dashboard.png" // Placeholder image
-    },
-    {
         title: "Building a High-Converting Carrier Website",
         slug: "building-high-converting-carrier-website",
         excerpt: "Your website is your digital storefront. Here's how to design it to build trust and convert visitors into booked loads.",

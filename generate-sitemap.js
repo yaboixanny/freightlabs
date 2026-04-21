@@ -16,6 +16,7 @@ const pageConfig = {
   'freightleads/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freightdesign/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freightcontent/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'logistics-web-design/index.html': { priority: '0.9', changefreq: 'weekly' },
 };
 
 // Find all HTML files recursively
