@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileToggle.addEventListener('click', () => {
             mobileToggle.classList.toggle('active');
             navLinks.classList.toggle('active');
+            mobileToggle.setAttribute('aria-expanded', mobileToggle.classList.contains('active'));
         });
     }
 
