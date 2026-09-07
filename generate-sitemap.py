@@ -9,7 +9,7 @@ import datetime
 from pathlib import Path
 
 # Configuration
-DOMAIN = 'https://freightlabs.com'  # Update this to your actual domain
+DOMAIN = 'https://freightlabsagency.com'
 OUTPUT_FILE = 'sitemap.xml'
 
 # Priority and change frequency for different page types

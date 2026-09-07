@@ -45,7 +45,7 @@ The watcher will:
 Edit the domain in [generate-sitemap.py](generate-sitemap.py):
 
 ```python
-DOMAIN = 'https://freightlabs.com'  # Change this to your actual domain
+DOMAIN = 'https://freightlabsagency.com'
 ```
 
 ### Customize Page Priorities
@@ -90,7 +90,7 @@ PAGE_CONFIG = {
 1. Go to [Bing Webmaster Tools](https://www.bing.com/webmasters)
 2. Select your site
 3. Go to Sitemaps
-4. Enter `https://freightlabs.com/sitemap.xml` and submit
+4. Enter `https://freightlabsagency.com/sitemap.xml` and submit
 
 ### Add to robots.txt
 
@@ -100,7 +100,7 @@ Create or update your `robots.txt` file with:
 User-agent: *
 Allow: /
 
-Sitemap: https://freightlabs.com/sitemap.xml
+Sitemap: https://freightlabsagency.com/sitemap.xml
 ```
 
 ## Workflow
