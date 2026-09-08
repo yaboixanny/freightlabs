@@ -5,7 +5,7 @@ const blogPosts = [
         excerpt: "Local SEO brings in high-intent shippers for 3PLs and logistics companies. Learn how to optimize Google Business Profile, build city pages, get reviews, and drive nearby shipper leads.",
         date: "October 20, 2025",
         category: "SEO",
-        image: "../seo_dashboard.png" // Placeholder image
+        image: "../seo-dashboard.webp" // Placeholder image
     },
     {
         title: "How to Scale Your Freight Brokerage in 2026",
@@ -13,7 +13,7 @@ const blogPosts = [
         excerpt: "Discover the key strategies and technologies that top freight brokers are using to double their revenue in the coming year.",
         date: "October 15, 2026",
         category: "Strategy",
-        image: "../hero_dashboard.png" // Placeholder image
+        image: "../hero-dashboard.webp" // Placeholder image
     },
     {
         title: "The Ultimate Guide to Freight SEO",
@@ -21,7 +21,7 @@ const blogPosts = [
         excerpt: "Learn how to rank your logistics website higher on Google and attract more direct shipper leads without paying for ads.",
         date: "October 10, 2025",
         category: "SEO",
-        image: "../seo_dashboard.png" // Placeholder image
+        image: "../seo-dashboard.webp" // Placeholder image
     },
     {
         title: "5 Common Mistakes in 3PL Marketing",
@@ -29,7 +29,7 @@ const blogPosts = [
         excerpt: "Are you making these critical 3PL marketing errors? Find out how to fix them and improve your ROI.",
         date: "October 5, 2025",
         category: "Marketing",
-        image: "../content_laptop.png" // Placeholder image
+        image: "../content-laptop.webp" // Placeholder image
     },
     {
         title: "Freight Broker Lead Generation Strategies for 2026",
@@ -37,6 +37,6 @@ const blogPosts = [
         excerpt: "Compare Google Ads, cold email, LinkedIn outreach, and SEO strategies for building a more consistent shipper pipeline.",
         date: "September 7, 2026",
         category: "Lead Generation",
-        image: "../freight_ads_dashboard.png"
+        image: "../paid-media-dashboard.webp"
     }
 ];

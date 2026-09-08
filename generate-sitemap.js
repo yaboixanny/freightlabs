@@ -9,13 +9,18 @@ const OUTPUT_FILE = 'sitemap.xml';
 const pageConfig = {
   'index.html': { priority: '1.0', changefreq: 'weekly' },
   'about/index.html': { priority: '0.8', changefreq: 'monthly' },
-  'services/index.html': { priority: '0.9', changefreq: 'weekly' },
-  'process/index.html': { priority: '0.8', changefreq: 'monthly' },
-  'freightads/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'contact/index.html': { priority: '0.8', changefreq: 'monthly' },
   'freightseo/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freightleads/index.html': { priority: '0.9', changefreq: 'weekly' },
-  'freightdesign/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freightcontent/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'ai-seo-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'google-ads-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
+  '3pl-seo/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'transportation-seo/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'logistics-lead-generation/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'lead-generation-for-freight-brokers/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'shipper-lead-generation/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'logistics-consulting/index.html': { priority: '0.8', changefreq: 'monthly' },
   'logistics-web-design/index.html': { priority: '0.9', changefreq: 'weekly' },
   'facebook-ads-logistics/index.html': { priority: '0.8', changefreq: 'weekly' },
   'web-design-trucking-companies/index.html': { priority: '0.8', changefreq: 'weekly' },
@@ -25,11 +30,13 @@ const pageConfig = {
   'ecommerce-d2c-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'cold-chain-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'last-mile-urban-delivery/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'case-studies/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'guides/index.html': { priority: '0.9', changefreq: 'weekly' },
 };
 
 // Find all HTML files recursively
 function findHTMLFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir);
+  const files = fs.readdirSync(dir).sort();
 
   files.forEach(file => {
     const filePath = path.join(dir, file);
@@ -37,10 +44,12 @@ function findHTMLFiles(dir, fileList = []) {
 
     if (stat.isDirectory()) {
       // Skip node_modules, .git, and other non-content directories
-      if (!['node_modules', '.git', 'dist', 'build'].includes(file)) {
+      if (!['node_modules', '.git', '.agents', '.codex', 'dist', 'build'].includes(file)) {
         findHTMLFiles(filePath, fileList);
       }
-    } else if (file.endsWith('.html')) {
+    } else if (file === 'index.html') {
+      // Only canonical directory pages belong in the sitemap. This avoids
+      // accidentally publishing templates or alternate .html URLs.
       fileList.push(filePath);
     }
   });
@@ -82,7 +91,7 @@ function generateSitemap() {
     sitemap += '  </url>\n';
   });
 
-  sitemap += '</urlset>';
+  sitemap += '</urlset>\n';
 
   // Write sitemap to file
   fs.writeFileSync(OUTPUT_FILE, sitemap);

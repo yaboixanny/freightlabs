@@ -18,6 +18,16 @@
 /case-studies/scaling-regional-brokerage-google-ads.html /case-studies/scaling-regional-brokerage-google-ads/ 301!
 /guides/freight-seo-guide.html /guides/freight-seo-guide/ 301!
 
+# Consolidate the retired duplicate web-design page into the primary service URL.
+/freightdesign /logistics-web-design/ 301!
+/freightdesign/ /logistics-web-design/ 301!
+/freightdesign/index.html /logistics-web-design/ 301!
+
+# Preserve links to the retired paid-media overview page.
+/freightads /google-ads-logistics/ 301!
+/freightads/ /google-ads-logistics/ 301!
+/freightads/index.html /google-ads-logistics/ 301!
+
 # Directory routes are served by the host's built-in clean-URL handling.
 # Do not add redirects that differ only by a trailing slash: the host
 # normalizes both sides and can turn those rules into redirect loops.

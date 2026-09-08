@@ -79,13 +79,63 @@ document.addEventListener('DOMContentLoaded', () => {
         const toggle = dropdown.querySelector('.dropdown-toggle');
         if (toggle) {
             toggle.addEventListener('click', (e) => {
-                if (window.innerWidth <= 1024) {
-                    e.preventDefault();
-                    dropdown.classList.toggle('active');
-                }
+                e.preventDefault();
+                const willOpen = !dropdown.classList.contains('active');
+                dropdowns.forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+                });
+                dropdown.classList.toggle('active', willOpen);
+                toggle.setAttribute('aria-expanded', String(willOpen));
             });
         }
+
+        // Only one desktop mega menu can own the navigation at a time.
+        dropdown.addEventListener('pointerenter', () => {
+            if (window.innerWidth <= 1024) return;
+            dropdowns.forEach(item => {
+                if (item === dropdown) return;
+                item.classList.remove('active');
+                item.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+            });
+        });
     });
+
+    document.addEventListener('click', event => {
+        if (event.target.closest('.dropdown')) return;
+        dropdowns.forEach(dropdown => {
+            dropdown.classList.remove('active');
+            dropdown.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+        });
+    });
+
+    // A small, non-intrusive desktop prompt that appears after meaningful engagement.
+    if (window.matchMedia('(min-width: 1025px)').matches && !window.location.pathname.includes('/contact/')) {
+        const helpWidget = document.createElement('aside');
+        helpWidget.className = 'scroll-help-widget';
+        helpWidget.setAttribute('aria-label', 'Marketing help');
+        helpWidget.innerHTML = `
+            <button class="scroll-help-close" type="button" aria-label="Close marketing help prompt">×</button>
+            <span>Need help marketing your logistics company?</span>
+            <a href="/contact/">Let’s chat <b aria-hidden="true">→</b></a>
+        `;
+        document.body.appendChild(helpWidget);
+
+        let dismissed = false;
+        const updateHelpWidget = () => {
+            if (dismissed) return;
+            const availableScroll = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = availableScroll > 0 ? window.scrollY / availableScroll : 0;
+            helpWidget.classList.toggle('is-visible', progress >= 0.2);
+        };
+
+        helpWidget.querySelector('.scroll-help-close').addEventListener('click', () => {
+            dismissed = true;
+            helpWidget.classList.remove('is-visible');
+        });
+        window.addEventListener('scroll', updateHelpWidget, { passive: true });
+        updateHelpWidget();
+    }
 
     // Give booking clicks a clear conversion event in addition to autocapture.
     document.addEventListener('click', event => {

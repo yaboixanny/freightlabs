@@ -16,13 +16,12 @@ OUTPUT_FILE = 'sitemap.xml'
 PAGE_CONFIG = {
     'index.html': {'priority': '1.0', 'changefreq': 'weekly'},
     'about/index.html': {'priority': '0.8', 'changefreq': 'monthly'},
-    'services/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
-    'process/index.html': {'priority': '0.8', 'changefreq': 'monthly'},
-    'freightads/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'contact/index.html': {'priority': '0.8', 'changefreq': 'monthly'},
     'freightseo/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'freightleads/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
-    'freightdesign/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'freightcontent/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'ai-seo-logistics/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'logistics-web-design/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'guides/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'warehousing-fulfillment/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'freight-forwarding-transportation/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
@@ -30,12 +29,12 @@ PAGE_CONFIG = {
     'ecommerce-d2c-logistics/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'cold-chain-logistics/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'last-mile-urban-delivery/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
-    'local-seo-for-3pls/index.html': {'priority': '0.7', 'changefreq': 'monthly'},
+    '3pl-seo/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'transportation-seo/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     '3pl-marketing-mistakes/index.html': {'priority': '0.7', 'changefreq': 'monthly'},
-    'google-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
+    'google-ads-logistics/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'facebook-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
     'web-design-trucking-companies/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
-    'contact/index.html': {'priority': '0.8', 'changefreq': 'monthly'},
     'case-studies/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
 }
 
@@ -51,15 +50,15 @@ def find_html_files(root_dir='.'):
     html_files = []
     root_path = Path(root_dir)
 
-    for file_path in root_path.rglob('*.html'):
+    for file_path in root_path.rglob('index.html'):
         # Skip files in excluded directories
         if any(skip_dir in file_path.parts for skip_dir in SKIP_DIRS):
             continue
-            
+
         # Skip specific files
         if file_path.name in SKIP_FILES:
             continue
-            
+
         html_files.append(file_path)
 
     return sorted(html_files)
@@ -95,7 +94,7 @@ def generate_sitemap():
             # Directory style: path/to/index.html -> path/to/
             url = relative_path[:-10]  # Remove 'index.html'
             if not url: # Root index.html becomes empty string
-                url = '' 
+                url = ''
             elif not url.endswith('/'):
                 url += '/'
         else:
@@ -103,7 +102,7 @@ def generate_sitemap():
             url = relative_path[:-5]  # Remove '.html'
             if not url.endswith('/'):
                 url += '/'
-            
+
         # Get config or use defaults
         config = PAGE_CONFIG.get(relative_path, {
             'priority': '0.7',

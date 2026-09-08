@@ -57,7 +57,7 @@
       }]
     }
     </script>
-    <link rel="stylesheet" href="../style.css?v=20260908">
+    <link rel="stylesheet" href="../style.css?v=20260908-ui10">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -72,22 +72,22 @@
     <!-- Navigation -->
     <nav>
         <div class="container nav-container">
-            <a href="../" class="logo site-logo" aria-label="Freight Labs home"><img src="../freightlabs-logo.png" alt="Freight Labs"></a>
+            <a href="../" class="logo site-logo" aria-label="Freight Labs home"><img loading="lazy" decoding="async" src="../freightlabs-logo.png" alt="Freight Labs"></a>
             <div class="nav-links">
                 <a href="../">Home</a>
                 <div class="dropdown services-dropdown">
-                    <a href="../services/" class="dropdown-toggle">Services</a>
+                    <button type="button" class="dropdown-toggle" aria-expanded="false">Services</button>
                     <div class="dropdown-menu services-mega">
                         <div class="mega-column">
                             <span class="mega-heading">SEO</span>
                             <a href="../freightseo/">SEO for Logistics Companies</a>
                             <a href="../transportation-seo/">Transportation SEO</a>
                             <a href="../3pl-seo/">3PL SEO</a>
-                            <a href="../freightseo/">AI Search Optimization</a>
+                            <a href="../ai-seo-logistics/">AI Search Optimization</a>
                         </div>
                         <div class="mega-column">
                             <span class="mega-heading">Paid Media</span>
-                            <a href="../freightads/">FreightAds™</a>
+
                             <a href="../google-ads-logistics/">Google Ads</a>
                             <a href="../facebook-ads-logistics/">Facebook Ads</a>
                         </div>
@@ -99,14 +99,13 @@
                         </div>
                         <div class="mega-column">
                             <span class="mega-heading">Website</span>
-                            <a href="../freightdesign/">FreightDesign™</a>
                             <a href="../logistics-web-design/">Logistics Web Design</a>
                             <a href="../web-design-trucking-companies/">Web Design for Trucking Companies</a>
                         </div>
                     </div>
                 </div>
                 <div class="dropdown industries-dropdown">
-                    <a href="../warehousing-fulfillment/" class="dropdown-toggle">Industries</a>
+                    <button type="button" class="dropdown-toggle" aria-expanded="false">Industries</button>
                     <div class="dropdown-menu industries-menu">
                         <a href="../warehousing-fulfillment/">Warehousing &amp; Fulfillment</a>
                         <a href="../freight-forwarding-transportation/">Freight Forwarding &amp; Transportation</a>
@@ -142,7 +141,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="../freight_ads_dashboard.png" alt="Freight Broker Lead Generation Dashboard"
+                <img loading="lazy" decoding="async" src="../paid-media-dashboard.webp" alt="Freight Broker Lead Generation Dashboard"
                     class="dashboard-img">
             </div>
         </div>
@@ -190,7 +189,7 @@
                     <p>We capture demand when shippers search for "flatbed freight broker," "LTL shipping partner," or
                         specific lane expertise. High-intent <strong>freight lead generation</strong> delivered directly
                         to your inbox.</p>
-                    <a href="../freightads/" class="link-more">Learn about FreightAds™ &rarr;</a>
+                    <a href="../google-ads-logistics/" class="link-more">Learn about Google Ads &rarr;</a>
                 </div>
                 <div class="card">
                     <div class="card-icon">📱</div>
@@ -198,35 +197,35 @@
                     <p>We target logistics decision-makers where they spend their downtime. Our <strong>freight broker
                             lead generation</strong> systems use custom audiences to stay top-of-mind with your ideal
                         shippers.</p>
-                    <a href="../freightads/" class="link-more">Learn about FreightAds™ &rarr;</a>
+                    <a href="../facebook-ads-logistics/" class="link-more">Learn about Facebook Ads &rarr;</a>
                 </div>
                 <div class="card">
                     <div class="card-icon">👔</div>
                     <h3>LinkedIn Outreach — Relationship-First Prospecting</h3>
                     <p>We connect you with Logistics Managers via respectful, value-driven outreach. No spam—just
                         genuine conversations with decision makers matching your ideal profile.</p>
-                    <a href="../freightleads/" class="link-more">Learn about FreightLeads™ &rarr;</a>
+                    <a href="../freightleads/" class="link-more">Learn about Lead Generation &rarr;</a>
                 </div>
                 <div class="card">
                     <div class="card-icon">📧</div>
                     <h3>Cold Email — Targeted Scale & Growth</h3>
                     <p>We build niche-specific lists, personalize messaging, and
                         stay compliant to spark warm conversations at scale with your best-fit prospects.</p>
-                    <a href="../freightleads/" class="link-more">Learn about FreightLeads™ &rarr;</a>
+                    <a href="../freightleads/" class="link-more">Learn about Lead Generation &rarr;</a>
                 </div>
                 <div class="card">
                     <div class="card-icon">🔍</div>
                     <h3>Niche SEO — Long-Term Authority</h3>
                     <p>Market to your best-fit niche—whether it’s Reefer, Hazmat, or Cross-border.
                         Positioning you as the go-to expert leads to higher retention and better margins.</p>
-                    <a href="../freightseo/" class="link-more">Learn about FreightSEO™ &rarr;</a>
+                    <a href="../freightseo/" class="link-more">Learn about Logistics SEO &rarr;</a>
                 </div>
                 <div class="card">
                     <div class="card-icon">🎨</div>
                     <h3>Lead Funnels — Conversion Optimization</h3>
                     <p>We build high-converting landing pages that address shipper pain points. We make it Frictionless
                         for them to request a quote or schedule a call.</p>
-                    <a href="../freightdesign/" class="link-more">Learn about FreightDesign™ &rarr;</a>
+                    <a href="../logistics-web-design/" class="link-more">Learn about Logistics Web Design &rarr;</a>
                 </div>
             </div>
         </div>
@@ -415,25 +414,24 @@
     <footer>
         <div class="container footer-grid">
             <div class="footer-brand">
-                <a href="../" class="logo site-logo" aria-label="Freight Labs home"><img src="../freightlabs-logo.png" alt="Freight Labs"></a>
+                <a href="../" class="logo site-logo" aria-label="Freight Labs home"><img loading="lazy" decoding="async" src="../freightlabs-logo.png" alt="Freight Labs"></a>
                 <p>We help logistics companies get found and get more leads.</p>
             </div>
             <div class="footer-col">
                 <h4>Services</h4>
                 <a href="../logistics-consulting/">Logistics Consulting</a>
-                        <a href="../freightads/">FreightAds™</a>
-                <a href="../freightseo/">FreightSEO™</a>
-                <a href="../freightleads/">FreightLeads™</a>
-                <a href="../freightdesign/">FreightDesign™</a>
+
+                <a href="../freightseo/">Logistics SEO</a>
+                <a href="../freightleads/">Lead Generation</a>
                 <a href="../logistics-web-design/">Logistics Web Design</a>
-                <a href="../freightcontent/">FreightContent™</a>
+                <a href="../freightcontent/">Content Marketing</a>
             </div>
             <div class="footer-col">
                 <h4>Company</h4>
                 <a href="../about/">About Us</a>
-                <a href="../why-choose-us/">Why Choose Us</a>
+
                 <a href="../contact/">Contact Us</a>
-                <a href="../case-studies/">Case Studies</a>
+
             </div>
             <div class="footer-col">
                 <h4>Industries</h4>
@@ -454,7 +452,7 @@
         </div>
     </footer>
 
-    <script src="../script.js?v=20260908-posthog-2"></script>
+    <script src="../script.js?v=20260908-ui6"></script>
 </body>
 
 </html>

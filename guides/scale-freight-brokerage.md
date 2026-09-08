@@ -67,7 +67,7 @@ Don't chase volume for volume's sake. The most successful brokerages are willing
 
 Many freight brokerages underinvest in marketing, relying primarily on cold outreach and referrals. While these channels remain important, a strong brand and [effective digital marketing](/freightseo/index.html) can dramatically accelerate growth by generating inbound leads and establishing credibility with prospects.
 
-Develop thought leadership content that demonstrates your expertise. Optimize your website for search engines to capture shippers actively looking for solutions. Use targeted [B2B advertising campaigns](/freightads/index.html) to reach decision-makers at your ideal customer profiles.
+Develop thought leadership content that demonstrates your expertise. Optimize your website for search engines to capture shippers actively looking for solutions. Use targeted [B2B advertising campaigns](/google-ads-logistics/) to reach decision-makers at your ideal customer profiles.
 
 ## Looking Ahead
 
