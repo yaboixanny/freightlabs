@@ -3126,9 +3126,10 @@ cite {
 .dark-green-theme .site-logo {
     display: inline-flex;
     width: 178px;
-    height: 58px;
-    padding: 4px 8px;
-    overflow: hidden;
+    height: auto;
+    aspect-ratio: 1000 / 288;
+    padding: 0;
+    overflow: visible;
     background: transparent;
     border: 0;
     text-decoration: none;
@@ -3407,9 +3408,9 @@ cite {
 
 @media (max-width: 640px) {
     .dark-green-theme .site-logo {
-        width: 155px;
-        height: 49px;
-        padding: 3px 6px;
+        width: min(145px, 46vw);
+        height: auto;
+        padding: 0;
     }
 
     .dark-green-theme .hero-visual-frame::before {
@@ -4210,6 +4211,143 @@ cite {
     border-radius: 0;
 }
 
+.seo-pricing-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.55fr);
+    gap: clamp(3rem, 8vw, 8rem);
+    align-items: end;
+    margin-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.seo-pricing-heading > p {
+    margin: 0 0 0.4rem;
+    color: #b8b8b5;
+    font-size: 1.02rem;
+    line-height: 1.7;
+}
+
+.seo-pricing-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: stretch;
+}
+
+.seo-pricing-card {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(2rem, 4vw, 3.25rem);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: none;
+}
+
+.seo-pricing-card .pricing-label {
+    margin-bottom: 1.25rem;
+}
+
+.seo-pricing-card h3 {
+    margin-bottom: 1.75rem;
+    font-size: clamp(1.65rem, 3vw, 2.4rem);
+    letter-spacing: -0.04em;
+}
+
+.seo-price {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: end;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(41, 43, 45, 0.16);
+}
+
+.seo-price > span {
+    grid-column: 1 / -1;
+    margin-bottom: 0.25rem;
+    color: #777b7d;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.seo-price strong {
+    color: #292b2d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(2.75rem, 5vw, 4.5rem);
+    letter-spacing: -0.065em;
+    line-height: 0.9;
+}
+
+.seo-price small {
+    padding: 0 0 0.25rem 0.6rem;
+    color: #777b7d;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.seo-pricing-card > p {
+    min-height: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.seo-pricing-card .ads-feature-list {
+    margin-bottom: 0;
+}
+
+.seo-pricing-card .ads-feature-list li {
+    padding: 0.7rem 0 0.7rem 1.25rem;
+    border-bottom: 1px solid rgba(41, 43, 45, 0.12);
+    color: #424648;
+}
+
+.seo-pricing-card .btn-primary {
+    margin-top: auto;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+}
+
+.seo-pricing-featured {
+    position: relative;
+    border-color: var(--accent);
+    box-shadow: 8px 8px 0 var(--accent);
+}
+
+.seo-pricing-note {
+    max-width: 760px;
+    margin: 2.25rem auto 0;
+    color: #aaa;
+    font-size: 0.86rem;
+    text-align: center;
+}
+
+@media (max-width: 860px) {
+    .seo-pricing-heading,
+    .seo-pricing-options {
+        grid-template-columns: 1fr;
+    }
+
+    .seo-pricing-heading {
+        gap: 1.5rem;
+    }
+
+    .seo-pricing-card > p {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .seo-price {
+        grid-template-columns: 1fr;
+    }
+
+    .seo-price small {
+        padding: 0.65rem 0 0;
+    }
+}
+
 .ads-faq-list {
     border-top: 1px solid rgba(41, 43, 45, 0.2);
 }
@@ -4736,6 +4874,492 @@ cite {
     color: #9a3d1e;
 }
 
+/* Alternating FreightSEO scope */
+.seo-scope-splits {
+    padding: clamp(5rem, 8vw, 8rem) 0;
+    background: #efede9;
+    color: #292b2d;
+}
+
+.seo-scope-heading {
+    margin-bottom: clamp(2.75rem, 5vw, 4.5rem);
+}
+
+.seo-scope-heading h2 {
+    color: #292b2d;
+}
+
+.seo-scope-heading > p {
+    color: #626668;
+}
+
+.seo-scope-list {
+    border: 1px solid rgba(41, 43, 45, 0.16);
+}
+
+.seo-scope-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    min-height: 34rem;
+    background: #f7f4ee;
+}
+
+.seo-scope-row + .seo-scope-row {
+    border-top: 1px solid rgba(41, 43, 45, 0.16);
+}
+
+.seo-scope-row:nth-child(even) .seo-scope-visual {
+    order: 2;
+}
+
+.seo-scope-visual {
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-width: 0;
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #292b2d;
+}
+
+.seo-scope-visual::before {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(242, 240, 236, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(242, 240, 236, 0.045) 1px, transparent 1px);
+    background-size: 42px 42px;
+    content: '';
+    pointer-events: none;
+}
+
+.seo-scope-visual::after {
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: radial-gradient(circle at 50% 48%, rgba(196, 85, 45, 0.13), transparent 54%);
+    content: '';
+    pointer-events: none;
+}
+
+.seo-scope-graphic {
+    position: relative;
+    z-index: 1;
+    width: min(88%, 620px);
+    height: auto;
+    overflow: visible;
+    transition: transform 600ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.seo-scope-row:hover .seo-scope-graphic {
+    transform: scale(1.035);
+}
+
+.seo-scope-graphic .scope-panel {
+    fill: #36393b;
+    stroke: #717577;
+    stroke-width: 2;
+}
+
+.seo-scope-graphic .scope-fill {
+    fill: var(--accent);
+    opacity: 0.9;
+}
+
+.seo-scope-graphic .scope-stroke,
+.seo-scope-graphic .scope-muted,
+.seo-scope-graphic .scope-route,
+.seo-scope-graphic .scope-light-stroke,
+.seo-scope-graphic .scope-ring,
+.seo-scope-graphic .scope-accent-ring {
+    fill: none;
+    vector-effect: non-scaling-stroke;
+}
+
+.seo-scope-graphic .scope-stroke {
+    stroke: #929697;
+    stroke-linecap: round;
+    stroke-width: 3;
+}
+
+.seo-scope-graphic .scope-muted {
+    stroke: rgba(242, 240, 236, 0.2);
+    stroke-width: 2;
+}
+
+.seo-scope-graphic .scope-route {
+    stroke: var(--accent);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 4;
+}
+
+.seo-scope-graphic .scope-route-dashed {
+    stroke-dasharray: 8 10;
+}
+
+.seo-scope-graphic .scope-node {
+    fill: #414446;
+    stroke: #7f8385;
+    stroke-width: 2;
+}
+
+.seo-scope-graphic .scope-dot {
+    fill: var(--accent);
+    filter: drop-shadow(0 0 10px rgba(196, 85, 45, 0.55));
+}
+
+.seo-scope-graphic .scope-ring {
+    stroke: rgba(242, 240, 236, 0.2);
+    stroke-width: 2;
+}
+
+.seo-scope-graphic .scope-ring-small {
+    stroke-dasharray: 5 8;
+}
+
+.seo-scope-graphic .scope-accent-ring {
+    stroke: rgba(196, 85, 45, 0.75);
+    stroke-dasharray: 3 9;
+    stroke-width: 2;
+}
+
+.seo-scope-graphic .scope-magnifier {
+    stroke: #f2f0ec;
+    stroke-width: 9;
+}
+
+.seo-scope-graphic .scope-card-back {
+    opacity: 0.42;
+}
+
+.seo-scope-graphic .scope-output {
+    fill: var(--accent);
+    stroke: #e58a60;
+}
+
+.seo-scope-graphic .scope-light-stroke {
+    stroke: rgba(242, 240, 236, 0.7);
+    stroke-linecap: round;
+    stroke-width: 3;
+}
+
+.seo-scope-graphic .scope-small-dot {
+    stroke: #292b2d;
+    stroke-width: 3;
+}
+
+.seo-scope-graphic .scope-bar {
+    fill: #505456;
+}
+
+.seo-scope-graphic .scope-bar-accent,
+.seo-scope-graphic .scope-funnel {
+    fill: var(--accent);
+}
+
+.seo-scope-graphic .scope-chart {
+    stroke-width: 5;
+}
+
+.seo-scope-graphic .scope-light-dot {
+    fill: #f2f0ec;
+}
+
+.seo-scope-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    padding: clamp(2.5rem, 6vw, 5.5rem);
+}
+
+.seo-scope-copy .channel-code {
+    margin-bottom: 1.4rem;
+}
+
+.seo-scope-copy h3 {
+    max-width: 10ch;
+    margin-bottom: 1.25rem;
+    color: #292b2d;
+    font-size: clamp(2rem, 4vw, 3.75rem);
+    letter-spacing: -0.055em;
+    line-height: 0.98;
+}
+
+.seo-scope-copy > p {
+    max-width: 31rem;
+    margin-bottom: 1.75rem;
+    color: #5a5e60;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.seo-scope-copy .ads-feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+    max-width: 34rem;
+    margin: 0;
+    border-top: 1px solid rgba(41, 43, 45, 0.14);
+}
+
+.seo-scope-copy .ads-feature-list li {
+    align-items: flex-start;
+    min-height: 3.75rem;
+    padding: 0.9rem 0.8rem 0.9rem 1.25rem;
+    border-bottom: 1px solid rgba(41, 43, 45, 0.14);
+    color: #404446;
+    font-size: 0.86rem;
+    line-height: 1.45;
+}
+
+.seo-scope-copy .ads-feature-list li::before {
+    top: 1.35rem;
+}
+
+@media (max-width: 860px) {
+    .seo-scope-row {
+        grid-template-columns: 1fr;
+        min-height: 0;
+    }
+
+    .seo-scope-row:nth-child(even) .seo-scope-visual {
+        order: 0;
+    }
+
+    .seo-scope-visual {
+        aspect-ratio: 4 / 3;
+        min-height: 0;
+    }
+
+    .seo-scope-copy {
+        padding: clamp(2.25rem, 8vw, 4rem);
+    }
+}
+
+@media (max-width: 520px) {
+    .seo-scope-copy .ads-feature-list {
+        grid-template-columns: 1fr;
+    }
+
+    .seo-scope-copy .ads-feature-list li {
+        min-height: 0;
+    }
+}
+
+/* Substantive industry guidance on the FreightSEO page */
+.seo-verticals {
+    padding: clamp(5rem, 8vw, 8rem) 0;
+    background: #e8e5df;
+    color: #292b2d;
+}
+
+.seo-verticals .section-heading {
+    margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.seo-verticals .section-heading h2 {
+    color: #292b2d;
+}
+
+.seo-verticals .section-heading > p {
+    color: #626668;
+}
+
+.seo-verticals-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.seo-verticals-grid article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    padding: clamp(1.75rem, 3.5vw, 3rem);
+    border: 1px solid rgba(41, 43, 45, 0.12);
+    border-radius: 3px;
+    background: #f8f5ef;
+    box-shadow: 0 18px 45px rgba(41, 43, 45, 0.07);
+    transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.seo-verticals-grid article::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), #e99758 44%, transparent 82%);
+    content: '';
+}
+
+.seo-verticals-grid article::after {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    color: rgba(41, 43, 45, 0.055);
+    content: attr(data-card-number);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(4rem, 8vw, 7rem);
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    line-height: 1;
+    pointer-events: none;
+}
+
+.seo-verticals-grid article > * {
+    position: relative;
+    z-index: 1;
+}
+
+.seo-verticals-grid article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 55px rgba(41, 43, 45, 0.11);
+}
+
+.seo-vertical-code {
+    display: inline-flex;
+    align-self: flex-start;
+    margin-bottom: 1.5rem;
+    padding: 0.55rem 0.7rem;
+    background: rgba(196, 85, 45, 0.1);
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.seo-verticals-grid h3 {
+    max-width: 18ch;
+    margin-bottom: 1rem;
+    color: #292b2d;
+    font-size: clamp(1.7rem, 2.5vw, 2.4rem);
+    letter-spacing: -0.05em;
+    line-height: 1.05;
+}
+
+.seo-verticals-grid .seo-playbook-summary {
+    max-width: 37rem;
+    margin-bottom: 1.5rem;
+    color: #53575a;
+    font-size: 0.96rem;
+    line-height: 1.6;
+}
+
+.seo-playbook-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 0;
+}
+
+.seo-playbook-list > div {
+    min-width: 0;
+    min-height: 8.4rem;
+    padding: 1.05rem;
+    border: 1px solid rgba(41, 43, 45, 0.08);
+    background: #ebe7df;
+}
+
+.seo-playbook-list dt {
+    display: flex;
+    gap: 0.45rem;
+    align-items: center;
+    margin-bottom: 0.65rem;
+    color: #9a3d1e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.63rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.45;
+    text-transform: uppercase;
+}
+
+.seo-playbook-list dt::before {
+    width: 5px;
+    height: 5px;
+    flex: 0 0 5px;
+    background: var(--accent);
+    content: '';
+}
+
+.seo-playbook-list dd {
+    margin: 0;
+    color: #45494b;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.seo-verticals-grid .seo-playbook-link {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 0.45rem;
+    margin-top: auto;
+    padding: 1.6rem 0 0.2rem;
+    color: #292b2d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+}
+
+.seo-playbook-link span {
+    display: inline-grid;
+    width: 1.55rem;
+    height: 1.55rem;
+    place-items: center;
+    background: var(--accent);
+    color: #fff;
+}
+
+.seo-playbook-link span {
+    transition: transform 180ms ease;
+}
+
+.seo-playbook-link:hover span {
+    transform: translateX(0.25rem);
+}
+
+.seo-verticals-grid .ads-feature-list {
+    margin-top: 1.6rem;
+}
+
+.seo-verticals-grid .ads-feature-list li {
+    align-items: flex-start;
+    color: #45494b;
+    line-height: 1.55;
+}
+
+@media (max-width: 860px) {
+    .seo-verticals-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .seo-verticals-grid article::after {
+        right: 1rem;
+        font-size: 4.25rem;
+    }
+
+    .seo-playbook-list > div {
+        min-height: 0;
+    }
+
+    .seo-playbook-list {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 1024px) {
     .nav-links {
         max-height: calc(100vh - 72px);
@@ -4816,10 +5440,13 @@ cite {
 .modern-site-page .site-logo {
     display: inline-flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .modern-site-page .site-logo img {
-    width: 158px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -5040,6 +5667,160 @@ cite {
     z-index: 1;
     border-radius: 0 !important;
     filter: grayscale(0.65) contrast(1.08);
+}
+
+/* Refined About page visuals */
+.company-page .about-hero .image-collage {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    height: 520px;
+    padding: 0;
+}
+
+.company-page .about-hero .image-collage::after,
+.company-page .founder-section .image::after {
+    display: none;
+}
+
+.company-page .about-hero .image-collage img {
+    position: static;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    box-shadow: none;
+    filter: none;
+}
+
+.company-page .about-hero .image-collage .img-1 {
+    grid-row: 1 / span 2;
+}
+
+.company-page .about-hero .image-collage .img-2,
+.company-page .about-hero .image-collage .img-3 {
+    grid-column: 2;
+}
+
+.company-page .about-hero .image-collage .img-2 {
+    grid-row: 1;
+}
+
+.company-page .about-hero .image-collage .img-3 {
+    grid-row: 2;
+}
+
+.company-page .founder-section .split-layout {
+    align-items: center;
+}
+
+.company-page .founder-section .image {
+    padding: 0;
+    overflow: hidden;
+    background: #292b2d;
+    box-shadow: none;
+}
+
+.company-page .founder-section .image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    filter: none;
+}
+
+.company-page .founder-section .content p {
+    max-width: 620px;
+    color: #55595b;
+    font-size: 1.03rem;
+    line-height: 1.75;
+}
+
+.company-page .about-process .text-center {
+    text-align: left;
+}
+
+.company-page .about-process .subheadline-process {
+    max-width: 760px;
+    margin: 0;
+}
+
+.company-page .about-process .process-grid {
+    gap: 1rem;
+}
+
+.company-page .about-process .process-step {
+    padding: 2rem;
+    border-top: 4px solid transparent;
+    background: #efede9;
+    text-align: left;
+}
+
+.company-page .about-process .process-step:hover {
+    border-color: var(--accent);
+}
+
+.about-step-number {
+    display: block;
+    margin-bottom: 2.5rem;
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.company-page .about-process .process-step h3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.45rem;
+    letter-spacing: -0.035em;
+}
+
+.company-page .about-process .process-step p {
+    color: #5a5e60;
+    font-size: 0.94rem;
+    line-height: 1.65;
+}
+
+.company-page .about-cta .stat-number {
+    color: var(--accent);
+}
+
+@media (max-width: 900px) {
+    .company-page .about-hero .image-collage {
+        height: 430px;
+        margin-top: 2rem;
+    }
+
+    .company-page .founder-section .image {
+        width: min(100%, 560px);
+    }
+}
+
+@media (max-width: 520px) {
+    .company-page .about-hero .image-collage {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: 1.25fr 0.75fr;
+        height: 390px;
+    }
+
+    .company-page .about-hero .image-collage .img-1 {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    .company-page .about-hero .image-collage .img-2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .company-page .about-hero .image-collage .img-3 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
 }
 
 .modern-site-page .about-process,
