@@ -3460,13 +3460,22 @@ cite {
     z-index: 1;
 }
 
+.ads-hero-content {
+    min-width: 0;
+}
+
 .ads-hero h1 {
+    width: 100%;
     max-width: 780px;
     margin-bottom: 1.7rem;
     color: #f2f0ec;
     font-size: clamp(3.5rem, 5.8vw, 5.9rem);
     line-height: 0.98;
     letter-spacing: -0.06em;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+    text-wrap: balance;
 }
 
 .ads-hero h1 em {
@@ -3627,6 +3636,10 @@ cite {
 .ads-proof-grid {
     display: grid;
     grid-template-columns: 1.15fr repeat(4, 1fr);
+}
+
+.service-proof-grid {
+    grid-template-columns: 1.15fr repeat(6, 1fr);
 }
 
 .ads-proof-grid > span {
@@ -3973,6 +3986,278 @@ cite {
     letter-spacing: 0.07em;
 }
 
+.ads-problem-grid-four {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.ads-problem-grid-four article {
+    min-height: 350px;
+}
+
+.ads-process-list {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.ads-process-list article {
+    min-height: 360px;
+    padding: 2rem 1.5rem;
+}
+
+.ads-process-list .ads-step {
+    margin-bottom: 4rem;
+}
+
+.ads-process-list h3 {
+    font-size: 1.4rem;
+}
+
+.ads-offer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: rgba(41, 43, 45, 0.2);
+    border: 1px solid rgba(41, 43, 45, 0.2);
+}
+
+.ads-offer-grid article {
+    min-height: 410px;
+    padding: 2.35rem;
+    background: #f5f3ef;
+}
+
+.ads-offer-grid .ads-channel-featured {
+    background: #dedbd6;
+}
+
+.ads-offer-grid h3 {
+    color: #292b2d;
+    font-size: 1.75rem;
+}
+
+.ads-offer-grid p {
+    max-width: 570px;
+    color: #626668;
+}
+
+.ads-feature-list {
+    padding: 0;
+    margin: 1.75rem 0 0;
+    list-style: none;
+}
+
+.ads-feature-list li {
+    position: relative;
+    padding: 0.75rem 0 0.75rem 1.35rem;
+    border-top: 1px solid rgba(41, 43, 45, 0.14);
+    color: #45494b;
+    font-size: 0.86rem;
+}
+
+.ads-feature-list li::before {
+    content: "";
+    position: absolute;
+    top: 1.05rem;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background: var(--accent);
+}
+
+.ads-case-metrics {
+    display: grid;
+    gap: 1.8rem;
+    margin-top: 2.5rem;
+}
+
+.ads-case-metrics > div {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(242, 240, 236, 0.16);
+}
+
+.ads-case-metrics strong {
+    font-size: clamp(3.7rem, 7vw, 6.4rem);
+    line-height: 0.84;
+}
+
+.ads-case-metrics p {
+    margin: 0.7rem 0 0;
+    color: #c4c6c6;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.ads-credibility {
+    padding: 8rem 0;
+    background: #f5f3ef;
+    color: #292b2d;
+}
+
+.ads-credibility .split-heading > p {
+    color: #626668;
+}
+
+.ads-credibility-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    margin-top: 5rem;
+    background: rgba(41, 43, 45, 0.18);
+    border: 1px solid rgba(41, 43, 45, 0.18);
+}
+
+.ads-credibility-grid article {
+    min-height: 285px;
+    padding: 2.25rem;
+    background: #e8e5e0;
+}
+
+.ads-credibility-grid article > span {
+    display: block;
+    margin-bottom: 3.5rem;
+    color: var(--accent);
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.ads-credibility-grid h3 {
+    color: #292b2d;
+    font-size: 1.5rem;
+}
+
+.ads-credibility-grid p {
+    margin: 0;
+    color: #626668;
+    font-size: 0.92rem;
+}
+
+.ads-term-rail {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 1px;
+    border: 1px solid rgba(41, 43, 45, 0.18);
+}
+
+.ads-term-rail span {
+    padding: 1.25rem 0.75rem;
+    border-right: 1px solid rgba(41, 43, 45, 0.18);
+    color: #55595b;
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.ads-term-rail span:last-child {
+    border-right: 0;
+}
+
+.ads-pricing {
+    padding: 8rem 0;
+    background: #303234;
+    color: #f2f0ec;
+}
+
+.ads-pricing-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(420px, 0.75fr);
+    gap: clamp(4rem, 10vw, 10rem);
+    align-items: start;
+}
+
+.ads-pricing h2 {
+    max-width: 720px;
+    margin-top: 1.2rem;
+    color: #f2f0ec;
+    font-size: clamp(2.8rem, 4.8vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.055em;
+}
+
+.ads-pricing-card {
+    padding: 2.5rem;
+    background: #e8e5e0;
+    color: #292b2d;
+    box-shadow: 10px 10px 0 var(--accent);
+}
+
+.pricing-label {
+    display: inline-block;
+    margin-bottom: 3rem;
+    color: var(--accent);
+    font-size: 0.68rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.ads-pricing-card h3 {
+    color: #292b2d;
+    font-size: 1.8rem;
+}
+
+.ads-pricing-card > p {
+    color: #626668;
+}
+
+.ads-pricing-card .btn-primary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-radius: 0;
+}
+
+.ads-faq-list {
+    border-top: 1px solid rgba(41, 43, 45, 0.2);
+}
+
+.ads-faq-list details {
+    border-bottom: 1px solid rgba(41, 43, 45, 0.2);
+}
+
+.ads-faq-list summary {
+    display: grid;
+    grid-template-columns: 70px 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.65rem 0;
+    color: #292b2d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.15rem, 2vw, 1.55rem);
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+}
+
+.ads-faq-list summary::-webkit-details-marker {
+    display: none;
+}
+
+.ads-faq-list summary::after {
+    content: "+";
+    color: var(--accent);
+    font-size: 1.5rem;
+}
+
+.ads-faq-list details[open] summary::after {
+    content: "−";
+}
+
+.ads-faq-list summary span {
+    color: var(--accent);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+}
+
+.ads-faq-list details p {
+    max-width: 850px;
+    margin: -0.3rem 0 1.8rem 86px;
+    color: #626668;
+}
+
 @media (max-width: 1024px) {
     .ads-hero {
         min-height: auto;
@@ -4023,6 +4308,29 @@ cite {
         grid-template-columns: 1fr;
     }
 
+    .ads-problem-grid-four,
+    .ads-process-list,
+    .ads-offer-grid,
+    .ads-credibility-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ads-pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ads-term-rail {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .ads-term-rail span:nth-child(3) {
+        border-right: 0;
+    }
+
+    .ads-term-rail span:nth-child(-n + 3) {
+        border-bottom: 1px solid rgba(41, 43, 45, 0.18);
+    }
+
     .ads-channel-grid article {
         min-height: 260px;
     }
@@ -4043,7 +4351,9 @@ cite {
     }
 
     .ads-hero h1 {
-        font-size: clamp(2.7rem, 13vw, 4rem);
+        font-size: clamp(2.2rem, 11vw, 3.35rem);
+        line-height: 1.02;
+        letter-spacing: -0.045em;
     }
 
     .ads-hero .btn-group {
@@ -4066,7 +4376,9 @@ cite {
     .ads-system,
     .ads-channels,
     .ads-case-study,
-    .ads-reporting {
+    .ads-reporting,
+    .ads-credibility,
+    .ads-pricing {
         padding: 5.5rem 0;
     }
 
@@ -4099,6 +4411,39 @@ cite {
         grid-template-columns: 1fr;
     }
 
+    .ads-offer-grid,
+    .ads-credibility-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ads-offer-grid article,
+    .ads-credibility-grid article {
+        min-height: auto;
+        padding: 1.75rem;
+    }
+
+    .ads-credibility-grid article > span {
+        margin-bottom: 2.5rem;
+    }
+
+    .ads-term-rail {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ads-term-rail span,
+    .ads-term-rail span:nth-child(3) {
+        border-right: 1px solid rgba(41, 43, 45, 0.18);
+        border-bottom: 1px solid rgba(41, 43, 45, 0.18);
+    }
+
+    .ads-term-rail span:nth-child(even) {
+        border-right: 0;
+    }
+
+    .ads-term-rail span:nth-last-child(-n + 2) {
+        border-bottom: 0;
+    }
+
     .ads-system-list article {
         min-height: 260px;
         padding: 1.75rem;
@@ -4121,6 +4466,10 @@ cite {
         font-size: clamp(6.5rem, 36vw, 10rem);
     }
 
+    .ads-case-metrics strong {
+        font-size: clamp(3.5rem, 18vw, 5.5rem);
+    }
+
     .ads-reporting-grid {
         grid-template-columns: 1fr;
         margin-top: 3.5rem;
@@ -4133,6 +4482,20 @@ cite {
 
     .ads-reporting-grid > article > span {
         margin-bottom: 3rem;
+    }
+
+    .ads-pricing-card {
+        padding: 1.75rem;
+        box-shadow: 7px 7px 0 var(--accent);
+    }
+
+    .ads-faq-list summary {
+        grid-template-columns: 42px 1fr auto;
+        gap: 0.65rem;
+    }
+
+    .ads-faq-list details p {
+        margin-left: 0;
     }
 
     .ads-final-cta {
@@ -4350,6 +4713,29 @@ cite {
     color: #9a3d1e;
 }
 
+.industries-dropdown .industries-menu {
+    left: 50%;
+    width: min(360px, calc(100vw - 2rem));
+    padding: 0.7rem;
+    border: 1px solid rgba(41, 43, 45, 0.14);
+    border-radius: 0;
+    transform: translateX(-42%);
+    box-shadow: 0 24px 60px rgba(35, 36, 38, 0.18);
+}
+
+.industries-menu > a {
+    padding: 0.72rem 0.8rem;
+    color: #303234;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    letter-spacing: 0.045em;
+}
+
+.industries-menu > a:hover {
+    background: rgba(196, 85, 45, 0.08);
+    color: #9a3d1e;
+}
+
 @media (max-width: 1024px) {
     .nav-links {
         max-height: calc(100vh - 72px);
@@ -4358,6 +4744,17 @@ cite {
 
     .nav-links .services-dropdown {
         width: 100%;
+    }
+
+    .nav-links .industries-dropdown {
+        width: 100%;
+    }
+
+    .nav-links .industries-menu {
+        position: static;
+        width: 100%;
+        margin-top: 1rem;
+        transform: none;
     }
 
     .nav-links .services-mega {
@@ -4398,5 +4795,457 @@ cite {
 
     .mega-column:last-child {
         border-bottom: 0;
+    }
+}
+
+/* =========================================
+   MODERN SITE-WIDE PAGE SYSTEM
+   ========================================= */
+
+.modern-site-page {
+    background: #efede9;
+    color: #292b2d;
+}
+
+.modern-site-page nav {
+    border-bottom: 1px solid rgba(41, 43, 45, 0.12);
+    background: rgba(239, 237, 233, 0.96);
+    backdrop-filter: blur(14px);
+}
+
+.modern-site-page .site-logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.modern-site-page .site-logo img {
+    width: 158px;
+    height: auto;
+}
+
+.modern-site-page > header,
+.modern-site-page > .hero,
+.modern-site-page .services-hero,
+.modern-site-page .process-hero,
+.modern-site-page .guides-hero,
+.modern-site-page .about-hero,
+.modern-site-page .article-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 10rem 0 6.5rem;
+    background: #343638;
+    color: #f2f0ec;
+}
+
+.modern-site-page > header::before,
+.modern-site-page .services-hero::before,
+.modern-site-page .process-hero::before,
+.modern-site-page .guides-hero::before,
+.modern-site-page .about-hero::before,
+.modern-site-page .article-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(196, 85, 45, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(196, 85, 45, 0.08) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: linear-gradient(to right, black, transparent 78%);
+    pointer-events: none;
+}
+
+.modern-site-page > header .container,
+.modern-site-page .services-hero .container,
+.modern-site-page .process-hero .container,
+.modern-site-page .guides-hero .container,
+.modern-site-page .about-hero .container,
+.modern-site-page .article-hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.modern-site-page > header h1,
+.modern-site-page .services-hero h1,
+.modern-site-page .process-hero h1,
+.modern-site-page .guides-hero h1,
+.modern-site-page .about-hero h1,
+.modern-site-page .article-hero h1 {
+    max-width: 1000px;
+    margin-bottom: 1.5rem;
+    color: #f2f0ec;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(3.4rem, 6vw, 6.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.06em;
+}
+
+.modern-site-page .gradient-text,
+.modern-site-page .highlight-purple {
+    color: var(--accent);
+    background: none;
+    -webkit-text-fill-color: currentColor;
+}
+
+.modern-site-page > header p,
+.modern-site-page .services-hero p,
+.modern-site-page .process-hero p,
+.modern-site-page .guides-hero p,
+.modern-site-page .about-hero p,
+.modern-site-page .article-hero p {
+    color: #b8bbbc;
+    font-size: 1.08rem;
+    line-height: 1.7;
+}
+
+.modern-site-page .article-hero {
+    text-align: left;
+}
+
+.modern-site-page .article-hero h1 {
+    max-width: 1000px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.modern-site-page .article-hero .centered {
+    justify-content: flex-start;
+}
+
+.modern-site-page .article-meta,
+.modern-site-page .service-label,
+.modern-site-page .subheadline {
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.modern-site-page section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.modern-site-page section h2 {
+    color: #292b2d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(2.4rem, 4vw, 4.2rem);
+    line-height: 1.03;
+    letter-spacing: -0.05em;
+}
+
+.modern-site-page section h3,
+.modern-site-page section h4 {
+    color: #292b2d;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.modern-site-page .white-bg,
+.modern-site-page .bg-light,
+.modern-site-page section:not(.dark-section):not(.final-cta):not(.about-cta):not(.final-cta-services):not(.final-cta-process) {
+    background: #efede9;
+}
+
+.modern-site-page .grey-bg {
+    background: #d7d4cf;
+}
+
+.modern-site-page .dark-section,
+.modern-site-page .ideal-client,
+.modern-site-page .paid-ads {
+    background: #3a3d3f !important;
+    color: #f2f0ec;
+}
+
+.modern-site-page .dark-section h2,
+.modern-site-page .dark-section h3,
+.modern-site-page .ideal-client h2,
+.modern-site-page .ideal-client h3,
+.modern-site-page .paid-ads h2,
+.modern-site-page .paid-ads h3 {
+    color: #f2f0ec;
+}
+
+.modern-site-page .card,
+.modern-site-page .challenge-card,
+.modern-site-page .process-step,
+.modern-site-page .overview-step,
+.modern-site-page .stat-card,
+.modern-site-page .trust-card,
+.modern-site-page .blog-card {
+    border: 1px solid rgba(41, 43, 45, 0.16);
+    border-radius: 0;
+    background: #e8e5e0;
+    box-shadow: none;
+}
+
+.modern-site-page .card:hover,
+.modern-site-page .challenge-card:hover,
+.modern-site-page .process-step:hover,
+.modern-site-page .blog-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+    box-shadow: 7px 7px 0 rgba(196, 85, 45, 0.24);
+}
+
+.modern-site-page .card-icon,
+.modern-site-page .step-icon-glow,
+.modern-site-page .detail-icon {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 0;
+    background: var(--accent);
+    color: #fff;
+    box-shadow: none;
+}
+
+.modern-site-page .btn-primary,
+.modern-site-page .btn-submit {
+    border-radius: 0;
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 5px 5px 0 #73777a;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.modern-site-page .about-hero .split-layout,
+.modern-site-page .founder-section .split-layout {
+    gap: clamp(3rem, 7vw, 7rem);
+}
+
+.modern-site-page .image-collage,
+.modern-site-page .founder-section .image {
+    position: relative;
+    padding: 0 1rem 1rem 0;
+}
+
+.modern-site-page .image-collage::after,
+.modern-site-page .founder-section .image::after {
+    content: "";
+    position: absolute;
+    inset: 1rem 0 0 1rem;
+    border: 1px solid var(--accent);
+    z-index: 0;
+}
+
+.modern-site-page .image-collage img,
+.modern-site-page .founder-section .image img {
+    position: relative;
+    z-index: 1;
+    border-radius: 0 !important;
+    filter: grayscale(0.65) contrast(1.08);
+}
+
+.modern-site-page .about-process,
+.modern-site-page .process-overview,
+.modern-site-page .whats-included,
+.modern-site-page .reporting-process,
+.modern-site-page .guides-section {
+    background: #d7d4cf !important;
+}
+
+.modern-site-page .about-cta,
+.modern-site-page .final-cta,
+.modern-site-page .final-cta-services,
+.modern-site-page .final-cta-process {
+    background: var(--accent) !important;
+    color: #292b2d;
+}
+
+.modern-site-page .about-cta h2,
+.modern-site-page .final-cta h2,
+.modern-site-page .final-cta-services h2,
+.modern-site-page .final-cta-process h2 {
+    color: #292b2d;
+}
+
+.modern-site-page .article-content {
+    width: min(900px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 6rem clamp(1.5rem, 5vw, 5rem);
+    background: #f5f3ef;
+    color: #44484a;
+}
+
+.modern-site-page .article-content .lead {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(41, 43, 45, 0.18);
+    color: #292b2d;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+
+.modern-site-page .article-content h2 {
+    margin-top: 4rem;
+    color: #292b2d;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.08;
+}
+
+.modern-site-page .article-content h3 {
+    margin-top: 2.5rem;
+    color: #292b2d;
+    font-size: 1.5rem;
+}
+
+.modern-site-page .article-content p,
+.modern-site-page .article-content li {
+    font-size: 1.04rem;
+    line-height: 1.85;
+}
+
+.modern-site-page .article-content a {
+    color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.modern-site-page .article-content blockquote {
+    margin: 3rem 0;
+    padding: 2rem 2.25rem;
+    border-left: 5px solid var(--accent);
+    background: #e8e5e0;
+    color: #292b2d;
+}
+
+.modern-site-page .article-content img {
+    border-radius: 0;
+    filter: saturate(0.75) contrast(1.04);
+}
+
+.modern-site-page .blog-card {
+    overflow: hidden;
+}
+
+.modern-site-page .blog-img {
+    filter: grayscale(0.55) contrast(1.08);
+}
+
+.modern-site-page .blog-content {
+    padding: 2rem;
+}
+
+.modern-site-page .blog-category,
+.modern-site-page .read-more {
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.modern-site-page .contact-section {
+    min-height: 760px;
+    padding-top: 11rem;
+    background: #343638 !important;
+    color: #f2f0ec;
+}
+
+.modern-site-page .contact-info h1 {
+    color: #f2f0ec;
+    font-size: clamp(3.2rem, 5vw, 5.4rem);
+    line-height: 1;
+    letter-spacing: -0.055em;
+}
+
+.modern-site-page .contact-info .lead,
+.modern-site-page .contact-detail-content p {
+    color: #b8bbbc;
+}
+
+.modern-site-page .contact-form-container {
+    border: 1px solid rgba(242, 240, 236, 0.16);
+    border-radius: 0;
+    background: #efede9;
+    box-shadow: 10px 10px 0 var(--accent);
+}
+
+.modern-site-page input,
+.modern-site-page select,
+.modern-site-page textarea {
+    border-radius: 0;
+    border-color: rgba(41, 43, 45, 0.22);
+    background: #f8f6f2;
+}
+
+.modern-site-page .service-block .container,
+.modern-site-page .step-section .container {
+    gap: clamp(3rem, 8vw, 8rem);
+}
+
+.modern-site-page .service-img-placeholder {
+    border: 1px solid var(--accent);
+    border-radius: 0;
+    background: #3a3d3f;
+    color: #f2f0ec;
+    box-shadow: 10px 10px 0 #cfcac3;
+}
+
+.modern-site-page footer {
+    background: #2f3133;
+    color: #f2f0ec;
+}
+
+.modern-site-page footer .site-logo img {
+    width: 150px;
+}
+
+.modern-site-page footer h4 {
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.modern-site-page footer a,
+.modern-site-page footer p {
+    color: #b8bbbc;
+}
+
+@media (max-width: 768px) {
+    .modern-site-page > header,
+    .modern-site-page > .hero,
+    .modern-site-page .services-hero,
+    .modern-site-page .process-hero,
+    .modern-site-page .guides-hero,
+    .modern-site-page .about-hero,
+    .modern-site-page .article-hero {
+        padding: 8rem 0 4.5rem;
+    }
+
+    .modern-site-page > header h1,
+    .modern-site-page .services-hero h1,
+    .modern-site-page .process-hero h1,
+    .modern-site-page .guides-hero h1,
+    .modern-site-page .about-hero h1,
+    .modern-site-page .article-hero h1,
+    .modern-site-page .contact-info h1 {
+        font-size: clamp(2.7rem, 13vw, 4.2rem);
+    }
+
+    .modern-site-page section {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .modern-site-page .article-content {
+        width: 100%;
+        padding: 4.5rem 1.25rem;
+    }
+
+    .modern-site-page .contact-section {
+        padding-top: 8rem;
+    }
+
+    .modern-site-page .contact-form-container {
+        box-shadow: 6px 6px 0 var(--accent);
     }
 }

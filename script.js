@@ -1,6 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('FreightLabs loaded.');
 
+    // Preserve production-friendly trailing-slash links while supporting direct file previews.
+    if (window.location.protocol === 'file:') {
+        document.querySelectorAll('a[href]').forEach(anchor => {
+            const href = anchor.getAttribute('href');
+            if (!href || href.startsWith('#')) return;
+
+            const target = new URL(href, window.location.href);
+            if (target.protocol === 'file:' && target.pathname.endsWith('/')) {
+                target.pathname += 'index.html';
+                anchor.href = target.href;
+            }
+        });
+    }
+
     // Smooth Scroll for Anchor Links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {

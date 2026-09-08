@@ -1,7 +1,7 @@
 const blogPosts = [
     {
         title: "Local SEO for 3PLs: How to Attract Nearby Shippers",
-        slug: "../local-seo-for-3pls",
+        slug: "../3pl-seo",
         excerpt: "Local SEO brings in high-intent shippers for 3PLs and logistics companies. Learn how to optimize Google Business Profile, build city pages, get reviews, and drive nearby shipper leads.",
         date: "October 20, 2025",
         category: "SEO",
@@ -32,19 +32,11 @@ const blogPosts = [
         image: "../content_laptop.png" // Placeholder image
     },
     {
-        title: "Building a High-Converting Carrier Website",
-        slug: "building-high-converting-carrier-website",
-        excerpt: "Your website is your digital storefront. Here's how to design it to build trust and convert visitors into booked loads.",
-        date: "September 20, 2025",
-        category: "Web Design",
-        image: "../content_laptop.png" // Placeholder image
-    },
-    {
-        title: "The Future of Freight Tech: AI & Automation",
-        slug: "future-freight-tech-ai-automation",
-        excerpt: "How artificial intelligence is reshaping the logistics industry and what you need to do to stay ahead of the curve.",
-        date: "September 15, 2025",
-        category: "Technology",
-        image: "../hero_dashboard.png" // Placeholder image
+        title: "Freight Broker Lead Generation Strategies for 2026",
+        slug: "freight-broker-lead-generation-strategies-2026",
+        excerpt: "Compare Google Ads, cold email, LinkedIn outreach, and SEO strategies for building a more consistent shipper pipeline.",
+        date: "September 7, 2026",
+        category: "Lead Generation",
+        image: "../freight_ads_dashboard.png"
     }
 ];

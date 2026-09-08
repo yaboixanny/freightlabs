@@ -18,29 +18,6 @@
 /case-studies/scaling-regional-brokerage-google-ads.html /case-studies/scaling-regional-brokerage-google-ads/ 301!
 /guides/freight-seo-guide.html /guides/freight-seo-guide/ 301!
 
-/3pl-marketing-mistakes /3pl-marketing-mistakes/ 301!
-/3pl-seo /3pl-seo/ 301!
-/about /about/ 301!
-/case-studies /case-studies/ 301!
-/case-studies/scaling-regional-brokerage-google-ads /case-studies/scaling-regional-brokerage-google-ads/ 301!
-/contact /contact/ 301!
-/freightads /freightads/ 301!
-/freightcontent /freightcontent/ 301!
-/freightdesign /freightdesign/ 301!
-/freightleads /freightleads/ 301!
-/freightseo /freightseo/ 301!
-/google-ads-logistics /google-ads-logistics/ 301!
-/guides /guides/ 301!
-/guides/freight-broker-lead-generation-strategies-2026 /guides/freight-broker-lead-generation-strategies-2026/ 301!
-/guides/freight-seo-guide /guides/freight-seo-guide/ 301!
-/guides/how-to-scale-freight-brokerage /guides/how-to-scale-freight-brokerage/ 301!
-/lead-generation-for-freight-brokers /lead-generation-for-freight-brokers/ 301!
-/logistics-consulting /logistics-consulting/ 301!
-/logistics-lead-generation /logistics-lead-generation/ 301!
-/logistics-web-design /logistics-web-design/ 301!
-/process /process/ 301!
-/services /services/ 301!
-/shipper-lead-generation /shipper-lead-generation/ 301!
-/transportation-seo /transportation-seo/ 301!
-/warehousing-fulfillment /warehousing-fulfillment/ 301!
-/why-choose-us /why-choose-us/ 301!
+# Directory routes are served by the host's built-in clean-URL handling.
+# Do not add redirects that differ only by a trailing slash: the host
+# normalizes both sides and can turn those rules into redirect loops.

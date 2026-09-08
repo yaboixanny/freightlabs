@@ -17,6 +17,14 @@ const pageConfig = {
   'freightdesign/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freightcontent/index.html': { priority: '0.9', changefreq: 'weekly' },
   'logistics-web-design/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'facebook-ads-logistics/index.html': { priority: '0.8', changefreq: 'weekly' },
+  'web-design-trucking-companies/index.html': { priority: '0.8', changefreq: 'weekly' },
+  'warehousing-fulfillment/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'freight-forwarding-transportation/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'supply-chain-technology/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'ecommerce-d2c-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'cold-chain-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'last-mile-urban-delivery/index.html': { priority: '0.9', changefreq: 'weekly' },
 };
 
 // Find all HTML files recursively
