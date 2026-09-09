@@ -109,6 +109,44 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Build a useful article outline and reading-time estimate from each guide's headings.
+    const article = document.querySelector('.article-page .article-content');
+    const articleToc = document.querySelector('.article-page .article-toc');
+    if (article && articleToc) {
+        const headings = Array.from(article.querySelectorAll('h2'));
+        const usedIds = new Set();
+
+        headings.forEach((heading, index) => {
+            let baseId = heading.id || heading.textContent
+                .toLowerCase()
+                .trim()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-|-$/g, '') || `section-${index + 1}`;
+            let uniqueId = baseId;
+            let duplicateIndex = 2;
+
+            while (usedIds.has(uniqueId) || document.getElementById(uniqueId)) {
+                uniqueId = `${baseId}-${duplicateIndex++}`;
+            }
+
+            heading.id = uniqueId;
+            usedIds.add(uniqueId);
+
+            const link = document.createElement('a');
+            link.href = `#${uniqueId}`;
+            link.textContent = heading.textContent;
+            articleToc.appendChild(link);
+        });
+
+        if (!headings.length) {
+            document.querySelector('.article-page .article-sidebar')?.setAttribute('hidden', '');
+        }
+
+        const words = article.textContent.trim().split(/\s+/).filter(Boolean).length;
+        const readingTime = document.querySelector('[data-reading-time]');
+        if (readingTime) readingTime.textContent = `${Math.max(1, Math.ceil(words / 220))} min`;
+    }
+
     // A small, non-intrusive desktop prompt that appears after meaningful engagement.
     if (window.matchMedia('(min-width: 1025px)').matches && !window.location.pathname.includes('/contact/')) {
         const helpWidget = document.createElement('aside');

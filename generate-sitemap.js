@@ -26,6 +26,7 @@ const pageConfig = {
   'logistics-consulting/index.html': { priority: '0.8', changefreq: 'monthly' },
   'logistics-web-design/index.html': { priority: '0.9', changefreq: 'weekly' },
   'facebook-ads-logistics/index.html': { priority: '0.8', changefreq: 'weekly' },
+  'linkedin-ads-logistics/index.html': { priority: '0.8', changefreq: 'weekly' },
   'web-design-trucking-companies/index.html': { priority: '0.8', changefreq: 'weekly' },
   'warehousing-fulfillment/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freight-forwarding-transportation/index.html': { priority: '0.9', changefreq: 'weekly' },

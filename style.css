@@ -6250,6 +6250,26 @@ a.btn-nav:focus-visible {
     line-height: 1.35;
 }
 
+/* Google Ads pricing: readable card copy and high-contrast conversion buttons. */
+.google-ads-page .ads-pricing .seo-pricing-card > p {
+    color: #3f4345;
+}
+
+.google-ads-page .ads-pricing .seo-pricing-card .btn-primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.google-ads-page .ads-pricing .seo-pricing-card .btn-primary:hover,
+.google-ads-page .ads-pricing .seo-pricing-card .btn-primary:focus-visible {
+    background: #202224;
+    border-color: #202224;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
 .company-page .about-process .text-center {
     text-align: left;
 }
@@ -6981,4 +7001,309 @@ nav button.dropdown-toggle:focus-visible {
     .home-services-showcase .showcase-service:nth-child(2),
     .home-services-showcase .showcase-service:nth-child(5),
     .home-services-showcase .showcase-service:hover { transform: none; }
+}
+
+/* Homepage hero CTA: orange by default, black on interaction. */
+.home-page .hero a.btn-primary {
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.home-page .hero a.btn-primary:hover,
+.home-page .hero a.btn-primary:focus-visible {
+    background: #202224 !important;
+    border-color: #202224 !important;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
+/* Editorial system: shared by every published guide and future article template. */
+.article-page {
+    background: #e5e1da;
+}
+
+.article-page .article-hero {
+    padding: clamp(8.5rem, 12vw, 11rem) 0 clamp(4.5rem, 8vw, 7rem);
+    border-bottom: 8px solid var(--accent);
+    background: linear-gradient(125deg, #292c2e 0%, #3b3e40 70%, #71301d 145%);
+    text-align: left;
+}
+
+.article-page .article-hero::after {
+    position: absolute;
+    right: clamp(1rem, 5vw, 5rem);
+    bottom: -0.18em;
+    color: rgba(255, 255, 255, 0.035);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(6rem, 15vw, 14rem);
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    line-height: 0.8;
+    content: 'GUIDE';
+    pointer-events: none;
+}
+
+.article-page .article-hero .container {
+    max-width: 1240px;
+}
+
+.article-page .article-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 1.5rem;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid rgba(238, 128, 88, 0.45);
+    background: rgba(196, 85, 45, 0.09);
+    color: #f09570;
+}
+
+.article-page .article-hero h1 {
+    max-width: 1080px !important;
+    margin: 0 0 2.25rem !important;
+    font-size: clamp(3.1rem, 6.5vw, 6.8rem);
+    line-height: 0.96;
+    text-wrap: balance;
+}
+
+.article-page .article-hero a.btn-primary {
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.article-page .article-hero a.btn-primary:hover,
+.article-page .article-hero a.btn-primary:focus-visible {
+    background: #111315 !important;
+    border-color: #111315 !important;
+}
+
+.article-page .article-layout {
+    display: grid;
+    grid-template-columns: minmax(210px, 260px) minmax(0, 800px);
+    justify-content: center;
+    gap: clamp(2.5rem, 7vw, 6.5rem);
+    padding-top: clamp(4rem, 7vw, 6.5rem);
+    padding-bottom: clamp(5rem, 9vw, 8rem);
+}
+
+.article-page .article-sidebar {
+    min-width: 0;
+}
+
+.article-page .article-sidebar-inner {
+    position: sticky;
+    top: 7rem;
+    max-height: calc(100vh - 8rem);
+    overflow: auto;
+    padding: 1.5rem;
+    border-top: 4px solid var(--accent);
+    background: #343739;
+    box-shadow: 8px 8px 0 rgba(41, 43, 45, 0.1);
+}
+
+.article-page .article-sidebar-label,
+.article-page .article-read-meta span {
+    color: #ee8058;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.article-page .article-toc {
+    display: grid;
+    gap: 0;
+    margin-top: 1rem;
+}
+
+.article-page .article-toc a {
+    display: block;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+    color: #d9d8d4;
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-decoration: none;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.article-page .article-toc a:hover,
+.article-page .article-toc a:focus-visible {
+    padding-left: 0.35rem;
+    color: #fff;
+}
+
+.article-page .article-read-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.4rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.article-page .article-read-meta strong {
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.75rem;
+}
+
+.article-page .article-content {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color: #45494b;
+    counter-reset: article-section;
+}
+
+.article-page .article-content .lead {
+    margin: 0 0 3rem;
+    padding: clamp(1.5rem, 4vw, 2.25rem);
+    border: 1px solid rgba(41, 43, 45, 0.14);
+    border-left: 6px solid var(--accent);
+    background: #f3f0ea;
+    color: #292b2d;
+    box-shadow: 8px 8px 0 rgba(41, 43, 45, 0.08);
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
+    line-height: 1.65;
+}
+
+.article-page .article-content h2 {
+    position: relative;
+    margin: clamp(4rem, 8vw, 6rem) 0 1.4rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid rgba(41, 43, 45, 0.2);
+    color: #292b2d;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.08;
+    letter-spacing: -0.045em;
+    scroll-margin-top: 7rem;
+    counter-increment: article-section;
+}
+
+.article-page .article-content h2::before {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    content: 'SECTION / ' counter(article-section, decimal-leading-zero);
+}
+
+.article-page .article-content h3 {
+    margin: 2.75rem 0 1rem;
+    color: #292b2d;
+    font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+    line-height: 1.2;
+}
+
+.article-page .article-content p,
+.article-page .article-content li {
+    color: #484d4f;
+    font-size: 1.05rem;
+    line-height: 1.82;
+}
+
+.article-page .article-content p {
+    max-width: 70ch;
+    margin-bottom: 1.55rem;
+}
+
+.article-page .article-content ul,
+.article-page .article-content ol {
+    margin: 1.75rem 0 2.25rem;
+    padding: 1.45rem 1.75rem 1.45rem 3rem;
+    border: 1px solid rgba(41, 43, 45, 0.13);
+    background: #f2efe9;
+}
+
+.article-page .article-content li {
+    margin-bottom: 0.65rem;
+    padding-left: 0.25rem;
+}
+
+.article-page .article-content li:last-child {
+    margin-bottom: 0;
+}
+
+.article-page .article-content blockquote {
+    margin: 3rem 0;
+    padding: 2rem clamp(1.5rem, 4vw, 2.5rem);
+    border: 0;
+    border-top: 5px solid var(--accent);
+    background: #35383a;
+    color: #f4f1eb;
+    box-shadow: 9px 9px 0 rgba(196, 85, 45, 0.22);
+}
+
+.article-page .article-content img {
+    display: block;
+    width: 100%;
+    margin: 3rem 0;
+    border: 1px solid rgba(41, 43, 45, 0.15);
+    border-radius: 0;
+    box-shadow: 10px 12px 0 rgba(41, 43, 45, 0.1);
+    filter: saturate(0.82) contrast(1.04);
+}
+
+.article-page .final-cta {
+    position: relative;
+    margin: 0;
+    padding: clamp(4.5rem, 8vw, 7rem) 0;
+    overflow: hidden;
+}
+
+.article-page .final-cta h2 {
+    font-size: clamp(2.5rem, 5vw, 4.8rem);
+    letter-spacing: -0.055em;
+}
+
+@media (max-width: 900px) {
+    .article-page .article-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .article-page .article-sidebar-inner {
+        position: static;
+    }
+
+    .article-page .article-toc {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 1.25rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .article-page .article-hero {
+        padding: 7.5rem 0 4rem;
+    }
+
+    .article-page .article-hero h1 {
+        font-size: clamp(2.7rem, 13vw, 4.1rem);
+    }
+
+    .article-page .article-layout {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .article-page .article-toc {
+        grid-template-columns: 1fr;
+    }
+
+    .article-page .article-content ul,
+    .article-page .article-content ol {
+        padding-right: 1.1rem;
+        padding-left: 2.25rem;
+    }
 }
