@@ -7095,10 +7095,7 @@ nav button.dropdown-toggle:focus-visible {
 }
 
 .article-page .article-sidebar-inner {
-    position: sticky;
-    top: 7rem;
-    max-height: calc(100vh - 8rem);
-    overflow: auto;
+    position: static;
     padding: 1.5rem;
     border-top: 4px solid var(--accent);
     background: #343739;
@@ -7305,5 +7302,185 @@ nav button.dropdown-toggle:focus-visible {
     .article-page .article-content ol {
         padding-right: 1.1rem;
         padding-left: 2.25rem;
+    }
+}
+
+/* FreightSEO 90-day roadmap. */
+.seo-roadmap {
+    padding: clamp(5.5rem, 9vw, 8.5rem) 0;
+    background: #dfdbd4;
+}
+
+.seo-roadmap-heading {
+    margin-bottom: clamp(2.75rem, 5vw, 4.5rem);
+}
+
+.seo-roadmap-heading h2 {
+    max-width: 760px;
+    margin-top: 0.9rem;
+    color: #292b2d;
+    font-size: clamp(2.8rem, 5.5vw, 5.2rem);
+    line-height: 0.98;
+    letter-spacing: -0.06em;
+    text-wrap: balance;
+}
+
+.seo-roadmap-heading > p {
+    max-width: 560px;
+    margin: 0;
+    color: #4c5153;
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+.seo-roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.seo-roadmap-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: clamp(1.4rem, 2.2vw, 2rem);
+    border: 1px solid rgba(41, 43, 45, 0.14);
+    border-top: 5px solid var(--accent);
+    background: #f3f0ea;
+    box-shadow: 9px 10px 0 rgba(41, 43, 45, 0.08);
+    transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+
+.seo-roadmap-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(196, 85, 45, 0.48);
+    border-top-color: var(--accent);
+    box-shadow: 12px 17px 0 rgba(196, 85, 45, 0.18);
+}
+
+.roadmap-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+}
+
+.roadmap-number {
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.roadmap-window {
+    padding: 0.5rem 0.65rem;
+    background: rgba(196, 85, 45, 0.1);
+    color: #7c351f;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.seo-roadmap-card h3 {
+    min-height: 2.5em;
+    margin-bottom: 1.25rem;
+    color: #292b2d;
+    font-size: clamp(1.7rem, 3vw, 2.35rem);
+    letter-spacing: -0.045em;
+}
+
+.seo-roadmap-card ul {
+    display: grid;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex: 1;
+}
+
+.seo-roadmap-card li {
+    display: block;
+    padding: 0.85rem 0;
+    border-top: 1px solid rgba(41, 43, 45, 0.13);
+}
+
+.seo-roadmap-card li strong {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.seo-roadmap-card li span {
+    color: #414648;
+    font-size: 0.94rem;
+    line-height: 1.5;
+}
+
+.seo-roadmap-card-scale {
+    background: #343739;
+    border-color: #343739;
+    border-top-color: var(--accent);
+    box-shadow: 9px 10px 0 rgba(196, 85, 45, 0.22);
+}
+
+.seo-roadmap-card-scale:hover {
+    border-color: #343739;
+    border-top-color: var(--accent);
+    box-shadow: 12px 17px 0 rgba(196, 85, 45, 0.34);
+}
+
+.seo-roadmap-card-scale h3,
+.seo-roadmap-card-scale li span {
+    color: #f3f0ea;
+}
+
+.seo-roadmap-card-scale .roadmap-window {
+    background: rgba(238, 128, 88, 0.13);
+    color: #f09570;
+}
+
+.seo-roadmap-card-scale li {
+    grid-template-columns: 1fr;
+    border-top-color: rgba(255, 255, 255, 0.13);
+}
+
+.seo-roadmap-card-scale li span::before {
+    margin-right: 0.7rem;
+    color: var(--accent);
+    content: '→';
+}
+
+@media (max-width: 1100px) {
+    .seo-roadmap-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 680px) {
+    .seo-roadmap-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .seo-roadmap-card h3 {
+        min-height: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .seo-roadmap-card {
+        transition: none;
+    }
+
+    .seo-roadmap-card:hover {
+        transform: none;
     }
 }
