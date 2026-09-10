@@ -6511,6 +6511,18 @@ a.btn-nav:focus-visible {
     width: 150px;
 }
 
+.modern-site-page footer .site-logo {
+    width: 195px;
+    height: auto;
+    padding: 4px 8px;
+    background: #efede9;
+}
+
+.modern-site-page footer .site-logo img {
+    width: 100%;
+    height: auto;
+}
+
 .modern-site-page footer h4 {
     color: var(--accent);
     font-family: 'Space Grotesk', sans-serif;
@@ -7114,8 +7126,16 @@ nav button.dropdown-toggle:focus-visible {
 
 .article-page .article-toc {
     display: grid;
+    position: static;
+    width: auto;
+    z-index: auto;
     gap: 0;
     margin-top: 1rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
 }
 
 .article-page .article-toc a {
@@ -7970,5 +7990,106 @@ nav button.dropdown-toggle:focus-visible {
 
     .founder-story-chapter-current {
         padding: 1.4rem;
+    }
+}
+
+/* Keep the complete desktop navigation inside the viewport.
+   At compact desktop widths, switch to the menu toggle before the CTA can overflow. */
+@media (min-width: 1241px) {
+    nav .nav-container {
+        gap: clamp(1rem, 1.8vw, 2rem);
+        min-width: 0;
+    }
+
+    .nav-container .logo {
+        flex: 0 1 178px;
+        min-width: 148px;
+        margin-right: 0;
+    }
+
+    .nav-container .nav-links {
+        min-width: 0;
+        margin-left: auto;
+        gap: clamp(0.8rem, 1.35vw, 1.5rem);
+    }
+
+    .nav-links > a,
+    .nav-links > .dropdown,
+    .nav-links .dropdown-toggle,
+    .nav-links .btn-nav {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 1240px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        max-height: calc(100vh - 72px);
+        overflow-y: auto;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.25rem;
+        padding: 1.5rem 2rem 2rem;
+        border-top: 1px solid rgba(41, 43, 45, 0.14);
+        background: #efede9;
+        box-shadow: 0 14px 28px rgba(35, 36, 38, 0.14);
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .mobile-toggle {
+        display: flex;
+        flex: 0 0 auto;
+    }
+
+    .nav-links .services-dropdown,
+    .nav-links .industries-dropdown {
+        width: 100%;
+    }
+
+    .nav-links .dropdown-menu,
+    .nav-links .industries-menu,
+    .nav-links .services-mega {
+        position: static;
+        width: 100%;
+        margin-top: 1rem;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .nav-links .dropdown-menu,
+    .nav-links .services-mega {
+        display: none;
+    }
+
+    .nav-links .dropdown.active .dropdown-menu {
+        display: block;
+    }
+
+    .nav-links .dropdown.active .services-mega {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 0.75rem;
+        border: 1px solid rgba(41, 43, 45, 0.12);
+        text-align: left;
+    }
+
+    .nav-links .btn-nav {
+        align-self: center;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 640px) {
+    .nav-links .dropdown.active .services-mega {
+        grid-template-columns: 1fr;
     }
 }

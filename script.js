@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Only one desktop mega menu can own the navigation at a time.
         dropdown.addEventListener('pointerenter', () => {
-            if (window.innerWidth <= 1024) return;
+            if (window.innerWidth <= 1240) return;
             dropdowns.forEach(item => {
                 if (item === dropdown) return;
                 item.classList.remove('active');
