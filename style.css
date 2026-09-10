@@ -7484,3 +7484,446 @@ nav button.dropdown-toggle:focus-visible {
         transform: none;
     }
 }
+
+/* About closing CTA: orange by default, charcoal on interaction. */
+.company-page .about-cta .btn-primary {
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.company-page .about-cta .btn-primary:hover,
+.company-page .about-cta .btn-primary:focus-visible {
+    background: #202224 !important;
+    border-color: #202224 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* About hero portrait: retain the natural color and keep Alex framed consistently. */
+.company-page .about-home-hero .hero-visual-frame::before {
+    display: none;
+}
+
+.company-page .about-home-hero .hero-visual-frame img {
+    object-position: center;
+    filter: none;
+}
+
+@media (min-width: 1025px) {
+    .company-page .about-home-hero .hero-visual-frame img {
+        aspect-ratio: 1 / 1;
+        height: auto;
+    }
+}
+
+/* Keep explanatory copy readable inside every light pricing card. */
+.service-page .ads-pricing .ads-pricing-card > p,
+.service-page .ads-pricing .seo-pricing-card > p {
+    color: #3f4345 !important;
+    -webkit-text-fill-color: #3f4345 !important;
+}
+
+/* Warehousing SEO hero: orange primary action with a black hover state. */
+.seo-warehousing-page .ads-hero .btn-primary {
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.seo-warehousing-page .ads-hero .btn-primary:hover,
+.seo-warehousing-page .ads-hero .btn-primary:focus-visible {
+    background: #202224 !important;
+    border-color: #202224 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* About: an editorial founder story without image overlays. */
+.company-page .founder-story {
+    padding: clamp(3.75rem, 6vw, 6rem) 0 clamp(5rem, 8vw, 7.5rem);
+    background: #ded9d1;
+}
+
+.company-page .founder-section {
+    padding-bottom: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+/* Warehousing SEO: a smaller entry point beneath the main pricing plans. */
+.seo-warehousing-page .seo-new-growth-cta {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: clamp(2rem, 5vw, 5rem);
+    align-items: center;
+    margin-top: 2.5rem;
+    padding: clamp(1.5rem, 3vw, 2.25rem);
+    border-left: 6px solid var(--accent);
+    background: #f3f0ea;
+}
+
+.seo-warehousing-page .seo-new-growth-copy > span {
+    display: block;
+    margin-bottom: 0.65rem;
+    color: #9a3d1e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.seo-warehousing-page .seo-new-growth-copy h3 {
+    margin: 0 0 0.65rem;
+    color: #292b2d;
+    font-size: clamp(1.45rem, 2.5vw, 2rem);
+    letter-spacing: -0.04em;
+}
+
+.seo-warehousing-page .seo-new-growth-copy p {
+    max-width: 760px;
+    margin: 0;
+    color: #4c5153 !important;
+    -webkit-text-fill-color: #4c5153 !important;
+    line-height: 1.65;
+}
+
+.seo-warehousing-page .seo-new-growth-link {
+    display: inline-flex;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 245px;
+    padding: 1rem 1.1rem;
+    border-bottom: 2px solid var(--accent);
+    color: #292b2d;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: color 0.2s ease, background-color 0.2s ease, padding 0.2s ease;
+}
+
+.seo-warehousing-page .seo-new-growth-link:hover,
+.seo-warehousing-page .seo-new-growth-link:focus-visible {
+    padding-right: 1.35rem;
+    background: #292b2d;
+    color: #ffffff;
+}
+
+@media (max-width: 760px) {
+    .seo-warehousing-page .seo-new-growth-cta {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .seo-warehousing-page .seo-new-growth-link {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+/* About process: bolder cards with a clear visual sequence. */
+.company-page .about-process .text-center {
+    max-width: 900px;
+}
+
+.company-page .about-process .text-center .section-kicker {
+    display: block;
+    margin-bottom: 0.85rem;
+}
+
+.company-page .about-process .text-center h2 {
+    max-width: 900px;
+    margin-bottom: 1.2rem;
+    color: #292b2d;
+    font-size: clamp(2.65rem, 5vw, 4.7rem);
+    line-height: 0.98;
+    letter-spacing: -0.06em;
+    text-wrap: balance;
+}
+
+.company-page .about-process .subheadline-process {
+    max-width: 700px;
+    color: #4c5153;
+    font-size: 1.06rem;
+    line-height: 1.7;
+}
+
+.company-page .about-process .process-grid {
+    gap: 1.15rem;
+    align-items: stretch;
+}
+
+.company-page .about-process .process-step {
+    position: relative;
+    isolation: isolate;
+    min-height: 310px;
+    overflow: hidden;
+    padding: 2rem;
+    border: 1px solid rgba(41, 43, 45, 0.13);
+    border-top: 5px solid var(--accent);
+    border-radius: 0;
+    background: #f3f0ea;
+    box-shadow: 8px 9px 0 rgba(41, 43, 45, 0.08);
+    transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+
+.company-page .about-process .process-step::after {
+    content: attr(data-step);
+    position: absolute;
+    right: -0.08em;
+    bottom: -0.22em;
+    z-index: -1;
+    color: rgba(41, 43, 45, 0.055);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 8.5rem;
+    font-weight: 700;
+    letter-spacing: -0.09em;
+    line-height: 1;
+}
+
+.company-page .about-process .process-step:nth-child(even) {
+    background: #34383a;
+    box-shadow: 8px 9px 0 rgba(196, 85, 45, 0.2);
+}
+
+.company-page .about-process .process-step:nth-child(even)::after {
+    color: rgba(255, 255, 255, 0.055);
+}
+
+.company-page .about-process .process-step:hover {
+    transform: translateY(-7px);
+    border-color: var(--accent);
+    border-top-color: var(--accent);
+    box-shadow: 11px 15px 0 rgba(196, 85, 45, 0.2);
+}
+
+.company-page .about-process .about-step-number {
+    margin-bottom: clamp(2.75rem, 5vw, 4.5rem);
+    color: #9a3d1e;
+}
+
+.company-page .about-process .process-step h3 {
+    position: relative;
+    margin-bottom: 0.9rem;
+    color: #292b2d;
+    font-size: clamp(1.55rem, 2.2vw, 2rem);
+}
+
+.company-page .about-process .process-step p {
+    position: relative;
+    margin: 0;
+    color: #4c5153;
+    font-size: 0.96rem;
+    line-height: 1.7;
+}
+
+.company-page .about-process .process-step:nth-child(even) .about-step-number {
+    color: #f08a62;
+}
+
+.company-page .about-process .process-step:nth-child(even) h3,
+.company-page .about-process .process-step:nth-child(even) p {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+@media (max-width: 1024px) {
+    .company-page .about-process .process-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 620px) {
+    .company-page .about-process .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .company-page .about-process .process-step {
+        min-height: 270px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .company-page .about-process .process-step {
+        transition: none;
+    }
+
+    .company-page .about-process .process-step:hover {
+        transform: none;
+    }
+}
+
+.founder-story-heading {
+    margin-bottom: clamp(2.75rem, 5vw, 4.5rem);
+}
+
+.founder-story-heading h2 {
+    max-width: 760px;
+    margin-top: 0.9rem;
+    color: #292b2d;
+    font-size: clamp(2.8rem, 5.5vw, 5rem);
+    line-height: 0.98;
+    letter-spacing: -0.06em;
+    text-wrap: balance;
+}
+
+.founder-story-heading > p {
+    max-width: 540px;
+    margin: 0;
+    color: #4c5153;
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+.founder-story-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    gap: clamp(2.5rem, 6vw, 6rem);
+    align-items: start;
+}
+
+.founder-story-gallery {
+    display: grid;
+    gap: 1.1rem;
+}
+
+.founder-story-photo {
+    margin: 0;
+    padding: 0.65rem;
+    border: 1px solid rgba(41, 43, 45, 0.15);
+    background: #f3f0ea;
+    box-shadow: 10px 12px 0 rgba(41, 43, 45, 0.09);
+}
+
+.founder-story-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.founder-story-photo-tall {
+    width: 88%;
+    margin-left: auto;
+}
+
+.founder-story-photo-office {
+    width: 96%;
+    margin-right: auto;
+}
+
+.founder-story-photo figcaption {
+    padding: 0.75rem 0.25rem 0.15rem;
+    color: #555a5c;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.founder-story-copy {
+    border-top: 1px solid rgba(41, 43, 45, 0.2);
+}
+
+.founder-story-chapter {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    column-gap: 1.5rem;
+    padding: 1.7rem 0;
+    border-bottom: 1px solid rgba(41, 43, 45, 0.2);
+}
+
+.founder-story-chapter > span {
+    grid-row: 1 / span 2;
+    color: #9a3d1e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.founder-story-chapter h3 {
+    margin: -0.25rem 0 0.7rem;
+    color: #292b2d;
+    font-size: clamp(1.45rem, 2.5vw, 2rem);
+    letter-spacing: -0.04em;
+}
+
+.founder-story-chapter p {
+    margin: 0;
+    color: #4c5153;
+    line-height: 1.72;
+}
+
+.founder-story-chapter-current {
+    margin-top: 0.4rem;
+    padding: 1.7rem 1.5rem;
+    border: 0;
+    background: #34383a;
+}
+
+.founder-story-chapter-current h3,
+.founder-story-chapter-current p {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.founder-story-chapter-current > span {
+    color: #ff9a72 !important;
+    -webkit-text-fill-color: #ff9a72 !important;
+}
+
+@media (max-width: 900px) {
+    .founder-story-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .founder-story-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: start;
+    }
+
+    .founder-story-photo-tall {
+        width: 100%;
+        margin: 2.5rem 0 0;
+    }
+
+    .founder-story-photo-office {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px) {
+    .founder-story-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .founder-story-photo-tall {
+        margin-top: 0;
+    }
+
+
+    .founder-story-photo-office {
+        grid-column: auto;
+    }
+
+    .founder-story-chapter {
+        grid-template-columns: 1fr;
+    }
+
+    .founder-story-chapter > span {
+        grid-row: auto;
+        margin-bottom: 0.8rem;
+    }
+
+    .founder-story-chapter-current {
+        padding: 1.4rem;
+    }
+}
