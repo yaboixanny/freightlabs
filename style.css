@@ -5258,12 +5258,12 @@ cite {
 .services-dropdown .services-mega {
     left: 50%;
     display: none;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    width: min(900px, calc(100vw - 4rem));
+    grid-template-columns: 1.15fr 0.85fr 1.2fr 1fr;
+    width: min(880px, calc(100vw - 3rem));
     padding: 1.25rem;
     border: 1px solid rgba(41, 43, 45, 0.14);
     border-radius: 0;
-    transform: translateX(-42%);
+    transform: translateX(-50%);
     box-shadow: 0 24px 60px rgba(35, 36, 38, 0.18);
 }
 
@@ -5303,6 +5303,8 @@ cite {
     font-size: 0.72rem;
     line-height: 1.35;
     letter-spacing: 0.045em;
+    white-space: normal;
+    overflow-wrap: anywhere;
 }
 
 .services-mega .mega-column > a:hover {
