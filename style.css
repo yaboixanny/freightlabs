@@ -8095,3 +8095,188 @@ nav button.dropdown-toggle:focus-visible {
         grid-template-columns: 1fr;
     }
 }
+
+/* About page team profile */
+.company-page .about-team {
+    padding: clamp(5.5rem, 9vw, 8.5rem) 0;
+    background: #e8e5df;
+}
+
+.company-page .about-team-heading {
+    margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.company-page .about-team-heading h2 {
+    max-width: 760px;
+    color: #292b2d;
+    font-size: clamp(2.6rem, 4.7vw, 4.9rem);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+}
+
+.company-page .about-team-heading > p {
+    max-width: 520px;
+    color: #565a5c;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.team-profile-card {
+    display: grid;
+    grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
+    overflow: hidden;
+    border: 1px solid rgba(41, 43, 45, 0.15);
+    background: #f8f5ef;
+    box-shadow: 12px 12px 0 var(--accent);
+}
+
+.team-profile-card + .team-profile-card {
+    margin-top: clamp(2rem, 4vw, 3.5rem);
+}
+
+.team-profile-card-reverse .team-profile-photo {
+    order: 2;
+}
+
+.team-profile-photo {
+    position: relative;
+    min-height: 560px;
+    margin: 0;
+    overflow: hidden;
+    background: #cfd2d2;
+}
+
+.team-profile-photo::after {
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    content: '';
+    pointer-events: none;
+}
+
+.team-profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-profile-photo figcaption {
+    position: absolute;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    z-index: 1;
+    padding: 0.8rem 1rem;
+    background: rgba(41, 43, 45, 0.9);
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.team-profile-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(2.25rem, 6vw, 5.5rem);
+}
+
+.team-profile-index {
+    align-self: flex-start;
+    margin-bottom: 2.4rem;
+    padding: 0.65rem 0.8rem;
+    background: rgba(196, 85, 45, 0.11);
+    color: #9a3d1e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.team-profile-role {
+    margin: 0 0 0.55rem;
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.team-profile-copy h3 {
+    margin-bottom: 1.5rem;
+    color: #292b2d;
+    font-size: clamp(2.8rem, 5vw, 5.2rem);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
+}
+
+.team-profile-copy h3 small {
+    color: var(--accent);
+    font-size: 0.42em;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    white-space: nowrap;
+}
+
+.team-profile-copy > p:not(.team-profile-role) {
+    max-width: 650px;
+    margin-bottom: 1rem;
+    color: #505456;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.team-profile-strengths {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 1.35rem;
+}
+
+.team-profile-strengths span {
+    padding: 0.7rem 0.85rem;
+    border: 1px solid rgba(41, 43, 45, 0.15);
+    color: #3c4042;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .team-profile-card {
+        grid-template-columns: 1fr;
+    }
+
+    .team-profile-photo {
+        min-height: 0;
+        aspect-ratio: 4 / 3;
+    }
+
+    .team-profile-card-reverse .team-profile-photo {
+        order: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .team-profile-card {
+        box-shadow: 7px 7px 0 var(--accent);
+    }
+
+    .team-profile-photo {
+        aspect-ratio: 1 / 1;
+    }
+
+    .team-profile-copy {
+        padding: 2rem 1.35rem 2.25rem;
+    }
+
+    .team-profile-index {
+        margin-bottom: 1.75rem;
+    }
+}
