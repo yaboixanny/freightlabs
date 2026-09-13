@@ -20,8 +20,8 @@ const pageConfig = {
   'seo-trucking-companies/index.html': { priority: '0.9', changefreq: 'weekly' },
   'seo-warehousing/index.html': { priority: '0.9', changefreq: 'weekly' },
   'seo-supply-chain-companies/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'seo-intermodal-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'logistics-lead-generation/index.html': { priority: '0.9', changefreq: 'weekly' },
-  'lead-generation-for-freight-brokers/index.html': { priority: '0.9', changefreq: 'weekly' },
   'shipper-lead-generation/index.html': { priority: '0.9', changefreq: 'weekly' },
   'logistics-consulting/index.html': { priority: '0.8', changefreq: 'monthly' },
   'logistics-web-design/index.html': { priority: '0.9', changefreq: 'weekly' },
@@ -52,9 +52,21 @@ function findHTMLFiles(dir, fileList = []) {
         findHTMLFiles(filePath, fileList);
       }
     } else if (file === 'index.html') {
-      // Only canonical directory pages belong in the sitemap. This avoids
-      // accidentally publishing templates or alternate .html URLs.
-      fileList.push(filePath);
+      const relativePath = filePath.replace(/\\/g, '/').replace(/^\.\//, '');
+      const pageUrl = relativePath === 'index.html'
+        ? `${DOMAIN}/`
+        : `${DOMAIN}/${relativePath.replace(/index\.html$/, '')}`;
+      const html = fs.readFileSync(filePath, 'utf8');
+      const robots = html.match(/<meta\b[^>]*\bname=["']robots["'][^>]*\bcontent=["']([^"']+)/i)
+        || html.match(/<meta\b[^>]*\bcontent=["']([^"']+)["'][^>]*\bname=["']robots["']/i);
+      const canonical = html.match(/<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=["']([^"']+)/i)
+        || html.match(/<link\b[^>]*\bhref=["']([^"']+)["'][^>]*\brel=["']canonical["']/i);
+
+      // Sitemaps should contain only indexable, self-canonical pages. This
+      // keeps redirect stubs and intentionally noindexed pages out.
+      if ((!robots || !/\bnoindex\b/i.test(robots[1])) && canonical && canonical[1] === pageUrl) {
+        fileList.push(filePath);
+      }
     }
   });
 

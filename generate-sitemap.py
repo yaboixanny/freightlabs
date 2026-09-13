@@ -6,6 +6,7 @@ Automatically generates sitemap.xml from HTML files
 
 import os
 import datetime
+import re
 from pathlib import Path
 
 # Configuration
@@ -31,9 +32,17 @@ PAGE_CONFIG = {
     'last-mile-urban-delivery/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     '3pl-seo/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'transportation-seo/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'seo-trucking-companies/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'seo-warehousing/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'seo-supply-chain-companies/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'seo-intermodal-logistics/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'logistics-lead-generation/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'shipper-lead-generation/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
+    'logistics-consulting/index.html': {'priority': '0.8', 'changefreq': 'monthly'},
     '3pl-marketing-mistakes/index.html': {'priority': '0.7', 'changefreq': 'monthly'},
     'google-ads-logistics/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
     'facebook-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
+    'linkedin-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
     'web-design-trucking-companies/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
     'case-studies/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
 }
@@ -59,7 +68,38 @@ def find_html_files(root_dir='.'):
         if file_path.name in SKIP_FILES:
             continue
 
-        html_files.append(file_path)
+        relative_path = str(file_path).replace('\\', '/')
+        if relative_path.startswith('./'):
+            relative_path = relative_path[2:]
+        page_url = (
+            f'{DOMAIN}/'
+            if relative_path == 'index.html'
+            else f'{DOMAIN}/{relative_path[:-10]}'
+        )
+        html = file_path.read_text(encoding='utf-8')
+        robots_match = re.search(
+            r'<meta\b[^>]*\bname=["\']robots["\'][^>]*\bcontent=["\']([^"\']+)',
+            html,
+            re.IGNORECASE,
+        ) or re.search(
+            r'<meta\b[^>]*\bcontent=["\']([^"\']+)["\'][^>]*\bname=["\']robots["\']',
+            html,
+            re.IGNORECASE,
+        )
+        canonical_match = re.search(
+            r'<link\b[^>]*\brel=["\']canonical["\'][^>]*\bhref=["\']([^"\']+)',
+            html,
+            re.IGNORECASE,
+        ) or re.search(
+            r'<link\b[^>]*\bhref=["\']([^"\']+)["\'][^>]*\brel=["\']canonical["\']',
+            html,
+            re.IGNORECASE,
+        )
+
+        is_noindex = robots_match and re.search(r'\bnoindex\b', robots_match.group(1), re.IGNORECASE)
+        is_self_canonical = canonical_match and canonical_match.group(1) == page_url
+        if not is_noindex and is_self_canonical:
+            html_files.append(file_path)
 
     return sorted(html_files)
 
@@ -122,7 +162,7 @@ def generate_sitemap():
     sitemap_lines.append('</urlset>')
 
     # Write to file
-    sitemap_content = '\n'.join(sitemap_lines)
+    sitemap_content = '\n'.join(sitemap_lines) + '\n'
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(sitemap_content)
 
