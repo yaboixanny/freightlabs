@@ -1071,6 +1071,21 @@ footer {
     filter: saturate(0.75) contrast(1.05);
 }
 
+.meridian-chart-section .section-heading {
+    margin-bottom: 3.5rem;
+}
+
+.result-visual.meridian-chart {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.result-visual.meridian-chart img {
+    aspect-ratio: auto;
+    object-fit: contain;
+    filter: none;
+}
+
 .result-image-caption {
     position: absolute;
     z-index: 2;
