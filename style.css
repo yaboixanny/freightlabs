@@ -8448,3 +8448,68 @@ nav button.dropdown-toggle:focus-visible {
         margin-bottom: 1.75rem;
     }
 }
+
+/* Meridian case study: compact editorial layout */
+.case-study-page .case-study-chart-section {
+    padding: 3.25rem 0;
+    background: #e9e4da;
+}
+
+.case-study-page .case-study-chart-section .meridian-chart {
+    max-width: 1180px;
+}
+
+.case-study-page .case-study-problem-list {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.case-study-page .case-study-problem-list article {
+    min-height: 255px;
+}
+
+.case-study-page .case-study-solution-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.case-study-page .case-study-solution-grid article {
+    min-height: 300px;
+}
+
+.case-study-page .case-study-solution-grid .channel-code {
+    margin-bottom: 3.75rem;
+}
+
+.case-study-page .ads-case-study {
+    padding: 5.5rem 0;
+    background: #333739;
+}
+
+.case-study-page .ads-case-grid {
+    gap: clamp(3rem, 7vw, 6rem);
+}
+
+.case-study-page .ads-case-story p {
+    color: #f0f1f1;
+}
+
+.case-study-page .ads-case-stat > p,
+.case-study-page .case-type,
+.case-study-page .ads-case-metrics p {
+    color: #e1e3e3;
+}
+
+.case-study-page .ads-case-metrics > div {
+    border-bottom-color: rgba(242, 240, 236, 0.3);
+}
+
+@media (max-width: 1024px) {
+    .case-study-page .case-study-problem-list,
+    .case-study-page .case-study-solution-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .case-study-page .case-study-problem-list article,
+    .case-study-page .case-study-solution-grid article {
+        min-height: 0;
+    }
+}
