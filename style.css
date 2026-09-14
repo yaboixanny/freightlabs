@@ -1071,16 +1071,16 @@ footer {
     filter: saturate(0.75) contrast(1.05);
 }
 
-.meridian-chart-section .section-heading {
+.case-study-chart-section .section-heading {
     margin-bottom: 3.5rem;
 }
 
-.result-visual.meridian-chart {
+.result-visual.case-study-chart {
     max-width: 1240px;
     margin: 0 auto;
 }
 
-.result-visual.meridian-chart img {
+.result-visual.case-study-chart img {
     aspect-ratio: auto;
     object-fit: contain;
     filter: none;
@@ -8449,13 +8449,13 @@ nav button.dropdown-toggle:focus-visible {
     }
 }
 
-/* Meridian case study: compact editorial layout */
+/* Compact editorial case-study layout */
 .case-study-page .case-study-chart-section {
     padding: 3.25rem 0;
     background: #e9e4da;
 }
 
-.case-study-page .case-study-chart-section .meridian-chart {
+.case-study-page .case-study-chart-section .case-study-chart {
     max-width: 1180px;
 }
 
