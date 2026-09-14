@@ -30,6 +30,7 @@ const pageConfig = {
   'web-design-trucking-companies/index.html': { priority: '0.8', changefreq: 'weekly' },
   'warehousing-fulfillment/index.html': { priority: '0.9', changefreq: 'weekly' },
   'freight-forwarding-transportation/index.html': { priority: '0.9', changefreq: 'weekly' },
+  'rail-freight-marketing/index.html': { priority: '0.9', changefreq: 'weekly' },
   'supply-chain-technology/index.html': { priority: '0.9', changefreq: 'weekly' },
   'ecommerce-d2c-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'cold-chain-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
