@@ -10,8 +10,8 @@ const blogPosts = [
     {
         title: "How to Scale Your Freight Brokerage in 2026",
         slug: "how-to-scale-freight-brokerage",
-        excerpt: "Discover the key strategies and technologies that top freight brokers are using to double their revenue in the coming year.",
-        date: "October 15, 2026",
+        excerpt: "Discover the strategies and technologies freight brokers can use to build a more scalable operation.",
+        date: "Updated September 12, 2026",
         category: "Strategy",
         image: "../hero-dashboard.webp" // Placeholder image
     },
