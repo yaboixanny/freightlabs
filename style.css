@@ -8513,3 +8513,8 @@ nav button.dropdown-toggle:focus-visible {
         min-height: 0;
     }
 }
+
+/* Remove the decorative dash from the warehouse SEO scope heading. */
+.seo-warehousing-page .seo-scope-heading .section-kicker::before {
+    content: none;
+}
