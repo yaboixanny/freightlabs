@@ -1,0 +1,32 @@
+.seo-warehousing-page .warehouse-strategy{padding:clamp(5rem,8vw,8rem) 0;background:#f8f6f1;color:#292b2d}
+.seo-warehousing-page .warehouse-strategy-grid{display:grid;grid-template-columns:1fr 1.04fr;align-items:center;gap:clamp(3rem,6vw,6rem)}
+.seo-warehousing-page .warehouse-strategy h2{margin:0 0 2rem;color:#292b2d;font-family:Inter,sans-serif;font-size:clamp(2.4rem,4vw,4.2rem);line-height:1.07;letter-spacing:-.05em}
+.seo-warehousing-page .warehouse-strategy p{margin:0 0 1.5rem;color:#606466;font-size:1rem;line-height:1.8}
+.seo-warehousing-page .warehouse-strategy p.warehouse-strategy-lead{color:#34383a;font-size:1.25rem;font-weight:600;line-height:1.5}
+.seo-warehousing-page .warehouse-strategy ul{list-style:none;display:grid;gap:1rem;margin:1.75rem 0 2rem;padding:0}
+.seo-warehousing-page .warehouse-strategy li{position:relative;padding-left:1.2rem;color:#555b5d;font-size:1rem;line-height:1.6}
+.seo-warehousing-page .warehouse-strategy li::before{content:'•';position:absolute;left:0;color:#c4552d;font-weight:700}
+.seo-warehousing-page .warehouse-strategy-visual{min-width:0;margin:0}
+.seo-warehousing-page .warehouse-strategy-diagram{position:relative;min-height:550px;padding:40px 24%;display:flex;align-items:center;justify-content:center;isolation:isolate}
+.seo-warehousing-page .warehouse-strategy-diagram::before{content:'';position:absolute;z-index:-1;inset:15% 2% 9%;border-radius:14px;background:#e8e7e2}
+.seo-warehousing-page .warehouse-strategy-site{position:relative;width:100%;max-width:295px;min-width:220px;background:#fff;border-radius:7px 7px 0 0;box-shadow:0 18px 50px #1c262933;overflow:hidden}
+.seo-warehousing-page .warehouse-strategy-browser{height:26px;background:#d4d5d2;display:flex;align-items:center;gap:5px;padding:0 9px}
+.seo-warehousing-page .warehouse-strategy-browser i{width:6px;height:6px;border-radius:50%;background:#f6f6f3}
+.seo-warehousing-page .warehouse-strategy-site-hero{min-height:166px;display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:25px 20px;background:#293034;color:#fff}
+.seo-warehousing-page .warehouse-strategy-site-hero small{font-size:8px;font-weight:700;letter-spacing:.08em;color:#f6a37e}
+.seo-warehousing-page .warehouse-strategy-site-hero strong{max-width:200px;font-size:1.15rem;line-height:1.25;letter-spacing:-.03em}
+.seo-warehousing-page .warehouse-strategy-site-hero span,.seo-warehousing-page .warehouse-strategy-site-body em{padding:8px 10px;background:#c4552d;color:#fff;font-size:8px;font-style:normal;font-weight:700}
+.seo-warehousing-page .warehouse-strategy-site-body{padding:23px 18px 28px;text-align:center}
+.seo-warehousing-page .warehouse-strategy-site-body b{display:block;margin-bottom:20px;font-size:.8rem;line-height:1.4}
+.seo-warehousing-page .warehouse-strategy-mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}
+.seo-warehousing-page .warehouse-strategy-mini-grid span{padding:15px 3px;background:#f1f0eb;font-size:8px;font-weight:700;color:#5a5e5d}
+.seo-warehousing-page .warehouse-strategy-lines{display:grid;gap:6px;margin:23px auto;width:75%}
+.seo-warehousing-page .warehouse-strategy-lines i{height:4px;background:#e3e5e1;border-radius:2px}
+.seo-warehousing-page .warehouse-strategy-lines i:last-child{width:65%;margin:auto}
+.seo-warehousing-page .warehouse-strategy-label{position:absolute;z-index:2;display:flex;flex-direction:column;gap:5px;align-items:center;text-align:center}
+.seo-warehousing-page .warehouse-strategy-label strong{padding:10px;background:#c4552d;color:#fff;font-size:.67rem;letter-spacing:.04em}
+.seo-warehousing-page .warehouse-strategy-label span{font-size:.65rem;font-weight:700;color:#555d5f}
+.seo-warehousing-page .warehouse-strategy-label-search{left:0;top:26%}.seo-warehousing-page .warehouse-strategy-label-content{left:0;top:60%}.seo-warehousing-page .warehouse-strategy-label-leads{right:0;top:50%}
+.seo-warehousing-page .warehouse-strategy-visual figcaption{margin-top:.5rem;text-align:center;color:#747979;font-size:.75rem;line-height:1.5}
+@media(max-width:900px){.seo-warehousing-page .warehouse-strategy-grid{grid-template-columns:1fr;gap:2rem}.seo-warehousing-page .warehouse-strategy-diagram{max-width:620px;margin:auto}}
+@media(max-width:500px){.seo-warehousing-page .warehouse-strategy{padding:4rem 0}.seo-warehousing-page .warehouse-strategy-diagram{min-height:460px;padding:30px 21%}.seo-warehousing-page .warehouse-strategy-site{min-width:0}.seo-warehousing-page .warehouse-strategy-label strong{font-size:.55rem;padding:8px}.seo-warehousing-page .warehouse-strategy-label span{font-size:.55rem}}
