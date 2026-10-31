@@ -1,5 +1,5 @@
 .seo-warehousing-page .warehouse-seo-services{padding:clamp(4.5rem,7vw,7rem) 0;background:#e5e2dc;color:#292b2d}
-.seo-warehousing-page .warehouse-seo-services h2{max-width:1050px;margin:0 0 3rem;color:#292b2d;font-family:'Space Grotesk',sans-serif;font-size:clamp(2.3rem,4vw,4rem);letter-spacing:-.045em;line-height:1.08}
+.seo-warehousing-page .warehouse-seo-services h2{max-width:1050px;margin:0 0 3rem;color:#292b2d;font-family:Inter,sans-serif;font-size:clamp(2.3rem,4vw,4rem);letter-spacing:-.045em;line-height:1.08}
 .seo-warehousing-page .warehouse-seo-services-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
 .seo-warehousing-page .warehouse-seo-service-card{position:relative;overflow:hidden;min-height:330px;padding:clamp(2rem,3.3vw,3.2rem);background:#f9f7f2;isolation:isolate}
 .seo-warehousing-page .warehouse-seo-service-card::after{content:'';position:absolute;right:-36px;bottom:-68px;z-index:-1;width:210px;height:210px;background:repeating-linear-gradient(30deg,transparent 0 24px,#e9ece8 25px 26px,transparent 27px 50px),repeating-linear-gradient(150deg,transparent 0 24px,#e9ece8 25px 26px,transparent 27px 50px);opacity:.9;transform:rotate(-5deg)}
