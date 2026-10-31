@@ -1,26 +1,28 @@
 /* Warehouse SEO call to action. */
-.seo-warehousing-page .warehouse-cta{background:#25292b}
-.seo-warehousing-page .warehouse-cta-panel{position:relative;overflow:hidden;padding:clamp(5rem,8vw,8rem) 0 clamp(5rem,8vw,8rem);border-radius:0 0 76px 76px;background:linear-gradient(125deg,#ffa468 0%,#ff8c4a 58%,#ffbd8b 100%);color:#21282b;isolation:isolate}
-.seo-warehousing-page .warehouse-cta-panel::before,.seo-warehousing-page .warehouse-cta-panel::after{content:"";position:absolute;z-index:-1;pointer-events:none}
-.seo-warehousing-page .warehouse-cta-panel::before{inset:0;background:rgba(238,99,37,.10);clip-path:polygon(0 72%,66% 0,79% 0,83% 72%)}
-.seo-warehousing-page .warehouse-cta-panel::after{right:10%;bottom:0;width:40%;height:78%;background:rgba(255,255,255,.10);clip-path:polygon(20% 0,100% 100%,0 100%)}
-.seo-warehousing-page .warehouse-cta-grid{max-width:1210px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(3rem,7vw,7rem)}
-.seo-warehousing-page .warehouse-cta-kicker{display:block;margin-bottom:1.6rem;color:#663421;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
-.seo-warehousing-page .warehouse-cta h2{max-width:620px;margin:0 0 2rem;color:#1c262b;font-family:Inter,sans-serif;font-size:clamp(2.7rem,4.5vw,4.65rem);letter-spacing:-.055em;line-height:1.06}
-.seo-warehousing-page .warehouse-cta-copy>p{max-width:580px;margin:0 0 1.7rem;color:#273036;font-size:clamp(1.05rem,1.35vw,1.2rem);line-height:1.7}
-.seo-warehousing-page .warehouse-cta ul{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}
-.seo-warehousing-page .warehouse-cta li{position:relative;padding-left:2rem;color:#273036;font-size:1rem;line-height:1.5}
-.seo-warehousing-page .warehouse-cta li::before{content:'✓';position:absolute;left:0;top:.05rem;display:grid;place-items:center;width:1.18rem;height:1.18rem;border:1.5px solid #693521;border-radius:50%;font-size:.75rem;font-weight:800;line-height:1}
-.seo-warehousing-page .warehouse-cta-card{padding:3.2rem 2rem;background:#fff;border-radius:24px;text-align:center;box-shadow:0 18px 44px rgba(117,53,27,.08)}
-.seo-warehousing-page .warehouse-cta-card-heading{margin:0 0 1.5rem;color:#202426;font-family:Caveat,cursive;font-style:normal;font-weight:700;font-size:clamp(2rem,2.6vw,2.5rem);line-height:1.4}
-.seo-warehousing-page .warehouse-cta-button{display:inline-flex;align-items:center;justify-content:center;gap:1.4rem;min-height:60px;padding:1rem 1.75rem;border-radius:999px;background:#bd3b0b;color:white!important;text-decoration:none;font-size:.95rem;font-weight:700;box-shadow:0 8px 18px rgba(155,54,14,.15);transition:background .2s,transform .2s}
-.seo-warehousing-page .warehouse-cta-button:hover{background:#9e3009;transform:translateY(-2px)}
-.seo-warehousing-page .warehouse-cta-button:focus-visible{outline:3px solid #273036;outline-offset:4px}
-.seo-warehousing-page .warehouse-cta-card .warehouse-cta-note{margin:1.5rem 0 0;color:#667078;font-size:.85rem;font-style:italic;line-height:1.5}
-.seo-warehousing-page footer{background:#25292b;border-top:0}
-.seo-warehousing-page footer h4{color:#f6f2e9}
-.seo-warehousing-page footer .footer-brand p,.seo-warehousing-page footer .footer-col a,.seo-warehousing-page footer .footer-col p,.seo-warehousing-page footer .copyright p{color:#d1d5d4}
-.seo-warehousing-page footer .footer-col a:hover{color:#ffa468}
-.seo-warehousing-page footer .copyright{border-color:#515657}
-.seo-warehousing-page footer .site-logo{padding:4px 8px;background:#efede9}
-@media(max-width:760px){.seo-warehousing-page .warehouse-cta-panel{padding:4.5rem 0;border-radius:0 0 42px 42px}.seo-warehousing-page .warehouse-cta-grid{grid-template-columns:1fr;gap:2.5rem}.seo-warehousing-page .warehouse-cta h2{font-size:clamp(2.5rem,9vw,3.5rem)}.seo-warehousing-page .warehouse-cta-card{padding:2.5rem 1.25rem}.seo-warehousing-page .warehouse-cta-button{font-size:.88rem;gap:.8rem;padding:1rem 1.2rem}}
+.service-cta-page .warehouse-cta{background:#25292b}
+.service-cta-page .warehouse-cta-panel{position:relative;overflow:hidden;padding:clamp(5rem,8vw,8rem) 0 clamp(5rem,8vw,8rem);border-radius:0 0 76px 76px;background:linear-gradient(125deg,#ffa468 0%,#ff8c4a 58%,#ffbd8b 100%);color:#21282b;isolation:isolate}
+.service-cta-page .warehouse-cta-panel::before,.service-cta-page .warehouse-cta-panel::after{content:"";position:absolute;z-index:-1;pointer-events:none}
+.service-cta-page .warehouse-cta-panel::before{inset:0;background:rgba(238,99,37,.10);clip-path:polygon(0 72%,66% 0,79% 0,83% 72%)}
+.service-cta-page .warehouse-cta-panel::after{right:10%;bottom:0;width:40%;height:78%;background:rgba(255,255,255,.10);clip-path:polygon(20% 0,100% 100%,0 100%)}
+.service-cta-page .warehouse-cta-grid{max-width:1210px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(3rem,7vw,7rem)}
+.service-cta-page .warehouse-cta-kicker{display:block;margin-bottom:1.6rem;color:#663421;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.service-cta-page .warehouse-cta h2{max-width:620px;margin:0 0 2rem;color:#1c262b;font-family:Inter,sans-serif;font-size:clamp(2.7rem,4.5vw,4.65rem);letter-spacing:-.055em;line-height:1.06}
+.service-cta-page .warehouse-cta-copy>p{max-width:580px;margin:0 0 1.7rem;color:#273036;font-size:clamp(1.05rem,1.35vw,1.2rem);line-height:1.7}
+.service-cta-page .warehouse-cta ul{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}
+.service-cta-page .warehouse-cta li{position:relative;padding-left:2rem;color:#273036;font-size:1rem;line-height:1.5}
+.service-cta-page .warehouse-cta li::before{content:'✓';position:absolute;left:0;top:.05rem;display:grid;place-items:center;width:1.18rem;height:1.18rem;border:1.5px solid #693521;border-radius:50%;font-size:.75rem;font-weight:800;line-height:1}
+.service-cta-page .warehouse-cta-card{padding:3.2rem 2rem;background:#fff;border-radius:24px;text-align:center;box-shadow:0 18px 44px rgba(117,53,27,.08)}
+.service-cta-page .warehouse-cta-card-heading{margin:0 0 1.5rem;color:#202426;font-family:Caveat,cursive;font-style:normal;font-weight:700;font-size:clamp(2rem,2.6vw,2.5rem);line-height:1.4}
+.service-cta-page .warehouse-cta-button{display:inline-flex;align-items:center;justify-content:center;gap:1.4rem;min-height:60px;padding:1rem 1.75rem;border-radius:999px;background:#bd3b0b;color:white!important;text-decoration:none;font-size:.95rem;font-weight:700;box-shadow:0 8px 18px rgba(155,54,14,.15);transition:background .2s,transform .2s}
+.service-cta-page .warehouse-cta-button:hover{background:#9e3009;transform:translateY(-2px)}
+.service-cta-page .warehouse-cta-button:focus-visible{outline:3px solid #273036;outline-offset:4px}
+.service-cta-page .warehouse-cta-card .warehouse-cta-note{margin:1.5rem 0 0;color:#667078;font-size:.85rem;font-style:italic;line-height:1.5}
+.service-cta-page footer{background:#25292b;border-top:0}
+.service-cta-page footer h4{color:#f6f2e9}
+.service-cta-page footer .footer-brand p,.service-cta-page footer .footer-col a,.service-cta-page footer .footer-col p,.service-cta-page footer .copyright p{color:#d1d5d4}
+.service-cta-page footer .footer-col a:hover{color:#ffa468}
+.service-cta-page footer .copyright{border-color:#515657}
+.service-cta-page footer .site-logo{padding:4px 8px;background:#efede9}
+@media(max-width:760px){.service-cta-page .warehouse-cta-panel{padding:4.5rem 0;border-radius:0 0 42px 42px}.service-cta-page .warehouse-cta-grid{grid-template-columns:1fr;gap:2.5rem}.service-cta-page .warehouse-cta h2{font-size:clamp(2.5rem,9vw,3.5rem)}.service-cta-page .warehouse-cta-card{padding:2.5rem 1.25rem}.service-cta-page .warehouse-cta-button{font-size:.88rem;gap:.8rem;padding:1rem 1.2rem}}
+.service-cta-page footer.home-footer{background:#25292b}
+.service-cta-page footer .footer-col h4{color:#f6f2e9}
