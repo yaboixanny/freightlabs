@@ -1,14 +1,14 @@
-.seo-warehousing-page .warehouse-problem{padding:clamp(5rem,8vw,8rem) 0;background:#f6f2e9;color:#292b2d}
-.seo-warehousing-page .warehouse-problem h2{max-width:1000px;margin:0 0 2.75rem;font-family:Inter,sans-serif;font-size:clamp(2.5rem,4.4vw,4.7rem);line-height:1.03;letter-spacing:-.05em;color:#292b2d}
-.seo-warehousing-page .warehouse-problem-intro{display:flex;align-items:center;justify-content:space-between;gap:3rem;margin-bottom:4.5rem}
-.seo-warehousing-page .warehouse-problem-intro p{max-width:720px;margin:0;font-size:clamp(1.05rem,1.4vw,1.28rem);line-height:1.7;color:#4c5052}
-.seo-warehousing-page .warehouse-problem-intro strong{color:#292b2d}
-.seo-warehousing-page .warehouse-problem-button{display:inline-flex;align-items:center;justify-content:space-between;gap:1.4rem;flex-shrink:0;padding:1.05rem 1.4rem;background:#f05a28;color:#fff;text-decoration:none;text-transform:uppercase;font-size:.75rem;letter-spacing:.04em;font-weight:700;transition:background .2s}
-.seo-warehousing-page .warehouse-problem-button:hover{background:#c9441a}
-.seo-warehousing-page .warehouse-problem-button:focus-visible{outline:3px solid #292b2d;outline-offset:4px}
-.seo-warehousing-page .warehouse-problem-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem 5rem}
-.seo-warehousing-page .warehouse-problem-grid article{display:flex;align-items:flex-start;gap:1.1rem}
-.seo-warehousing-page .warehouse-problem-icon{display:grid;place-items:center;flex:0 0 1.65rem;width:1.65rem;height:1.65rem;border:2px solid #c54b25;border-radius:50%;color:#c54b25;font:700 1.2rem/1 Inter,sans-serif}
-.seo-warehousing-page .warehouse-problem-grid h3{margin:0 0 .55rem;color:#292b2d;font-family:Inter,sans-serif;font-size:1.22rem;line-height:1.3}
-.seo-warehousing-page .warehouse-problem-grid p{max-width:520px;margin:0;color:#606466;font-size:1rem;line-height:1.7}
-@media(max-width:760px){.seo-warehousing-page .warehouse-problem{padding:4rem 0}.seo-warehousing-page .warehouse-problem h2{margin-bottom:2rem}.seo-warehousing-page .warehouse-problem-intro{align-items:flex-start;flex-direction:column;gap:1.7rem;margin-bottom:3.5rem}.seo-warehousing-page .warehouse-problem-grid{grid-template-columns:1fr;gap:2rem}}
+.service-template-page .warehouse-problem{padding:clamp(5rem,8vw,8rem) 0;background:#f6f2e9;color:#292b2d}
+.service-template-page .warehouse-problem h2{max-width:1000px;margin:0 0 2.75rem;font-family:Inter,sans-serif;font-size:clamp(2.5rem,4.4vw,4.7rem);line-height:1.03;letter-spacing:-.05em;color:#292b2d}
+.service-template-page .warehouse-problem-intro{display:flex;align-items:center;justify-content:space-between;gap:3rem;margin-bottom:4.5rem}
+.service-template-page .warehouse-problem-intro p{max-width:720px;margin:0;font-size:clamp(1.05rem,1.4vw,1.28rem);line-height:1.7;color:#4c5052}
+.service-template-page .warehouse-problem-intro strong{color:#292b2d}
+.service-template-page .warehouse-problem-button{display:inline-flex;align-items:center;justify-content:space-between;gap:1.4rem;flex-shrink:0;padding:1.05rem 1.4rem;background:#f05a28;color:#fff;text-decoration:none;text-transform:uppercase;font-size:.75rem;letter-spacing:.04em;font-weight:700;transition:background .2s}
+.service-template-page .warehouse-problem-button:hover{background:#c9441a}
+.service-template-page .warehouse-problem-button:focus-visible{outline:3px solid #292b2d;outline-offset:4px}
+.service-template-page .warehouse-problem-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem 5rem}
+.service-template-page .warehouse-problem-grid article{display:flex;align-items:flex-start;gap:1.1rem}
+.service-template-page .warehouse-problem-icon{display:grid;place-items:center;flex:0 0 1.65rem;width:1.65rem;height:1.65rem;border:2px solid #c54b25;border-radius:50%;color:#c54b25;font:700 1.2rem/1 Inter,sans-serif}
+.service-template-page .warehouse-problem-grid h3{margin:0 0 .55rem;color:#292b2d;font-family:Inter,sans-serif;font-size:1.22rem;line-height:1.3}
+.service-template-page .warehouse-problem-grid p{max-width:520px;margin:0;color:#606466;font-size:1rem;line-height:1.7}
+@media(max-width:760px){.service-template-page .warehouse-problem{padding:4rem 0}.service-template-page .warehouse-problem h2{margin-bottom:2rem}.service-template-page .warehouse-problem-intro{align-items:flex-start;flex-direction:column;gap:1.7rem;margin-bottom:3.5rem}.service-template-page .warehouse-problem-grid{grid-template-columns:1fr;gap:2rem}}
