@@ -36,7 +36,6 @@ const pageConfig = {
   'cold-chain-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'last-mile-urban-delivery/index.html': { priority: '0.9', changefreq: 'weekly' },
   'case-studies/index.html': { priority: '0.9', changefreq: 'weekly' },
-  'case-studies/international-freight-group-scaling/index.html': { priority: '0.8', changefreq: 'monthly' },
   'guides/index.html': { priority: '0.9', changefreq: 'weekly' },
 };
 
