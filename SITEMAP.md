@@ -169,4 +169,4 @@ python3 generate-sitemap.py
 
 ## Support
 
-For issues or questions, contact: hello@freightlabs.com
+For issues or questions, contact: hello@freightlabsagency.com
