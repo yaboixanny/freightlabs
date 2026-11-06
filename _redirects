@@ -1,3 +1,25 @@
+# Keep repository and authoring files out of the public site.
+/.env /404.html 404!
+/.env.local /404.html 404!
+/.env.production /404.html 404!
+/.env.development /404.html 404!
+/.git/* /404.html 404!
+/.gitignore /404.html 404!
+/scratch /404.html 404!
+/tools /404.html 404!
+/README.md /404.html 404!
+/SITEMAP.md /404.html 404!
+/industry-page-template.md /404.html 404!
+/guides/blog-post-2-freight-seo-guide.md /404.html 404!
+/guides/blog-post-3-3pl-marketing-mistakes.md /404.html 404!
+/guides/scale-freight-brokerage.md /404.html 404!
+/generate-industry-pages.py /404.html 404!
+/generate-sitemap.js /404.html 404!
+/generate-sitemap.py /404.html 404!
+/watch-sitemap.py /404.html 404!
+/scratch/* /404.html 404!
+/tools/* /404.html 404!
+
 /author / 410
 /author/ / 410
 /author/* / 410
