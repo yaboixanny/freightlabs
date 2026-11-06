@@ -8416,6 +8416,25 @@ nav button.dropdown-toggle:focus-visible {
     text-transform: uppercase;
 }
 
+@media (min-width: 901px) {
+    .company-page .team-profile-card {
+        grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.7fr);
+    }
+
+    .company-page .team-profile-photo {
+        min-height: 450px;
+    }
+
+    .company-page .team-profile-copy {
+        padding: clamp(2rem, 4vw, 4rem);
+    }
+
+    .company-page .team-profile-copy h3 {
+        font-size: clamp(2.4rem, 3.5vw, 3.8rem);
+        line-height: 1.05;
+    }
+}
+
 @media (max-width: 900px) {
     .team-profile-card {
         grid-template-columns: 1fr;
