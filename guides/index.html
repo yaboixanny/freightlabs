@@ -200,6 +200,7 @@
                         <a href="../ecommerce-d2c-logistics/">E-commerce &amp; D2C Logistics</a>
                         <a href="../cold-chain-logistics/">Cold Chain Logistics</a>
                         <a href="../last-mile-urban-delivery/">Last-Mile &amp; Urban Delivery</a>
+                        <a href="../rail-freight-marketing/">Rail Freight Marketing</a>
                     </div>
                 </div>
                 <a href="../about/">About</a>
@@ -233,7 +234,7 @@
                         <h3 class="blog-title">Local SEO for 3PLs: How to Attract Nearby Shippers</h3>
                         <div class="blog-date">October 20, 2025</div>
                         <p class="blog-excerpt">Local SEO brings in high-intent shippers for 3PLs and logistics companies. Learn how to improve local visibility and drive nearby shipper leads.</p>
-                        <a href="../3pl-seo/" class="read-more">Read Guide &rarr;</a>
+                        <a href="../3pl-seo/" class="read-more" aria-label="Read Local SEO for 3PLs: How to Attract Nearby Shippers">Read Guide &rarr;</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -243,7 +244,7 @@
                         <h3 class="blog-title">How to Scale Your Freight Brokerage in 2026</h3>
                         <div class="blog-date">Updated September 12, 2026</div>
                         <p class="blog-excerpt">Discover the strategies and technologies freight brokers can use to build a more scalable operation.</p>
-                        <a href="how-to-scale-freight-brokerage/" class="read-more">Read Guide &rarr;</a>
+                        <a href="how-to-scale-freight-brokerage/" class="read-more" aria-label="Read How to Scale Your Freight Brokerage in 2026">Read Guide &rarr;</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -253,7 +254,7 @@
                         <h3 class="blog-title">The Ultimate Guide to Freight SEO</h3>
                         <div class="blog-date">October 10, 2025</div>
                         <p class="blog-excerpt">Learn how to rank a logistics website and attract more direct shipper leads through organic search.</p>
-                        <a href="freight-seo-guide/" class="read-more">Read Guide &rarr;</a>
+                        <a href="freight-seo-guide/" class="read-more" aria-label="Read The Ultimate Guide to Freight SEO">Read Guide &rarr;</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -263,7 +264,7 @@
                         <h3 class="blog-title">5 Common Mistakes in 3PL Marketing</h3>
                         <div class="blog-date">October 5, 2025</div>
                         <p class="blog-excerpt">Find the common 3PL marketing errors that weaken visibility, lead quality, and return on investment.</p>
-                        <a href="../3pl-marketing-mistakes/" class="read-more">Read Guide &rarr;</a>
+                        <a href="../3pl-marketing-mistakes/" class="read-more" aria-label="Read 5 Common Mistakes in 3PL Marketing">Read Guide &rarr;</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -273,7 +274,7 @@
                         <h3 class="blog-title">Freight Broker Lead Generation Strategies for 2026</h3>
                         <div class="blog-date">September 7, 2026</div>
                         <p class="blog-excerpt">Compare paid search, cold email, LinkedIn outreach, and SEO for building a steadier shipper pipeline.</p>
-                        <a href="freight-broker-lead-generation-strategies-2026/" class="read-more">Read Guide &rarr;</a>
+                        <a href="freight-broker-lead-generation-strategies-2026/" class="read-more" aria-label="Read Freight Broker Lead Generation Strategies for 2026">Read Guide &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -368,6 +369,7 @@
                         <a href="${post.slug}/" class="read-more">Read Guide &rarr;</a>
                     </div>
                 `;
+                postEl.querySelector('.read-more').setAttribute('aria-label', `Read ${post.title}`);
                 grid.appendChild(postEl);
             });
 
