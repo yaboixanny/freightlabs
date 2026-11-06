@@ -30,113 +30,115 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "ProfessionalService",
+      "@id": "https://freightlabsagency.com/#business",
+      "name": "Freight Labs",
+      "url": "https://freightlabsagency.com/",
+      "logo": "https://freightlabsagency.com/freightlabs-logo.png",
+      "email": "hello@freightlabsagency.com",
+      "telephone": "+1-289-698-4155",
+      "areaServed": "North America",
+      "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://freightlabsagency.com/freightseo/#service",
+      "name": "SEO for Logistics Companies",
+      "url": "https://freightlabsagency.com/freightseo/",
+      "description": "Technical SEO, search strategy, content, digital authority, local optimization, and lead attribution for logistics companies.",
+      "serviceType": [
+        "Logistics SEO",
+        "3PL SEO",
+        "Freight Forwarding SEO",
+        "Warehousing SEO"
+      ],
+      "provider": {
+        "@id": "https://freightlabsagency.com/#business"
+      },
+      "areaServed": "North America",
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Freight brokers, 3PLs, freight forwarders, and warehousing providers"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://freightlabsagency.com/freightseo/#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "ProfessionalService",
-          "@id": "https://freightlabsagency.com/#business",
-          "name": "Freight Labs",
-          "url": "https://freightlabsagency.com/",
-          "logo": "https://freightlabsagency.com/freightlabs-logo.png",
-          "email": "hello@freightlabsagency.com",
-          "telephone": "+1-289-698-4155",
-          "areaServed": "North America",
-          "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://freightlabsagency.com/"
         },
         {
-          "@type": "Service",
-          "@id": "https://freightlabsagency.com/freightseo/#service",
+          "@type": "ListItem",
+          "position": 2,
           "name": "SEO for Logistics Companies",
-          "url": "https://freightlabsagency.com/freightseo/",
-          "description": "Technical SEO, search strategy, content, digital authority, local optimization, and lead attribution for logistics companies.",
-          "serviceType": [
-            "Logistics SEO",
-            "3PL SEO",
-            "Freight Forwarding SEO",
-            "Warehousing SEO"
-          ],
-          "provider": { "@id": "https://freightlabsagency.com/#business" },
-          "areaServed": "North America",
-          "audience": {
-            "@type": "BusinessAudience",
-            "audienceType": "Freight brokers, 3PLs, freight forwarders, and warehousing providers"
+          "item": "https://freightlabsagency.com/freightseo/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://freightlabsagency.com/freightseo/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does logistics SEO take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some site fixes can help early. Ranking for competitive searches often takes several months of steady work."
           }
         },
         {
-          "@type": "BreadcrumbList",
-          "@id": "https://freightlabsagency.com/freightseo/#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://freightlabsagency.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "SEO for Logistics Companies",
-              "item": "https://freightlabsagency.com/freightseo/"
-            }
-          ]
+          "@type": "Question",
+          "name": "Do you write the content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Content planning and production can include service pages, location pages, guides, and updates to existing copy."
+          }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://freightlabsagency.com/freightseo/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How long does logistics SEO take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Technical improvements can appear early, while competitive commercial rankings typically require sustained work over several months."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you write the content?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Content planning and production can include service pages, location pages, guides, and updates to existing copy."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you support local and national SEO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The strategy depends on whether buyers choose a nearby facility, a regional provider, or a national partner."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What about AI search visibility?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Clear entities, useful expert content, structured information, and strong authority support visibility across traditional and AI-assisted search."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you guarantee rankings?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No responsible SEO partner can guarantee a position. We define controllable deliverables and report movement, qualified traffic, and leads."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How is performance reported?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Reporting can include indexation, priority rankings, organic landing pages, qualified inquiries, and pipeline signals."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "Can you support local and national SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The strategy depends on whether buyers choose a nearby facility, a regional provider, or a national partner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about AI search visibility?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clear company details, helpful content, and trusted links can help people find you in search and AI tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you guarantee rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No SEO partner can promise a search ranking. We agree on the work and report on rankings, relevant traffic, and leads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is performance reported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reporting can include indexation, priority rankings, organic landing pages, qualified inquiries, and pipeline signals."
+          }
         }
       ]
     }
+  ]
+}
     </script>
     <script>document.documentElement.classList.add('js-enabled');</script>
 </head>
@@ -202,22 +204,22 @@
     <!-- SECTION 1: HERO -->
     <main>
 <header class="ads-hero"><div class="container ads-hero-grid"><div class="ads-hero-content"><div class="hero-eyebrow"><span></span> Logistics SEO / Freight growth</div><h1>SEO for <em>Logistics Companies</em></h1><p class="ads-hero-lead">We help freight brokers, 3PLs, and logistics companies show up in search and bring in more of the right leads.</p><div class="btn-group"><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Discovery Call <span aria-hidden="true">↗</span></a><a href="#scope" class="hero-text-link">See what’s included <span aria-hidden="true">↓</span></a></div></div><div class="ai-search-visual seo-search-visual" role="img" aria-label="Logistics search result built around services, markets, authority, and proof"><div class="ai-query"><span>LOGISTICS SEARCH</span><strong>3PL warehousing near Chicago</strong></div><div class="ai-answer-lines"><i></i><i></i><i></i><i></i></div><div class="ai-source-grid"><span>Service pages</span><span>Locations</span><span>Proof</span><span>Authority</span></div><div class="ai-citation">FOUND / UNDERSTOOD / CHOSEN</div></div></div></header>
-<section class="warehouse-problem" aria-labelledby="service-problem-heading"><div class="container"><span class="section-kicker">What gets in the way</span><h2 id="service-problem-heading">Why your logistics SEO may not be working.</h2><div class="warehouse-problem-intro"><p><strong>Visibility means little without commercial intent.</strong><br>Organic search programs for freight brokers, 3PLs, and logistics providers that turn industry expertise into qualified inbound demand.</p><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-problem-button">Book a Discovery Call <span aria-hidden="true">→</span></a></div><div class="warehouse-problem-grid"><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Broad keyword competition</h3><p>Directories, aggregators, and national brands can absorb visibility without matching your niche strengths.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Fragmented service demand</h3><p>Modes, locations, lanes, verticals, and facility capabilities create different search journeys.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Authority takes structure</h3><p>A few blog posts cannot compensate for weak architecture, technical issues, or unclear service pages.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Slow attribution</h3><p>Long sales cycles make rankings and traffic incomplete measures of SEO performance.</p></div></article></div></div></section>
-<section class="ads-system"><div class="container"><div class="ads-system-heading"><span class="section-kicker section-kicker-light">How it works</span><h2>A simple plan.<br>No guessing.</h2><p>You’ll always know what we’re working on, why it matters, and what comes next.</p></div><div class="ads-system-list ads-process-list"><article><span class="ads-step">01 / Audit</span><h3>Audit</h3><p>Map technical, content, authority, and conversion gaps.</p></article><article><span class="ads-step">02 / Strategy</span><h3>Strategy</h3><p>Prioritize search markets with commercial value.</p></article><article><span class="ads-step">03 / Build</span><h3>Build</h3><p>Improve architecture, core pages, and measurement.</p></article><article><span class="ads-step">04 / Publish</span><h3>Publish</h3><p>Create useful content around buyer decisions.</p></article><article><span class="ads-step">05 / Compound</span><h3>Compound</h3><p>Strengthen winners with links, updates, and conversion data.</p></article></div></div></section>
-<section class="warehouse-seo-services" id="scope" aria-labelledby="service-scope-heading"><div class="container"><h2 id="service-scope-heading">How we help your logistics company grow.</h2><div class="warehouse-seo-services-grid"><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="9" width="36" height="30" rx="2"/><path d="M6 17h36M12 13h2m4 0h2M13 24h10m-10 6h19m-19 5h14"/></svg></div><h3>Technical foundation</h3><p>First, we make sure search engines can properly find, understand, and rank the pages that matter.</p><ul class="service-template-features"><li>Crawl and indexation audit</li><li>Clear site architecture</li><li>Core page optimization</li><li>Schema and internal linking</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-8 11-8 17s2 11 8 17m0-34c6 6 8 11 8 17s-2 11-8 17M11 15h26M11 33h26"/></svg></div><h3>Market strategy</h3><p>We find the searches that match your services and focus on the ones most likely to bring in good-fit buyers.</p><ul class="service-template-features"><li>Commercial keyword research</li><li>Service and location mapping</li><li>Competitor gap analysis</li><li>Search-intent prioritization</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M20 28l8-8M18 32l-3 3a8 8 0 01-11-11l7-7a8 8 0 0111 0M30 16l3-3a8 8 0 0111 11l-7 7a8 8 0 01-11 0"/></svg></div><h3>Content system</h3><p>Then we build useful pages that answer buyer questions and give your sales team something worth sending to prospects.</p><ul class="service-template-features"><li>Service page briefs</li><li>Useful logistics guides</li><li>On-page optimization</li><li>AI search visibility</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M12 5h18l7 7v31H12zM30 5v8h7M18 21h13M18 27h13M18 33h9"/></svg></div><h3>Authority and reporting</h3><p>We strengthen trust around the site and show how search visibility connects to inquiries, leads, and sales activity.</p><ul class="service-template-features"><li>Relevant link strategy</li><li>Local citations where useful</li><li>Search visibility reporting</li><li>Qualified-lead attribution</li></ul></article></div></div></section>
-<section class="warehouse-strategy" aria-labelledby="service-strategy-heading"><div class="container warehouse-strategy-grid"><div class="warehouse-strategy-copy"><h2 id="service-strategy-heading">How our logistics SEO strategy actually works.</h2><p class="warehouse-strategy-lead">Reach shippers and supply-chain buyers.</p><p>We build the work around your logistics company, your goals, and the people you want to reach. That starts with logistics services, markets, and buyer searches.</p><ul><li>Crawl and indexation audit</li><li>Clear site architecture</li><li>Core page optimization</li><li>Schema and internal linking</li><li>Commercial keyword research</li><li>Service and location mapping</li></ul><p>Each part supports a clear path from the first interaction to a useful sales conversation.</p></div><figure class="warehouse-strategy-visual" aria-label="Illustration of a marketing strategy connecting the right audience, clear messaging, and sales inquiries"><div class="warehouse-strategy-diagram"><div class="warehouse-strategy-label warehouse-strategy-label-search"><strong>AUDIENCE</strong><span>Right buyers</span></div><div class="warehouse-strategy-label warehouse-strategy-label-content"><strong>STRATEGY</strong><span>Clear message</span></div><div class="warehouse-strategy-site" aria-hidden="true"><div class="warehouse-strategy-browser"><i></i><i></i><i></i></div><div class="warehouse-strategy-site-hero"><small>LOGISTICS SEO</small><strong>Make it easier for the right buyers to find you.</strong><span>Explore services →</span></div><div class="warehouse-strategy-site-body"><b>Help buyers understand your business.</b><div class="warehouse-strategy-mini-grid"><span>Services</span><span>Markets</span><span>Expertise</span></div><div class="warehouse-strategy-lines"><i></i><i></i><i></i></div><em>Get in touch →</em></div></div><div class="warehouse-strategy-label warehouse-strategy-label-leads"><strong>LEADS</strong><span>Useful inquiries</span></div></div></figure></div></section>
-    <section class="seo-verticals" id="industry-seo"><div class="container"><div class="section-heading split-heading"><div><span class="section-kicker">SEO by logistics model</span><h2>Different operations require different search strategies.</h2></div><p>The right plan depends on what you sell, where you operate, and what buyers need to see before they ask for a quote. Here is what we would focus on for five common logistics businesses.</p></div><div class="seo-verticals-grid">
-<article id="seo-for-3pls" data-card-number="01"><span class="seo-vertical-code">3PL SEO</span><h3>SEO for 3PL companies</h3><p class="seo-playbook-summary">3PL buyers usually search by service, location, industry, and order profile—not simply “3PL.” Build pages around the combinations you can actually serve.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>E-commerce 3PL, retail distribution, omnichannel fulfillment, reverse logistics</dd></div><div><dt>High-value pages</dt><dd>Fulfillment, warehousing, transportation management, industries, and real facility locations</dd></div><div><dt>Proof buyers need</dt><dd>Facility data, integrations, SLAs, accuracy, customer examples, and onboarding steps</dd></div><div><dt>Ask every lead</dt><dd>Order volume, pallets, SKUs, geography, integrations, and start date</dd></div></dl><a class="seo-playbook-link" href="../3pl-seo/">See the full 3PL SEO approach <span aria-hidden="true">→</span></a></article>
+<section class="warehouse-problem" aria-labelledby="service-problem-heading"><div class="container"><span class="section-kicker">What gets in the way</span><h2 id="service-problem-heading">Why your logistics SEO may not be working.</h2><div class="warehouse-problem-intro"><p><strong>Visibility means little without buyer intent.</strong><br>Organic search programs for freight brokers, 3PLs, and logistics providers that turn industry expertise into qualified inbound demand.</p><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-problem-button">Book a Discovery Call <span aria-hidden="true">→</span></a></div><div class="warehouse-problem-grid"><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Broad keyword competition</h3><p>Directories, aggregators, and national brands can absorb visibility without matching your niche strengths.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Fragmented service demand</h3><p>Modes, locations, lanes, verticals, and facility capabilities create different search journeys.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Authority takes structure</h3><p>A few blog posts cannot compensate for weak architecture, technical issues, or unclear service pages.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Slow attribution</h3><p>Long sales cycles make rankings and traffic incomplete measures of SEO performance.</p></div></article></div></div></section>
+<section class="ads-system"><div class="container"><div class="ads-system-heading"><span class="section-kicker section-kicker-light">How it works</span><h2>A simple plan.<br>No guessing.</h2><p>You’ll always know what we’re working on, why it matters, and what comes next.</p></div><div class="ads-system-list ads-process-list"><article><span class="ads-step">01 / Audit</span><h3>Audit</h3><p>Map technical, content, authority, and conversion gaps.</p></article><article><span class="ads-step">02 / Strategy</span><h3>Strategy</h3><p>Focus on search markets with business value.</p></article><article><span class="ads-step">03 / Build</span><h3>Build</h3><p>Improve architecture, core pages, and measurement.</p></article><article><span class="ads-step">04 / Publish</span><h3>Publish</h3><p>Create useful content around buyer decisions.</p></article><article><span class="ads-step">05 / Compound</span><h3>Compound</h3><p>Strengthen winners with links, updates, and conversion data.</p></article></div></div></section>
+<section class="warehouse-seo-services" id="scope" aria-labelledby="service-scope-heading"><div class="container"><h2 id="service-scope-heading">How we help your logistics company grow.</h2><div class="warehouse-seo-services-grid"><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="9" width="36" height="30" rx="2"/><path d="M6 17h36M12 13h2m4 0h2M13 24h10m-10 6h19m-19 5h14"/></svg></div><h3>Technical foundation</h3><p>First, we make sure search engines can properly find, understand, and rank the pages that matter.</p><ul class="service-template-features"><li>Crawl and indexation audit</li><li>Clear site architecture</li><li>Core page optimization</li><li>Schema and internal linking</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-8 11-8 17s2 11 8 17m0-34c6 6 8 11 8 17s-2 11-8 17M11 15h26M11 33h26"/></svg></div><h3>Market strategy</h3><p>We find the searches that match your services and focus on the ones most likely to bring in good-fit buyers.</p><ul class="service-template-features"><li>Commercial keyword research</li><li>Service and location mapping</li><li>Competitor gap analysis</li><li>Search-intent prioritization</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M20 28l8-8M18 32l-3 3a8 8 0 01-11-11l7-7a8 8 0 0111 0M30 16l3-3a8 8 0 0111 11l-7 7a8 8 0 01-11 0"/></svg></div><h3>Content system</h3><p>Then we build useful pages that answer buyer questions and give your sales team something worth sending to prospects.</p><ul class="service-template-features"><li>Service page briefs</li><li>Useful logistics guides</li><li>On-page optimization</li><li>AI search visibility</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M12 5h18l7 7v31H12zM30 5v8h7M18 21h13M18 27h13M18 33h9"/></svg></div><h3>Authority and reporting</h3><p>We strengthen trust around the site and show how search visibility connects to inquiries, leads, and sales activity.</p><ul class="service-template-features"><li>Relevant link strategy</li><li>Local citations where useful</li><li>Search visibility reporting</li><li>Track leads from search</li></ul></article></div></div></section>
+<section class="warehouse-strategy" aria-labelledby="service-strategy-heading"><div class="container warehouse-strategy-grid"><div class="warehouse-strategy-copy"><h2 id="service-strategy-heading">How our logistics SEO strategy actually works.</h2><p class="warehouse-strategy-lead">Reach shippers and supply-chain buyers.</p><p>We start with your goals, services, and the buyers you want to reach. Then we look at the searches they use.</p><ul><li>Crawl and indexation audit</li><li>Clear site architecture</li><li>Core page optimization</li><li>Schema and internal linking</li><li>Commercial keyword research</li><li>Service and location mapping</li></ul><p>Each step helps turn interest into a useful sales conversation.</p></div><figure class="warehouse-strategy-visual" aria-label="Illustration of a marketing strategy connecting the right audience, clear messaging, and sales inquiries"><div class="warehouse-strategy-diagram"><div class="warehouse-strategy-label warehouse-strategy-label-search"><strong>AUDIENCE</strong><span>Right buyers</span></div><div class="warehouse-strategy-label warehouse-strategy-label-content"><strong>STRATEGY</strong><span>Clear message</span></div><div class="warehouse-strategy-site" aria-hidden="true"><div class="warehouse-strategy-browser"><i></i><i></i><i></i></div><div class="warehouse-strategy-site-hero"><small>LOGISTICS SEO</small><strong>Make it easier for the right buyers to find you.</strong><span>Explore services →</span></div><div class="warehouse-strategy-site-body"><b>Help buyers understand your business.</b><div class="warehouse-strategy-mini-grid"><span>Services</span><span>Markets</span><span>Expertise</span></div><div class="warehouse-strategy-lines"><i></i><i></i><i></i></div><em>Get in touch →</em></div></div><div class="warehouse-strategy-label warehouse-strategy-label-leads"><strong>LEADS</strong><span>Useful inquiries</span></div></div></figure></div></section>
+    <section class="seo-verticals" id="industry-seo"><div class="container"><div class="section-heading split-heading"><div><span class="section-kicker">SEO by logistics model</span><h2>Different operations need different search strategies.</h2></div><p>The right plan depends on what you sell, where you operate, and what buyers need to see before they ask for a quote. Here is what we would focus on for five common logistics businesses.</p></div><div class="seo-verticals-grid">
+<article id="seo-for-3pls" data-card-number="01"><span class="seo-vertical-code">3PL SEO</span><h3>SEO for 3PL companies</h3><p class="seo-playbook-summary">3PL buyers search by service, location, industry, and order needs. Build pages around the work you can actually handle.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>E-commerce 3PL, retail distribution, omnichannel fulfillment, reverse logistics</dd></div><div><dt>High-value pages</dt><dd>Fulfillment, warehousing, transportation management, industries, and real facility locations</dd></div><div><dt>Proof buyers need</dt><dd>Facility data, integrations, SLAs, accuracy, customer examples, and onboarding steps</dd></div><div><dt>Ask every lead</dt><dd>Order volume, pallets, SKUs, geography, integrations, and start date</dd></div></dl><a class="seo-playbook-link" href="../3pl-seo/">See the full 3PL SEO approach <span aria-hidden="true">→</span></a></article>
 <article id="seo-for-brokers" data-card-number="02"><span class="seo-vertical-code">Brokerage SEO</span><h3>SEO for freight brokers</h3><p class="seo-playbook-summary">Brokerage buyers search by mode, lane, freight type, urgency, and service level. Build pages around the freight you can cover and the shippers you want to win.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Freight broker, FTL broker, LTL shipping, expedited freight, cross-border brokerage</dd></div><div><dt>High-value pages</dt><dd>Modes, freight types, markets, shipper industries, and quote paths</dd></div><div><dt>Proof buyers need</dt><dd>Carrier network, coverage, tracking, service process, and relevant experience</dd></div><div><dt>Ask every lead</dt><dd>Origin, destination, mode, commodity, frequency, and timing</dd></div></dl><a class="seo-playbook-link" href="../freightleads/">See our freight broker lead generation approach <span aria-hidden="true">→</span></a></article>
 <article id="seo-for-forwarders" data-card-number="03"><span class="seo-vertical-code">Forwarding SEO</span><h3>SEO for freight forwarders</h3><p class="seo-playbook-summary">Forwarding searches split by mode, trade lane, urgency, customs needs, and commodity. Each important service needs its own useful page.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Air freight forwarder, ocean forwarding, customs help, project cargo</dd></div><div><dt>High-value pages</dt><dd>Air, ocean, customs, project cargo, and the trade lanes you genuinely serve</dd></div><div><dt>Proof buyers need</dt><dd>Gateways, schedules, partner network, documentation, tracking, and handling experience</dd></div><div><dt>Ask every lead</dt><dd>Origin, destination, mode, commodity, dimensions, and urgency</dd></div></dl><a class="seo-playbook-link" href="../freight-forwarding-transportation/">See our freight forwarding marketing approach <span aria-hidden="true">→</span></a></article>
 <article id="seo-for-warehousing" data-card-number="04"><span class="seo-vertical-code">Warehousing SEO</span><h3>SEO for warehousing and fulfillment providers</h3><p class="seo-playbook-summary">Warehouse buyers compare location and capability together. A facility page should quickly show whether the building fits their operation.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Food-grade warehouse, Shopify fulfillment, cross-dock facility, cold storage</dd></div><div><dt>High-value pages</dt><dd>Each real facility, services, integrations, industries, and onboarding</dd></div><div><dt>Proof buyers need</dt><dd>Square footage, pallet positions, docks, temperature range, certifications, and cutoffs</dd></div><div><dt>Ask every lead</dt><dd>Pallets or orders, SKUs, storage needs, integrations, seasonality, and start date</dd></div></dl><a class="seo-playbook-link" href="../seo-warehousing/">See our warehousing SEO approach <span aria-hidden="true">→</span></a></article>
 <article id="seo-for-intermodal" data-card-number="05"><span class="seo-vertical-code">Intermodal SEO</span><h3>SEO for intermodal logistics providers</h3><p class="seo-playbook-summary">Intermodal buyers search by rail ramp, port, lane, mode, and operating need. Make your real network and capabilities easy to verify. For broader rail-freight positioning, see our <a href="../rail-freight-marketing/">rail freight marketing service</a>.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Rail freight service, port drayage, intermodal carrier, transload facility</dd></div><div><dt>High-value pages</dt><dd>Terminals, lanes, drayage, rail, transload, storage, and specialized freight</dd></div><div><dt>Proof buyers need</dt><dd>Service radius, equipment, capacity, tracking, compliance, and railroad access</dd></div><div><dt>Ask every lead</dt><dd>Origin, destination, container, commodity, weight, volume, and timing</dd></div></dl><a class="seo-playbook-link" href="../seo-intermodal-logistics/">See our intermodal SEO approach <span aria-hidden="true">→</span></a></article>
 </div><p class="seo-pricing-note">Need a fleet-specific plan? See our <a href="../seo-trucking-companies/">SEO for trucking companies</a>. For a carrier-focused program across modes and markets, see our <a href="../transportation-seo/">Transportation SEO</a> service.</p></div></section>
 <section class="ads-pricing seo-pricing" id="pricing"><div class="container"><div class="seo-pricing-heading"><div><span class="section-kicker section-kicker-light">Logistics SEO pricing</span><h2>Choose the level of help you need.</h2></div><p>Both plans are built for logistics companies and include a clear monthly roadmap. Start with the essentials or move faster with a larger content and authority program.</p></div><div class="seo-pricing-options">
-<article class="ads-pricing-card seo-pricing-card"><span class="pricing-label">SEO Foundation</span><h3>Build the right base</h3><div class="seo-price"><span>From</span><strong>$1,250</strong><small>USD / month</small></div><p>Best for a smaller logistics company that needs the fundamentals fixed and a steady SEO plan.</p><ul class="ads-feature-list"><li>Technical SEO audit and fixes</li><li>Keyword and competitor research</li><li>Up to 2 new or improved pages monthly</li><li>On-page SEO and internal links</li><li>Basic schema improvements</li><li>Monthly reporting and strategy call</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
+<article class="ads-pricing-card seo-pricing-card"><span class="pricing-label">SEO Foundation</span><h3>Build the right base</h3><div class="seo-price"><span>From</span><strong>$1,250</strong><small>USD / month</small></div><p>Best for a smaller logistics company that needs the fundamentals fixed and a steady SEO plan.</p><ul class="ads-feature-list"><li>Technical SEO audit and fixes</li><li>Keyword and competitor research</li><li>Up to 2 new or improved pages monthly</li><li>On-page SEO and internal links</li><li>Basic schema improvements</li><li>Monthly reports and strategy call</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
 <article class="ads-pricing-card seo-pricing-card seo-pricing-featured"><span class="pricing-label">Most popular / SEO Growth</span><h3>Grow in more markets</h3><div class="seo-price"><span>From</span><strong>$2,250</strong><small>USD / month</small></div><p>Best for a growing 3PL, carrier, forwarder, or warehouse competing across more services and locations.</p><ul class="ads-feature-list"><li>Everything in SEO Foundation</li><li>Up to 4 new or improved pages monthly</li><li>Service, industry, and location strategy</li><li>Digital PR and link outreach</li><li>AI search visibility improvements</li><li>Lead tracking and pipeline reporting</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
-</div><div class="seo-new-growth-cta"><div class="seo-new-growth-copy"><span>New Growth Plans</span><h3>Still early? You don’t need the biggest plan.</h3><p>If you’re just getting started or your logistics business is under $1M in annual revenue, we can build a smaller custom SEO plan around the few things most likely to help you grow.</p></div><a href="../contact/" class="seo-new-growth-link">Ask about New Growth Plans <span aria-hidden="true">→</span></a></div><p class="seo-pricing-note">Need something larger or more specialized? We can build a custom plan for multi-location and enterprise logistics teams.</p></div></section>
-<section class="ads-channels google-ads-faq"><div class="container"><div class="section-heading ads-channel-heading"><span class="section-kicker">Quick answers</span><h2>What you might be wondering.</h2></div><div class="ads-faq-list"><details open><summary><span>01</span>How long does logistics SEO take?</summary><p>Technical improvements can appear early, while competitive commercial rankings typically require sustained work over several months.</p></details><details ><summary><span>02</span>Do you write the content?</summary><p>Yes. Content planning and production can include service pages, location pages, guides, and updates to existing copy.</p></details><details ><summary><span>03</span>Can you support local and national SEO?</summary><p>Yes. The strategy depends on whether buyers choose a nearby facility, a regional provider, or a national partner.</p></details><details ><summary><span>04</span>What about AI search visibility?</summary><p>Clear entities, useful expert content, structured information, and strong authority support visibility across traditional and AI-assisted search.</p></details><details ><summary><span>05</span>Do you guarantee rankings?</summary><p>No responsible SEO partner can guarantee a position. We define controllable deliverables and report movement, qualified traffic, and leads.</p></details><details ><summary><span>06</span>How is performance reported?</summary><p>Reporting can include indexation, priority rankings, organic landing pages, qualified inquiries, and pipeline signals.</p></details></div></div></section>
+</div><div class="seo-new-growth-cta"><div class="seo-new-growth-copy"><span>New Growth Plans</span><h3>Still early? You don’t need the biggest plan.</h3><p>If your logistics business is new or earns under $1M a year, we can build a smaller SEO plan. We will focus on the work most likely to help you grow.</p></div><a href="../contact/" class="seo-new-growth-link">Ask about New Growth Plans <span aria-hidden="true">→</span></a></div><p class="seo-pricing-note">Need something larger or more specialized? We can build a custom plan for multi-location and enterprise logistics teams.</p></div></section>
+<section class="ads-channels google-ads-faq"><div class="container"><div class="section-heading ads-channel-heading"><span class="section-kicker">Quick answers</span><h2>What you might be wondering.</h2></div><div class="ads-faq-list"><details open><summary><span>01</span>How long does logistics SEO take?</summary><p>Some site fixes can help early. Ranking for competitive searches often takes several months of steady work.</p></details><details ><summary><span>02</span>Do you write the content?</summary><p>Yes. Content planning and production can include service pages, location pages, guides, and updates to existing copy.</p></details><details ><summary><span>03</span>Can you support local and national SEO?</summary><p>Yes. The strategy depends on whether buyers choose a nearby facility, a regional provider, or a national partner.</p></details><details ><summary><span>04</span>What about AI search visibility?</summary><p>Clear company details, helpful content, and trusted links can help people find you in search and AI tools.</p></details><details ><summary><span>05</span>Do you guarantee rankings?</summary><p>No SEO partner can promise a search ranking. We agree on the work and report on rankings, relevant traffic, and leads.</p></details><details ><summary><span>06</span>How is performance reported?</summary><p>Reporting can include indexation, priority rankings, organic landing pages, qualified inquiries, and pipeline signals.</p></details></div></div></section>
 <section class="seo-roadmap" id="year-plan"><div class="container"><div class="section-heading split-heading seo-roadmap-heading"><div><span class="section-kicker">Your year in search</span><h2>A 1-Year Logistics SEO Plan.</h2></div><p>A practical roadmap for turning a scattered search presence into a steady source of better-fit logistics leads.</p></div><div class="seo-roadmap-grid">
 <article class="seo-roadmap-card"><div class="roadmap-card-head"><span class="roadmap-number">01</span><span class="roadmap-window">Months 1–3</span></div><h3>Build the Foundation</h3><ul><li><strong>Audit</strong><span>Fix technical, indexing, content, and conversion gaps</span></li><li><strong>Research</strong><span>Map services and markets to real buyer searches</span></li><li><strong>Tracking</strong><span>Set lead, ranking, and traffic baselines</span></li><li><strong>Core Pages</strong><span>Improve the pages tied to your strongest offers</span></li></ul></article>
 <article class="seo-roadmap-card"><div class="roadmap-card-head"><span class="roadmap-number">02</span><span class="roadmap-window">Months 3–6</span></div><h3>Expand Search Coverage</h3><ul><li><strong>Markets</strong><span>Create useful location and service-area pages</span></li><li><strong>Industries</strong><span>Add pages for high-value customer verticals</span></li><li><strong>Structure</strong><span>Connect priority content with clearer internal links</span></li><li><strong>Conversion</strong><span>Make qualified inquiries easier to start</span></li></ul></article>
@@ -233,13 +235,13 @@
                 <ul>
                     <li>Discuss your services and ideal customers</li>
                     <li>Review how shippers find you in search</li>
-                    <li>Identify useful next steps for your SEO</li>
+                    <li>Find useful next steps for your SEO</li>
                 </ul>
             </div>
             <div class="warehouse-cta-card">
                 <p class="warehouse-cta-card-heading">Let’s talk about your search visibility.</p>
                 <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-cta-button">Schedule a Discovery Call <span aria-hidden="true">→</span></a>
-                <p class="warehouse-cta-note">No pressure. Just a useful conversation about your business.</p>
+                <p class="warehouse-cta-note">No pressure. Just a helpful talk about your business.</p>
             </div>
         </div>
     </div>

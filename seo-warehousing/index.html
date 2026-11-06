@@ -29,114 +29,116 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "ProfessionalService",
+      "@id": "https://freightlabsagency.com/#business",
+      "name": "Freight Labs",
+      "url": "https://freightlabsagency.com/",
+      "logo": "https://freightlabsagency.com/freightlabs-logo.png",
+      "email": "hello@freightlabsagency.com",
+      "telephone": "+1-289-698-4155",
+      "areaServed": "North America",
+      "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://freightlabsagency.com/seo-warehousing/#service",
+      "name": "SEO for Warehousing Companies",
+      "url": "https://freightlabsagency.com/seo-warehousing/",
+      "description": "Technical SEO, facility pages, local optimization, content, and lead tracking for warehouses and fulfillment providers.",
+      "serviceType": [
+        "Warehousing SEO",
+        "SEO for Warehouses",
+        "SEO for Warehousing Companies",
+        "Fulfillment Center SEO",
+        "3PL Warehousing SEO"
+      ],
+      "provider": {
+        "@id": "https://freightlabsagency.com/#business"
+      },
+      "areaServed": "North America",
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Warehouse operators, fulfillment providers, distribution centers, and 3PL warehousing companies"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://freightlabsagency.com/seo-warehousing/#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "ProfessionalService",
-          "@id": "https://freightlabsagency.com/#business",
-          "name": "Freight Labs",
-          "url": "https://freightlabsagency.com/",
-          "logo": "https://freightlabsagency.com/freightlabs-logo.png",
-          "email": "hello@freightlabsagency.com",
-          "telephone": "+1-289-698-4155",
-          "areaServed": "North America",
-          "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://freightlabsagency.com/"
         },
         {
-          "@type": "Service",
-          "@id": "https://freightlabsagency.com/seo-warehousing/#service",
+          "@type": "ListItem",
+          "position": 2,
           "name": "SEO for Warehousing Companies",
-          "url": "https://freightlabsagency.com/seo-warehousing/",
-          "description": "Technical SEO, facility pages, local optimization, content, and lead tracking for warehouses and fulfillment providers.",
-          "serviceType": [
-            "Warehousing SEO",
-            "SEO for Warehouses",
-            "SEO for Warehousing Companies",
-            "Fulfillment Center SEO",
-            "3PL Warehousing SEO"
-          ],
-          "provider": { "@id": "https://freightlabsagency.com/#business" },
-          "areaServed": "North America",
-          "audience": {
-            "@type": "BusinessAudience",
-            "audienceType": "Warehouse operators, fulfillment providers, distribution centers, and 3PL warehousing companies"
+          "item": "https://freightlabsagency.com/seo-warehousing/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://freightlabsagency.com/seo-warehousing/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does warehousing SEO take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some site and local search fixes can help early. Ranking for competitive facility and service searches often takes several months."
           }
         },
         {
-          "@type": "BreadcrumbList",
-          "@id": "https://freightlabsagency.com/seo-warehousing/#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://freightlabsagency.com/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "SEO for Warehousing Companies",
-              "item": "https://freightlabsagency.com/seo-warehousing/"
-            }
-          ]
+          "@type": "Question",
+          "name": "Should every warehouse have its own page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if it is a real operating site. Each page should show that facility’s details, services, contacts, and proof of its work."
+          }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://freightlabsagency.com/seo-warehousing/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How long does warehousing SEO take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Technical and local improvements can show early movement, while competitive facility and service searches usually need steady work over several months."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Should every warehouse have its own page?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, when it is a real operating location. Each page should include unique facility data, capabilities, service area, contacts, and proof."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you help with local SEO?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We align facility pages, business listings, local citations, and service-area information so buyers and search engines see a consistent location."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you write warehouse content?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We turn your facility and operating details into clear location, service, industry, integration, and educational pages."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can SEO bring better-fit inquiries?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "It can when pages clearly state location, capacity, capabilities, systems, minimums, and the information required in the lead form."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How do you measure results?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We track priority rankings, organic traffic to facility and service pages, qualified inquiries, calls, and sales feedback."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "Can you help with local SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We match your facility pages, business listings, and local profiles. This helps buyers and search engines find accurate location details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you write warehouse content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We use your facility and service details to write clear pages and guides for buyers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can SEO bring better-fit inquiries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when your pages clearly show your location, capacity, services, systems, and minimums. Your form should also ask for the details sales needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you measure results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We track key rankings, visits to your pages, inquiries, calls, and feedback from your sales team."
+          }
         }
       ]
     }
+  ]
+}
     </script>
     <script>document.documentElement.classList.add('js-enabled');</script>
 </head>
@@ -201,7 +203,7 @@
 
     <!-- SECTION 1: HERO -->
     <main>
-<header class="ads-hero"><div class="container ads-hero-grid"><div class="ads-hero-content"><div class="hero-eyebrow"><span></span> Warehousing SEO / Facility growth</div><h1>SEO for <em>Warehousing Companies</em></h1><p class="ads-hero-lead">Get found by companies searching for the location, space, services, and integrations your warehouse can actually provide.</p><div class="btn-group"><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Discovery Call <span aria-hidden="true">↗</span></a><a href="#scope" class="hero-text-link">See what’s included <span aria-hidden="true">↓</span></a></div></div><div class="ai-search-visual seo-search-visual" role="img" aria-label="Warehouse search result organized around location, capacity, services, and integrations"><div class="ai-query"><span>WAREHOUSING SEARCH</span><strong>food-grade warehouse near Chicago</strong></div><div class="ai-answer-lines"><i></i><i></i><i></i><i></i></div><div class="ai-source-grid"><span>Locations</span><span>Capacity</span><span>Services</span><span>Integrations</span></div><div class="ai-citation">FOUND / MATCHED / CONTACTED</div></div></div></header>
+<header class="ads-hero"><div class="container ads-hero-grid"><div class="ads-hero-content"><div class="hero-eyebrow"><span></span> Warehousing SEO / Facility growth</div><h1>SEO for <em>Warehousing Companies</em></h1><p class="ads-hero-lead">Help buyers find your warehouse when they need your location, space, services, and systems.</p><div class="btn-group"><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Discovery Call <span aria-hidden="true">↗</span></a><a href="#scope" class="hero-text-link">See what’s included <span aria-hidden="true">↓</span></a></div></div><div class="ai-search-visual seo-search-visual" role="img" aria-label="Warehouse search result organized around location, capacity, services, and integrations"><div class="ai-query"><span>WAREHOUSING SEARCH</span><strong>food-grade warehouse near Chicago</strong></div><div class="ai-answer-lines"><i></i><i></i><i></i><i></i></div><div class="ai-source-grid"><span>Locations</span><span>Capacity</span><span>Services</span><span>Integrations</span></div><div class="ai-citation">FOUND / MATCHED / CONTACTED</div></div></div></header>
 <section class="warehouse-problem" aria-labelledby="warehouse-problem-heading">
     <div class="container">
         <span class="section-kicker">What gets in the way</span>
@@ -214,7 +216,7 @@
             <article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Locations are buried</h3><p>Buyers cannot quickly find which facilities serve their market or whether space is available where they need it.</p></div></article>
             <article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Capabilities look generic</h3><p>“Flexible solutions” says little about pallet positions, docks, temperature ranges, handling, or cutoffs.</p></div></article>
             <article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Services share one page</h3><p>Warehousing, fulfillment, cross-docking, transloading, and returns need clear, useful explanations.</p></div></article>
-            <article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Lead forms lack context</h3><p>Without SKU, pallet, order, integration, and timing details, sales teams receive hard-to-qualify inquiries.</p></div></article>
+            <article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Lead forms lack context</h3><p>Without details on orders, pallets, SKUs, systems, and timing, sales teams cannot easily check if a lead fits.</p></div></article>
         </div>
     </div>
 </section>
@@ -227,22 +229,22 @@
             <article class="warehouse-seo-service-card">
                 <div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="9" width="36" height="30" rx="2"/><path d="M6 17h36M12 13h2m4 0h2M13 24h10m-10 6h19m-19 5h14"/></svg></div>
                 <h3>On-page SEO</h3><p class="warehouse-seo-card-subtitle">Make every important page easier to find.</p>
-                <p>We optimize your facility and service pages around the locations, storage needs, and warehouse capabilities buyers actually search for. Clear titles, page structure, and internal links help search engines and customers understand your offer.</p>
+                <p>We improve your facility and service pages around the locations and storage needs buyers search for. Clear titles and links help buyers and search engines understand your offer.</p>
             </article>
             <article class="warehouse-seo-service-card">
                 <div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-8 11-8 17s2 11 8 17m0-34c6 6 8 11 8 17s-2 11-8 17M11 15h26M11 33h26"/></svg></div>
                 <h3>Off-page SEO</h3><p class="warehouse-seo-card-subtitle">Build a consistent presence beyond your site.</p>
-                <p>We review your facility listings, business information, and relevant industry citations so potential customers can find accurate details about your locations and services across the web.</p>
+                <p>We check your business listings and industry profiles. This helps buyers find the right details about your locations and services.</p>
             </article>
             <article class="warehouse-seo-service-card">
                 <div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M20 28l8-8M18 32l-3 3a8 8 0 01-11-11l7-7a8 8 0 0111 0M30 16l3-3a8 8 0 0111 11l-7 7a8 8 0 01-11 0"/></svg></div>
                 <h3>Link building</h3><p class="warehouse-seo-card-subtitle">Earn relevant links that support your authority.</p>
-                <p>We look for relevant opportunities to earn links and mentions from logistics publications, industry organizations, and other credible sources that connect to your warehouse business.</p>
+                <p>We look for chances to earn links and mentions from trusted logistics sites and industry groups.</p>
             </article>
             <article class="warehouse-seo-service-card">
                 <div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M12 5h18l7 7v31H12zM30 5v8h7M18 21h13M18 27h13M18 33h9"/></svg></div>
                 <h3>Content</h3><p class="warehouse-seo-card-subtitle">Answer the questions warehouse buyers ask.</p>
-                <p>We create and improve facility pages, service content, and useful guides that explain your capabilities, integrations, and operating requirements—helping buyers assess fit before they reach out.</p>
+                <p>We create and update pages and guides about your facilities and services. They help buyers see if your warehouse fits their needs.</p>
             </article>
         </div>
     </div>
@@ -259,7 +261,7 @@
                     <li>Build useful facility and service pages around your real operation</li>
                     <li>Show the details buyers need to assess fit, from capacity to integrations</li>
                     <li>Strengthen local visibility, industry citations, and relevant links</li>
-                    <li>Track search performance and inquiries to guide ongoing improvements</li>
+                    <li>Track search performance and inquiries to guide ongoing updates</li>
                 </ul>
                 <p>Each part works together to make your warehouse easier to find, understand, and contact.</p>
             </div>
@@ -277,14 +279,14 @@
             </figure>
         </div>
     </section>
-<section class="ads-pricing seo-pricing" id="pricing"><div class="container"><div class="seo-pricing-heading"><div><span class="section-kicker section-kicker-light">Warehousing SEO pricing</span><h2>Choose the level of help you need.</h2></div><p>Start with one facility and the essentials or build a wider search presence across more locations and services.</p></div><div class="seo-pricing-options">
-<article class="ads-pricing-card seo-pricing-card"><span class="pricing-label">SEO Foundation</span><h3>Build the right base</h3><div class="seo-price"><span>From</span><strong>$1,250</strong><small>USD / month</small></div><p>Best for a warehouse that needs its core facility and service pages cleaned up.</p><ul class="ads-feature-list"><li>Technical SEO audit and fixes</li><li>Warehouse keyword research</li><li>Up to 2 new or improved pages monthly</li><li>Facility and service page optimization</li><li>Local schema and internal links</li><li>Monthly reporting and strategy call</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
+<section class="ads-pricing seo-pricing" id="pricing"><div class="container"><div class="seo-pricing-heading"><div><span class="section-kicker section-kicker-light">Warehousing SEO pricing</span><h2>Choose the level of help you need.</h2></div><p>Start with one facility and the basics. Or choose a plan that covers more locations and services.</p></div><div class="seo-pricing-options">
+<article class="ads-pricing-card seo-pricing-card"><span class="pricing-label">SEO Foundation</span><h3>Build the right base</h3><div class="seo-price"><span>From</span><strong>$1,250</strong><small>USD / month</small></div><p>Best for a warehouse that needs its core facility and service pages cleaned up.</p><ul class="ads-feature-list"><li>Technical SEO audit and fixes</li><li>Warehouse keyword research</li><li>Up to 2 new or improved pages monthly</li><li>Facility and service page optimization</li><li>Local schema and internal links</li><li>Monthly reports and strategy call</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
 <article class="ads-pricing-card seo-pricing-card seo-pricing-featured"><span class="pricing-label">Most popular / SEO Growth</span><h3>Grow across more markets</h3><div class="seo-price"><span>From</span><strong>$2,250</strong><small>USD / month</small></div><p>Best for a multi-location operator or fulfillment company with several service lines.</p><ul class="ads-feature-list"><li>Everything in SEO Foundation</li><li>Up to 4 new or improved pages monthly</li><li>Facility, service, and industry strategy</li><li>Digital PR and link outreach</li><li>AI search visibility improvements</li><li>Qualified-inquiry tracking</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
 </div></div></section>
-<section class="ads-channels google-ads-faq"><div class="container"><div class="section-heading ads-channel-heading"><span class="section-kicker">Quick answers</span><h2>Warehousing SEO questions, answered.</h2></div><div class="ads-faq-list"><details open><summary><span>01</span>How long does warehousing SEO take?</summary><p>Technical and local improvements can show early movement, while competitive facility and service searches usually need steady work over several months.</p></details><details><summary><span>02</span>Should every warehouse have its own page?</summary><p>Yes, when it is a real operating location. Each page should include unique facility data, capabilities, service area, contacts, and proof.</p></details><details><summary><span>03</span>Can you help with local SEO?</summary><p>Yes. We align facility pages, business listings, local citations, and service-area information so buyers and search engines see a consistent location.</p></details><details><summary><span>04</span>Do you write warehouse content?</summary><p>Yes. We turn your facility and operating details into clear location, service, industry, integration, and educational pages.</p></details><details><summary><span>05</span>Can SEO bring better-fit inquiries?</summary><p>It can when pages clearly state location, capacity, capabilities, systems, minimums, and the information required in the lead form.</p></details><details><summary><span>06</span>How do you measure results?</summary><p>We track priority rankings, organic traffic to facility and service pages, qualified inquiries, calls, and sales feedback.</p></details></div></div></section>
+<section class="ads-channels google-ads-faq"><div class="container"><div class="section-heading ads-channel-heading"><span class="section-kicker">Quick answers</span><h2>Warehousing SEO questions, answered.</h2></div><div class="ads-faq-list"><details open><summary><span>01</span>How long does warehousing SEO take?</summary><p>Some site and local search fixes can help early. Ranking for competitive facility and service searches often takes several months.</p></details><details><summary><span>02</span>Should every warehouse have its own page?</summary><p>Yes, if it is a real operating site. Each page should show that facility’s details, services, contacts, and proof of its work.</p></details><details><summary><span>03</span>Can you help with local SEO?</summary><p>Yes. We match your facility pages, business listings, and local profiles. This helps buyers and search engines find accurate location details.</p></details><details><summary><span>04</span>Do you write warehouse content?</summary><p>Yes. We use your facility and service details to write clear pages and guides for buyers.</p></details><details><summary><span>05</span>Can SEO bring better-fit inquiries?</summary><p>Yes, when your pages clearly show your location, capacity, services, systems, and minimums. Your form should also ask for the details sales needs.</p></details><details><summary><span>06</span>How do you measure results?</summary><p>We track key rankings, visits to your pages, inquiries, calls, and feedback from your sales team.</p></details></div></div></section>
 <section class="seo-roadmap" id="year-plan"><div class="container"><div class="section-heading split-heading seo-roadmap-heading"><div><span class="section-kicker">Your year in search</span><h2>A 1-Year Warehouse SEO Plan.</h2></div><p>SEO builds over time. This roadmap turns facility details, service expertise, and local visibility into a search presence that keeps getting stronger.</p></div><div class="seo-roadmap-grid">
 <article class="seo-roadmap-card"><div class="roadmap-card-head"><span class="roadmap-number">01</span><span class="roadmap-window">Months 1–3</span></div><h3>Fix the Foundation</h3><ul><li><strong>Audit</strong><span>Fix technical, indexing, content, and conversion issues</span></li><li><strong>Research</strong><span>Map buyer searches by facility, service, and location</span></li><li><strong>Tracking</strong><span>Set calls, forms, rankings, and lead-quality baselines</span></li><li><strong>Core Pages</strong><span>Improve the highest-priority facility and service pages</span></li></ul></article>
-<article class="seo-roadmap-card"><div class="roadmap-card-head"><span class="roadmap-number">02</span><span class="roadmap-window">Months 3–6</span></div><h3>Build Market Coverage</h3><ul><li><strong>Facilities</strong><span>Build location pages with real operational details</span></li><li><strong>Services</strong><span>Add pages for storage, fulfillment, and cross-docking</span></li><li><strong>Local SEO</strong><span>Strengthen listings, citations, and location signals</span></li><li><strong>Conversion</strong><span>Help qualified buyers check fit and inquire</span></li></ul></article>
+<article class="seo-roadmap-card"><div class="roadmap-card-head"><span class="roadmap-number">02</span><span class="roadmap-window">Months 3–6</span></div><h3>Build Market Coverage</h3><ul><li><strong>Facilities</strong><span>Build location pages with real service details</span></li><li><strong>Services</strong><span>Add pages for storage, fulfillment, and cross-docking</span></li><li><strong>Local SEO</strong><span>Strengthen listings, citations, and location signals</span></li><li><strong>Conversion</strong><span>Help qualified buyers check fit and inquire</span></li></ul></article>
 <article class="seo-roadmap-card"><div class="roadmap-card-head"><span class="roadmap-number">03</span><span class="roadmap-window">Months 6–9</span></div><h3>Expand Your Reach</h3><ul><li><strong>Industries</strong><span>Add useful pages for your strongest customer verticals</span></li><li><strong>Content</strong><span>Answer questions about capacity, systems, and onboarding</span></li><li><strong>Authority</strong><span>Earn relevant mentions, links, and industry citations</span></li><li><strong>Optimization</strong><span>Improve pages using traffic and lead-quality data</span></li></ul></article>
 <article class="seo-roadmap-card seo-roadmap-card-scale"><div class="roadmap-card-head"><span class="roadmap-number">04</span><span class="roadmap-window">Months 9–12</span></div><h3>Scale What Works</h3><ul><li><strong>Markets</strong><span>Expand into more profitable locations and service areas</span></li><li><strong>AI Search</strong><span>Make facility expertise easier for search tools to understand</span></li><li><strong>Refresh</strong><span>Update pages as capacity and capabilities change</span></li><li><strong>Next Year</strong><span>Use qualified-lead data to set the next growth roadmap</span></li></ul></article>
 </div><div class="seo-roadmap-cta"><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></div></div></section>
@@ -297,13 +299,13 @@
                 <ul>
                     <li>Discuss your facilities and ideal customers</li>
                     <li>Review how buyers find your warehouse online</li>
-                    <li>Identify useful next steps for your SEO</li>
+                    <li>Find useful next steps for your SEO</li>
                 </ul>
             </div>
             <div class="warehouse-cta-card">
                 <p class="warehouse-cta-card-heading">Let’s talk about your warehouse.</p>
                 <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-cta-button">Schedule a Discovery Call <span aria-hidden="true">→</span></a>
-                <p class="warehouse-cta-note">No pressure. Just a useful conversation about your business.</p>
+                <p class="warehouse-cta-note">No pressure. Just a helpful talk about your business.</p>
             </div>
         </div>
     </div>

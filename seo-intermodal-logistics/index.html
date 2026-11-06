@@ -27,85 +27,115 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "ProfessionalService",
+      "@id": "https://freightlabsagency.com/#business",
+      "name": "Freight Labs",
+      "url": "https://freightlabsagency.com/",
+      "logo": "https://freightlabsagency.com/freightlabs-logo.png",
+      "email": "hello@freightlabsagency.com",
+      "areaServed": "North America",
+      "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://freightlabsagency.com/seo-intermodal-logistics/#service",
+      "name": "SEO for Intermodal Logistics Providers",
+      "url": "https://freightlabsagency.com/seo-intermodal-logistics/",
+      "description": "Technical SEO, terminal and market pages, intermodal service content, authority building, and lead tracking for intermodal logistics providers.",
+      "serviceType": [
+        "Intermodal Logistics SEO",
+        "SEO for Intermodal Providers",
+        "Drayage SEO",
+        "Rail Freight SEO",
+        "Transload SEO"
+      ],
+      "provider": {
+        "@id": "https://freightlabsagency.com/#business"
+      },
+      "areaServed": "North America",
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Intermodal carriers, drayage companies, rail freight providers, container trucking companies, and transload operators"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://freightlabsagency.com/seo-intermodal-logistics/#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "ProfessionalService",
-          "@id": "https://freightlabsagency.com/#business",
-          "name": "Freight Labs",
-          "url": "https://freightlabsagency.com/",
-          "logo": "https://freightlabsagency.com/freightlabs-logo.png",
-          "email": "hello@freightlabsagency.com",
-          "areaServed": "North America",
-          "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://freightlabsagency.com/"
         },
         {
-          "@type": "Service",
-          "@id": "https://freightlabsagency.com/seo-intermodal-logistics/#service",
+          "@type": "ListItem",
+          "position": 2,
           "name": "SEO for Intermodal Logistics Providers",
-          "url": "https://freightlabsagency.com/seo-intermodal-logistics/",
-          "description": "Technical SEO, terminal and market pages, intermodal service content, authority building, and lead tracking for intermodal logistics providers.",
-          "serviceType": [
-            "Intermodal Logistics SEO",
-            "SEO for Intermodal Providers",
-            "Drayage SEO",
-            "Rail Freight SEO",
-            "Transload SEO"
-          ],
-          "provider": { "@id": "https://freightlabsagency.com/#business" },
-          "areaServed": "North America",
-          "audience": {
-            "@type": "BusinessAudience",
-            "audienceType": "Intermodal carriers, drayage companies, rail freight providers, container trucking companies, and transload operators"
+          "item": "https://freightlabsagency.com/seo-intermodal-logistics/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://freightlabsagency.com/seo-intermodal-logistics/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does intermodal SEO take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some site fixes can help early. Building search traffic for busy ramps, ports, lanes, and services often takes several months."
           }
         },
         {
-          "@type": "BreadcrumbList",
-          "@id": "https://freightlabsagency.com/seo-intermodal-logistics/#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://freightlabsagency.com/" },
-            { "@type": "ListItem", "position": 2, "name": "SEO for Intermodal Logistics Providers", "item": "https://freightlabsagency.com/seo-intermodal-logistics/" }
-          ]
+          "@type": "Question",
+          "name": "Should every terminal or market have its own page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when you genuinely serve that market. Each page should explain the ramps, ports, service radius, equipment, capacity, and services available there."
+          }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://freightlabsagency.com/seo-intermodal-logistics/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How long does intermodal SEO take?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Technical improvements can create early movement, but building visibility across competitive ramps, ports, lanes, and services usually takes several months of steady work." }
-            },
-            {
-              "@type": "Question",
-              "name": "Should every terminal or market have its own page?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes, when you genuinely serve that market. Each page should explain the ramps, ports, service radius, equipment, capacity, and services available there." }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you target drayage and rail freight searches separately?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Drayage, rail freight, transloading, container storage, and door-to-door intermodal searches have different intent and should have dedicated content." }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you write intermodal logistics content?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We turn your lanes, terminals, equipment, operating model, and shipper expertise into clear service, market, industry, and educational pages." }
-            },
-            {
-              "@type": "Question",
-              "name": "Can SEO help us attract better-fit shippers?",
-              "acceptedAnswer": { "@type": "Answer", "text": "It can when pages clearly state your markets, freight profile, equipment, volumes, service requirements, and the information needed to quote the move." }
-            },
-            {
-              "@type": "Question",
-              "name": "How do you measure intermodal SEO results?",
-              "acceptedAnswer": { "@type": "Answer", "text": "We track visibility for priority services and markets, traffic to commercial pages, quote requests, calls, and feedback from your sales team about lead quality." }
-            }
-          ]
+          "@type": "Question",
+          "name": "Can you target drayage and rail freight separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Drayage, rail freight, transloading, container storage, and door-to-door intermodal searches have different intent and should have dedicated content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you write intermodal logistics content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We use your team’s knowledge to write clear pages about your lanes, terminals, equipment, and services."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can SEO attract better-fit shippers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can when pages clearly state your markets, freight profile, equipment, volumes, service requirements, and the information needed to quote the move."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you measure results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We track rankings for key services and markets, page visits, quote requests, and calls. We also ask sales about lead quality."
+          }
         }
       ]
     }
+  ]
+}
     </script>
     <script>document.documentElement.classList.add('js-enabled');</script>
 </head>
@@ -185,7 +215,7 @@
             </div>
         </header>
 
-        <section class="warehouse-problem" aria-labelledby="service-problem-heading"><div class="container"><span class="section-kicker">What gets in the way</span><h2 id="service-problem-heading">Why your intermodal SEO may not be working.</h2><div class="warehouse-problem-intro"><p><strong>Intermodal buyers need specifics before they ask for a quote.</strong><br>Strong intermodal SEO makes your terminals, lanes, service radius, equipment, and operating capabilities easy to find and understand.</p><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-problem-button">Book a Discovery Call <span aria-hidden="true">→</span></a></div><div class="warehouse-problem-grid"><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Markets are buried</h3><p>Shippers cannot quickly tell which ports, rail ramps, terminals, and inland markets you cover.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Services sound generic</h3><p>“End-to-end solutions” does not explain drayage, transload, container storage, chassis, or door service.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Lane pages are missing</h3><p>High-value corridors and terminal pairs stay invisible when every market is squeezed onto one service page.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Leads lack shipment details</h3><p>Without origin, destination, equipment, volume, and timing, sales teams waste time qualifying poor-fit inquiries.</p></div></article></div></div></section>
+        <section class="warehouse-problem" aria-labelledby="service-problem-heading"><div class="container"><span class="section-kicker">What gets in the way</span><h2 id="service-problem-heading">Why your intermodal SEO may not be working.</h2><div class="warehouse-problem-intro"><p><strong>Intermodal buyers need specifics before they ask for a quote.</strong><br>Strong intermodal SEO makes your terminals, lanes, service radius, equipment, and operating capabilities easy to find and understand.</p><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-problem-button">Book a Discovery Call <span aria-hidden="true">→</span></a></div><div class="warehouse-problem-grid"><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Markets are buried</h3><p>Shippers cannot quickly tell which ports, rail ramps, terminals, and inland markets you cover.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Services sound generic</h3><p>“End-to-end solutions” does not explain drayage, transload, container storage, chassis, or door service.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Lane pages are missing</h3><p>High-value corridors and terminal pairs stay invisible when every market is squeezed onto one service page.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Leads lack shipment details</h3><p>Without origin, destination, equipment, volume, and timing details, sales teams can waste time on leads that do not fit.</p></div></article></div></div></section>
 
         <section class="ads-system">
             <div class="container">
@@ -200,17 +230,17 @@
             </div>
         </section>
 
-        <section class="warehouse-seo-services" id="scope" aria-labelledby="service-scope-heading"><div class="container"><h2 id="service-scope-heading">How we help your intermodal business grow.</h2><div class="warehouse-seo-services-grid"><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="9" width="36" height="30" rx="2"/><path d="M6 17h36M12 13h2m4 0h2M13 24h10m-10 6h19m-19 5h14"/></svg></div><h3>Technical foundation</h3><p>We make sure search engines can reach and understand every important terminal, market, lane, and service page.</p><ul class="service-template-features"><li>Crawl and indexation audit</li><li>Market-friendly site architecture</li><li>Fast mobile page improvements</li><li>Schema and internal linking</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-8 11-8 17s2 11 8 17m0-34c6 6 8 11 8 17s-2 11-8 17M11 15h26M11 33h26"/></svg></div><h3>Terminal and lane strategy</h3><p>We map your real coverage to the location and service searches most likely to produce a good-fit shipper.</p><ul class="service-template-features"><li>Terminal and lane research</li><li>Service and market mapping</li><li>Local competitor analysis</li><li>Commercial-intent priorities</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M20 28l8-8M18 32l-3 3a8 8 0 01-11-11l7-7a8 8 0 0111 0M30 16l3-3a8 8 0 0111 11l-7 7a8 8 0 01-11 0"/></svg></div><h3>Shipper-focused content</h3><p>We build pages that answer route and operating questions before a buyer ever fills out a quote form.</p><ul class="service-template-features"><li>Market, lane, and service pages</li><li>Industry and freight-use content</li><li>Equipment and process pages</li><li>On-page and AI search optimization</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M12 5h18l7 7v31H12zM30 5v8h7M18 21h13M18 27h13M18 33h9"/></svg></div><h3>Authority and lead reporting</h3><p>We strengthen industry trust and show which organic searches turn into useful shipper opportunities.</p><ul class="service-template-features"><li>Relevant logistics authority</li><li>Terminal and local citations</li><li>Search visibility reporting</li><li>Qualified-inquiry attribution</li></ul></article></div></div></section>
-<section class="warehouse-strategy" aria-labelledby="service-strategy-heading"><div class="container warehouse-strategy-grid"><div class="warehouse-strategy-copy"><h2 id="service-strategy-heading">How our intermodal SEO strategy actually works.</h2><p class="warehouse-strategy-lead">Reach buyers comparing intermodal providers.</p><p>We build the work around your intermodal business, your goals, and the people you want to reach. That starts with terminals, drayage coverage, services, and network fit.</p><ul><li>Crawl and indexation audit</li><li>Market-friendly site architecture</li><li>Fast mobile page improvements</li><li>Schema and internal linking</li><li>Terminal and lane research</li><li>Service and market mapping</li></ul><p>Each part supports a clear path from the first interaction to a useful sales conversation.</p></div><figure class="warehouse-strategy-visual" aria-label="Illustration of a marketing strategy connecting the right audience, clear messaging, and sales inquiries"><div class="warehouse-strategy-diagram"><div class="warehouse-strategy-label warehouse-strategy-label-search"><strong>AUDIENCE</strong><span>Right buyers</span></div><div class="warehouse-strategy-label warehouse-strategy-label-content"><strong>STRATEGY</strong><span>Clear message</span></div><div class="warehouse-strategy-site" aria-hidden="true"><div class="warehouse-strategy-browser"><i></i><i></i><i></i></div><div class="warehouse-strategy-site-hero"><small>INTERMODAL SEO</small><strong>Make it easier for the right buyers to find you.</strong><span>Explore services →</span></div><div class="warehouse-strategy-site-body"><b>Help buyers understand your business.</b><div class="warehouse-strategy-mini-grid"><span>Services</span><span>Markets</span><span>Expertise</span></div><div class="warehouse-strategy-lines"><i></i><i></i><i></i></div><em>Get in touch →</em></div></div><div class="warehouse-strategy-label warehouse-strategy-label-leads"><strong>LEADS</strong><span>Useful inquiries</span></div></div></figure></div></section>
+        <section class="warehouse-seo-services" id="scope" aria-labelledby="service-scope-heading"><div class="container"><h2 id="service-scope-heading">How we help your intermodal business grow.</h2><div class="warehouse-seo-services-grid"><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="9" width="36" height="30" rx="2"/><path d="M6 17h36M12 13h2m4 0h2M13 24h10m-10 6h19m-19 5h14"/></svg></div><h3>Technical foundation</h3><p>We make sure search engines can reach and understand every important terminal, market, lane, and service page.</p><ul class="service-template-features"><li>Crawl and indexation audit</li><li>Market-friendly site architecture</li><li>Fast mobile page improvements</li><li>Schema and internal linking</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c-6 6-8 11-8 17s2 11 8 17m0-34c6 6 8 11 8 17s-2 11-8 17M11 15h26M11 33h26"/></svg></div><h3>Terminal and lane strategy</h3><p>We map your real coverage to the location and service searches most likely to produce a good-fit shipper.</p><ul class="service-template-features"><li>Terminal and lane research</li><li>Service and market mapping</li><li>Local competitor review</li><li>Commercial-intent priorities</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M20 28l8-8M18 32l-3 3a8 8 0 01-11-11l7-7a8 8 0 0111 0M30 16l3-3a8 8 0 0111 11l-7 7a8 8 0 01-11 0"/></svg></div><h3>Shipper-focused content</h3><p>We build pages that answer route and operating questions before a buyer ever fills out a quote form.</p><ul class="service-template-features"><li>Market, lane, and service pages</li><li>Industry and freight-use content</li><li>Equipment and process pages</li><li>On-page and AI search optimization</li></ul></article><article class="warehouse-seo-service-card"><div class="warehouse-seo-card-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M12 5h18l7 7v31H12zM30 5v8h7M18 21h13M18 27h13M18 33h9"/></svg></div><h3>Authority and lead reporting</h3><p>We strengthen industry trust and show which organic searches turn into useful shipper opportunities.</p><ul class="service-template-features"><li>Relevant logistics authority</li><li>Terminal and local citations</li><li>Search visibility reporting</li><li>Track leads from search</li></ul></article></div></div></section>
+<section class="warehouse-strategy" aria-labelledby="service-strategy-heading"><div class="container warehouse-strategy-grid"><div class="warehouse-strategy-copy"><h2 id="service-strategy-heading">How our intermodal SEO strategy actually works.</h2><p class="warehouse-strategy-lead">Reach buyers comparing intermodal providers.</p><p>We build the work around your intermodal business, your goals, and the people you want to reach. That starts with terminals, drayage coverage, services, and network fit.</p><ul><li>Crawl and indexation audit</li><li>Market-friendly site architecture</li><li>Fast mobile page improvements</li><li>Schema and internal linking</li><li>Terminal and lane research</li><li>Service and market mapping</li></ul><p>Each step helps turn interest into a useful sales conversation.</p></div><figure class="warehouse-strategy-visual" aria-label="Illustration of a marketing strategy connecting the right audience, clear messaging, and sales inquiries"><div class="warehouse-strategy-diagram"><div class="warehouse-strategy-label warehouse-strategy-label-search"><strong>AUDIENCE</strong><span>Right buyers</span></div><div class="warehouse-strategy-label warehouse-strategy-label-content"><strong>STRATEGY</strong><span>Clear message</span></div><div class="warehouse-strategy-site" aria-hidden="true"><div class="warehouse-strategy-browser"><i></i><i></i><i></i></div><div class="warehouse-strategy-site-hero"><small>INTERMODAL SEO</small><strong>Make it easier for the right buyers to find you.</strong><span>Explore services →</span></div><div class="warehouse-strategy-site-body"><b>Help buyers understand your business.</b><div class="warehouse-strategy-mini-grid"><span>Services</span><span>Markets</span><span>Expertise</span></div><div class="warehouse-strategy-lines"><i></i><i></i><i></i></div><em>Get in touch →</em></div></div><div class="warehouse-strategy-label warehouse-strategy-label-leads"><strong>LEADS</strong><span>Useful inquiries</span></div></div></figure></div></section>
 
         <section class="seo-verticals" id="industry-seo">
             <div class="container">
                 <div class="section-heading split-heading"><div><span class="section-kicker">Where the opportunity is</span><h2>Match each service and market to the right searches.</h2></div><p>Intermodal buyers search by location, mode, and operating need together. Strong pages let them confirm fit before they contact sales.</p></div>
                 <div class="seo-verticals-grid">
                     <article data-card-number="01"><span class="seo-vertical-code">Drayage</span><h3>Own the searches around each port and ramp</h3><p class="seo-playbook-summary">Drayage demand is local. Buyers want to know where you run, how far you go, and whether you can handle the container profile.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Chicago rail ramp drayage, port container trucking, local intermodal carrier</dd></div><div><dt>Show clearly</dt><dd>Service radius, terminals, chassis access, storage, appointments, and equipment</dd></div></dl></article>
-                    <article data-card-number="02"><span class="seo-vertical-code">Rail freight</span><h3>Explain the lanes and network you support</h3><p class="seo-playbook-summary">Rail and door-to-door intermodal pages should connect origins, destinations, ramps, transit expectations, and service options.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Rail freight service, intermodal shipping company, truck-to-rail transportation</dd></div><div><dt>Show clearly</dt><dd>Core corridors, railroad relationships, modes, visibility, and handoff process</dd></div></dl></article>
-                    <article data-card-number="03"><span class="seo-vertical-code">Transload</span><h3>Capture freight that changes modes</h3><p class="seo-playbook-summary">Transload buyers need to verify facility location, equipment, product fit, throughput, storage, and final-mile options.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Rail transloading, container devanning, cross-dock near rail terminal</dd></div><div><dt>Show clearly</dt><dd>Commodities, equipment, docks, rail access, capacity, and turnaround</dd></div></dl></article>
-                    <article data-card-number="04"><span class="seo-vertical-code">Specialized freight</span><h3>Build pages around operational requirements</h3><p class="seo-playbook-summary">Specialized freight searches can be smaller but far more valuable when your operation has the right expertise and equipment.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Reefer intermodal, overweight container drayage, hazmat rail freight</dd></div><div><dt>Show clearly</dt><dd>Certifications, permits, weight limits, temperature control, and insurance</dd></div></dl></article>
+                    <article data-card-number="02"><span class="seo-vertical-code">Rail freight</span><h3>Explain the lanes and network you support</h3><p class="seo-playbook-summary">Rail and door-to-door pages should explain origins, destinations, ramps, expected transit times, and service options.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Rail freight service, intermodal shipping company, truck-to-rail transportation</dd></div><div><dt>Show clearly</dt><dd>Core corridors, railroad relationships, modes, visibility, and handoff process</dd></div></dl></article>
+                    <article data-card-number="03"><span class="seo-vertical-code">Transload</span><h3>Capture freight that changes modes</h3><p class="seo-playbook-summary">Transload buyers need to check your location, equipment, storage, capacity, and delivery options. They also need to know if you handle their freight.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Rail transloading, container devanning, cross-dock near rail terminal</dd></div><div><dt>Show clearly</dt><dd>Commodities, equipment, docks, rail access, capacity, and turnaround</dd></div></dl></article>
+                    <article data-card-number="04"><span class="seo-vertical-code">Specialized freight</span><h3>Build pages around service needs</h3><p class="seo-playbook-summary">Specialized freight searches can be smaller but far more valuable when your operation has the right expertise and equipment.</p><dl class="seo-playbook-list"><div><dt>Search opportunities</dt><dd>Reefer intermodal, overweight container drayage, hazmat rail freight</dd></div><div><dt>Show clearly</dt><dd>Certifications, permits, weight limits, temperature control, and insurance</dd></div></dl></article>
                 </div>
             </div>
         </section>
@@ -219,10 +249,10 @@
             <div class="container">
                 <div class="seo-pricing-heading"><div><span class="section-kicker section-kicker-light">Intermodal SEO pricing</span><h2>Choose the level of help you need.</h2></div><p>Start with your core markets and services or build a wider search presence across more terminals, lanes, and freight types.</p></div>
                 <div class="seo-pricing-options">
-                    <article class="ads-pricing-card seo-pricing-card"><span class="pricing-label">SEO Foundation</span><h3>Build the right base</h3><div class="seo-price"><span>From</span><strong>$1,250</strong><small>USD / month</small></div><p>Best for an intermodal provider that needs its core market and service pages cleaned up.</p><ul class="ads-feature-list"><li>Technical SEO audit and fixes</li><li>Intermodal keyword research</li><li>Up to 2 new or improved pages monthly</li><li>Core market and service optimization</li><li>Schema and internal links</li><li>Monthly reporting and strategy call</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
+                    <article class="ads-pricing-card seo-pricing-card"><span class="pricing-label">SEO Foundation</span><h3>Build the right base</h3><div class="seo-price"><span>From</span><strong>$1,250</strong><small>USD / month</small></div><p>Best for an intermodal provider that needs its core market and service pages cleaned up.</p><ul class="ads-feature-list"><li>Technical SEO audit and fixes</li><li>Intermodal keyword research</li><li>Up to 2 new or improved pages monthly</li><li>Core market and service optimization</li><li>Schema and internal links</li><li>Monthly reports and strategy call</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
                     <article class="ads-pricing-card seo-pricing-card seo-pricing-featured"><span class="pricing-label">Most popular / SEO Growth</span><h3>Grow across more markets</h3><div class="seo-price"><span>From</span><strong>$2,250</strong><small>USD / month</small></div><p>Best for a provider covering several terminals, corridors, services, or specialized freight types.</p><ul class="ads-feature-list"><li>Everything in SEO Foundation</li><li>Up to 4 new or improved pages monthly</li><li>Terminal, lane, and industry strategy</li><li>Digital PR and link outreach</li><li>AI search visibility improvements</li><li>Qualified-inquiry tracking</li></ul><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary">Book a Strategy Call With Alex <span aria-hidden="true">↗</span></a></article>
                 </div>
-                <div class="seo-new-growth-cta"><div class="seo-new-growth-copy"><span>New Growth Plans</span><h3>Still early? You don’t need the biggest plan.</h3><p>If you’re just getting started or your business is under $1M in annual revenue, we can build a smaller custom SEO plan around the markets and services most likely to help you grow.</p></div><a href="../contact/" class="seo-new-growth-link">Ask about New Growth Plans <span aria-hidden="true">→</span></a></div>
+                <div class="seo-new-growth-cta"><div class="seo-new-growth-copy"><span>New Growth Plans</span><h3>Still early? You don’t need the biggest plan.</h3><p>If your business is new or earns under $1M a year, we can build a smaller SEO plan. We will focus on the markets and services most likely to help you grow.</p></div><a href="../contact/" class="seo-new-growth-link">Ask about New Growth Plans <span aria-hidden="true">→</span></a></div>
                 <p class="seo-pricing-note">Have a large terminal network or complex service footprint? We can build a custom plan around your coverage and growth priorities.</p>
             </div>
         </section>
@@ -231,12 +261,12 @@
             <div class="container">
                 <div class="section-heading ads-channel-heading"><span class="section-kicker">Quick answers</span><h2>Intermodal SEO questions, answered.</h2></div>
                 <div class="ads-faq-list">
-                    <details open><summary><span>01</span>How long does intermodal SEO take?</summary><p>Technical improvements can create early movement, but building visibility across competitive ramps, ports, lanes, and services usually takes several months of steady work.</p></details>
+                    <details open><summary><span>01</span>How long does intermodal SEO take?</summary><p>Some site fixes can help early. Building search traffic for busy ramps, ports, lanes, and services often takes several months.</p></details>
                     <details><summary><span>02</span>Should every terminal or market have its own page?</summary><p>Yes, when you genuinely serve that market. Each page should explain the ramps, ports, service radius, equipment, capacity, and services available there.</p></details>
                     <details><summary><span>03</span>Can you target drayage and rail freight separately?</summary><p>Yes. Drayage, rail freight, transloading, container storage, and door-to-door intermodal searches have different intent and should have dedicated content.</p></details>
-                    <details><summary><span>04</span>Do you write intermodal logistics content?</summary><p>Yes. We turn your lanes, terminals, equipment, operating model, and shipper expertise into clear service, market, industry, and educational pages.</p></details>
+                    <details><summary><span>04</span>Do you write intermodal logistics content?</summary><p>Yes. We use your team’s knowledge to write clear pages about your lanes, terminals, equipment, and services.</p></details>
                     <details><summary><span>05</span>Can SEO attract better-fit shippers?</summary><p>It can when pages clearly state your markets, freight profile, equipment, volumes, service requirements, and the information needed to quote the move.</p></details>
-                    <details><summary><span>06</span>How do you measure results?</summary><p>We track visibility for priority services and markets, traffic to commercial pages, quote requests, calls, and feedback from your sales team about lead quality.</p></details>
+                    <details><summary><span>06</span>How do you measure results?</summary><p>We track rankings for key services and markets, page visits, quote requests, and calls. We also ask sales about lead quality.</p></details>
                 </div>
             </div>
         </section>
@@ -263,13 +293,13 @@
                 <ul>
                     <li>Discuss your terminals, lanes, and services</li>
                     <li>Review how buyers find your business online</li>
-                    <li>Identify useful next steps for your SEO</li>
+                    <li>Find useful next steps for your SEO</li>
                 </ul>
             </div>
             <div class="warehouse-cta-card">
                 <p class="warehouse-cta-card-heading">Let’s talk about your intermodal business.</p>
                 <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-cta-button">Schedule a Discovery Call <span aria-hidden="true">→</span></a>
-                <p class="warehouse-cta-note">No pressure. Just a useful conversation about your business.</p>
+                <p class="warehouse-cta-note">No pressure. Just a helpful talk about your business.</p>
             </div>
         </div>
     </div>
