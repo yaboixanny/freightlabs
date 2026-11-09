@@ -7386,6 +7386,10 @@ nav button.dropdown-toggle:focus-visible {
     content: 'SECTION / ' counter(article-section, decimal-leading-zero);
 }
 
+.broker-guide-page .article-content h2::before {
+    content: none;
+}
+
 .article-page .article-content h3 {
     margin: 2.75rem 0 1rem;
     color: #292b2d;
