@@ -32,8 +32,8 @@ const blogPosts = [
         image: "../content-laptop.webp" // Placeholder image
     },
     {
-        title: "Freight Broker Lead Generation Strategies for 2026",
-        slug: "freight-broker-lead-generation-strategies-2026",
+        title: "Freight Broker Lead Generation Strategies for 2027",
+        slug: "freight-broker-lead-generation-strategies",
         excerpt: "Compare Google Ads, cold email, LinkedIn, and SEO to find more shipper leads.",
         date: "September 7, 2026",
         category: "Lead Generation",

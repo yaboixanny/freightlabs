@@ -26,8 +26,13 @@
 
 /guide /guides/ 301!
 /guide/ /guides/ 301!
-/guide/freight-broker-leads-guide /guides/freight-broker-lead-generation-strategies-2026/ 301!
-/guide/freight-broker-leads-guide/ /guides/freight-broker-lead-generation-strategies-2026/ 301!
+/guide/freight-broker-leads-guide /guides/freight-broker-lead-generation-strategies/ 301!
+/guide/freight-broker-leads-guide/ /guides/freight-broker-lead-generation-strategies/ 301!
+# Preserve links to the former dated guide URL.
+/guides/freight-broker-lead-generation-strategies-2026 /guides/freight-broker-lead-generation-strategies/ 301!
+/guides/freight-broker-lead-generation-strategies-2026/ /guides/freight-broker-lead-generation-strategies/ 301!
+/guides/freight-broker-lead-generation-strategies-2026/index.html /guides/freight-broker-lead-generation-strategies/ 301!
+
 /guide/logistics-website-development /logistics-web-design/ 301!
 /guide/logistics-website-development/ /logistics-web-design/ 301!
 
