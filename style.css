@@ -7265,7 +7265,7 @@ nav button.dropdown-toggle:focus-visible {
 
 .article-page .article-layout {
     display: grid;
-    grid-template-columns: minmax(210px, 260px) minmax(0, 800px);
+    grid-template-columns: minmax(0, 800px);
     justify-content: center;
     gap: clamp(2.5rem, 7vw, 6.5rem);
     padding-top: clamp(4rem, 7vw, 6.5rem);
