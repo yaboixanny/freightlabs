@@ -117,3 +117,10 @@
     .trucking-hero-photo { border-radius: 1.75rem; }
     .trucking-hero-caption { right: 0.8rem; bottom: 0.8rem; left: 0.8rem; }
 }
+
+.seo-service-page .ads-hero .btn-primary,
+.seo-service-page .ads-hero .btn-primary:hover,
+.seo-service-page .ads-hero .btn-primary:focus-visible {
+    border-radius: 0.75rem;
+    box-shadow: none;
+}
