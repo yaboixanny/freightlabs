@@ -8795,3 +8795,17 @@ nav button.dropdown-toggle:focus-visible {
         display: grid;
     }
 }
+
+/* Service-page hero booking buttons use the brand's orange accent. */
+:is(.service-layout-page, .seo-service-page) .ads-hero .btn-primary {
+    background: #c4552d !important;
+    border-color: #c4552d !important;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
+:is(.service-layout-page, .seo-service-page) .ads-hero .btn-primary:hover,
+:is(.service-layout-page, .seo-service-page) .ads-hero .btn-primary:focus-visible {
+    background: #202224 !important;
+    border-color: #202224 !important;
+}
