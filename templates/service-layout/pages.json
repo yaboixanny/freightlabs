@@ -1,0 +1,784 @@
+[
+  {
+    "slug": "freightseo",
+    "group": "seo",
+    "label": "Logistics SEO",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/port-terminal.webp",
+    "cards": [
+      [
+        "Technical foundation",
+        "First, we make sure search engines can properly find, understand, and rank the pages that matter."
+      ],
+      [
+        "Market strategy",
+        "We find the searches that match your services and focus on the ones most likely to bring in good-fit buyers."
+      ],
+      [
+        "Content system",
+        "Then we build useful pages that answer buyer questions and give your sales team something worth sending to prospects."
+      ],
+      [
+        "Authority and reporting",
+        "We strengthen trust around the site and show how search visibility connects to inquiries, leads, and sales activity."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your services, locations, and freight needs in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "transportation-seo",
+    "group": "seo",
+    "label": "Transportation SEO",
+    "audience": "transportation companies",
+    "heroImage": "assets/service-heroes/truck-highway.webp",
+    "cards": [
+      [
+        "Technical foundation",
+        "We make it easy for buyers and search engines to find your services, equipment, markets, and terminals."
+      ],
+      [
+        "Mode and market strategy",
+        "We map the searches that match how you actually move freight, without inventing thin lane or location pages."
+      ],
+      [
+        "Pages that earn trust",
+        "We turn your team’s knowledge into useful service and industry pages. They answer shipper questions before the first call."
+      ],
+      [
+        "Authority and improvement",
+        "We strengthen credible pages, watch how qualified traffic behaves, and use sales feedback to improve the work."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your modes, equipment, terminals, and markets in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "seo-warehousing",
+    "group": "seo",
+    "label": "Warehousing SEO",
+    "audience": "warehousing companies",
+    "heroImage": "assets/service-heroes/warehouse-distribution.webp",
+    "cards": [
+      [
+        "On-page SEO",
+        "We improve your facility and service pages around the locations and storage needs buyers search for. Clear titles and links help buyers and search engines understand your offer."
+      ],
+      [
+        "Off-page SEO",
+        "We check your business listings and industry profiles. This helps buyers find the right details about your locations and services."
+      ],
+      [
+        "Link building",
+        "We look for chances to earn links and mentions from trusted logistics sites and industry groups."
+      ],
+      [
+        "Content",
+        "We create and update pages and guides about your facilities and services. They help buyers see if your warehouse fits their needs."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your facilities, storage, space, and handling needs in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "seo-supply-chain-companies",
+    "group": "seo",
+    "label": "Supply Chain SEO",
+    "audience": "supply chain companies",
+    "heroImage": "assets/service-heroes/team-meeting.webp",
+    "cards": [
+      [
+        "Technical foundation",
+        "We make sure search engines can reach, understand, and connect every important product, solution, and industry page."
+      ],
+      [
+        "Buyer and market strategy",
+        "We map problems, use cases, industries, and buying roles to searches with real business value."
+      ],
+      [
+        "Expert content system",
+        "We turn subject-matter expertise into useful pages your buyers and sales team can actually use."
+      ],
+      [
+        "Authority and pipeline reporting",
+        "We build trust around the right topics and show how organic discovery connects to demos and sales opportunities."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your solutions, use cases, tools, and buyer roles in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "seo-intermodal-logistics",
+    "group": "seo",
+    "label": "Intermodal SEO",
+    "audience": "intermodal providers",
+    "heroImage": "assets/service-heroes/port-terminal.webp",
+    "cards": [
+      [
+        "Technical foundation",
+        "We make sure search engines can reach and understand every important terminal, market, lane, and service page."
+      ],
+      [
+        "Terminal and lane strategy",
+        "We map your real coverage to the location and service searches most likely to produce a good-fit shipper."
+      ],
+      [
+        "Shipper-focused content",
+        "We build pages that answer route and operating questions before a buyer ever fills out a quote form."
+      ],
+      [
+        "Authority and lead reporting",
+        "We strengthen industry trust and show which organic searches turn into useful shipper opportunities."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your terminals, rail lanes, drayage, and transloading in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "3pl-seo",
+    "group": "seo",
+    "label": "3PL SEO",
+    "audience": "3PL companies",
+    "heroImage": "assets/service-heroes/warehouse-distribution.webp",
+    "cards": [
+      [
+        "Technical foundation",
+        "We clean up the site so search engines can reach the right service, facility, industry, and location pages."
+      ],
+      [
+        "Service and market mapping",
+        "We match real capabilities to the way buyers search by service, location, vertical, platform, and order profile."
+      ],
+      [
+        "Pages buyers can use",
+        "We turn operational detail into clear pages that rank, qualify prospects, and help sales answer common questions."
+      ],
+      [
+        "Authority and improvement",
+        "We keep strengthening the pages and signals that create real visibility, then use lead feedback to improve the plan."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your facilities, fulfillment, storage, and shipping in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 4
+  },
+  {
+    "slug": "ai-seo-logistics",
+    "group": "ai",
+    "label": "AI Search",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/port-terminal.webp",
+    "cards": [
+      [
+        "AI Search Audit & Prompt Research",
+        "We review how AI engines describe your company and research the questions shippers ask when choosing a provider. This gives our GEO and AEO strategy for logistics companies a clear starting point."
+      ],
+      [
+        "Website & Entity Health",
+        "We review site structure, page speed, metadata, and company details. Clear information about your brand, services, locations, and expertise helps search tools and buyers understand what you do."
+      ],
+      [
+        "Answer-Ready Content & Schema",
+        "We create clear service pages and content that answer real buyer questions. Where relevant, we add structured data that reflects the page content and helps search engines understand it."
+      ],
+      [
+        "Authority & Citations",
+        "We look for opportunities to earn relevant mentions and links from logistics publications, associations, and partners. These efforts support your wider visibility, though no agency can guarantee an AI citation."
+      ],
+      [
+        "Business details",
+        "Keep contact details and business profiles correct so buyers can reach the right team."
+      ],
+      [
+        "Build trust",
+        "Use real examples, service details, and team knowledge to support what your site says."
+      ],
+      [
+        "Clear next steps",
+        "Make it easy to ask for a quote or speak with sales. Track where forms and calls come from."
+      ],
+      [
+        "AI search readiness",
+        "Explain your services, locations, expert answers, and business facts in clear answers that search engines and AI tools can understand."
+      ],
+      [
+        "Track results",
+        "Review searches, leads, and sales feedback. Use the results to choose what to improve next."
+      ]
+    ],
+    "faqCount": 10
+  },
+  {
+    "slug": "google-ads-logistics",
+    "group": "paid",
+    "label": "Google Ads",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/content-laptop.webp",
+    "cards": [
+      [
+        "Campaign management",
+        "We organize campaigns around the services, markets, and searches most likely to turn into good-fit freight opportunities."
+      ],
+      [
+        "Conversion tracking",
+        "We track the actions that matter after a click, then use sales feedback to teach the account what a valuable lead looks like."
+      ],
+      [
+        "Landing page strategy",
+        "Each page matches the search with the right service, geography, proof, and next step so buyers do not have to hunt for answers."
+      ],
+      [
+        "Reporting and improvement",
+        "You see where the budget went, which searches produced useful conversations, and what we are changing next."
+      ],
+      [
+        "Landing pages",
+        "Send each ad to a page that matches the offer and makes the next step clear."
+      ],
+      [
+        "Lead checks",
+        "Use form details and sales feedback to see which leads are worth following up."
+      ],
+      [
+        "Ad testing",
+        "Test messages and images. Keep learning which offers bring useful replies."
+      ],
+      [
+        "Budget control",
+        "Review spend and results. Agree on changes before expanding the plan."
+      ],
+      [
+        "Clear reporting",
+        "Show the spend, leads, and sales feedback in a report your team can use."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "facebook-ads-logistics",
+    "group": "paid",
+    "label": "Facebook Ads",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/content-laptop.webp",
+    "cards": [
+      [
+        "Campaign management",
+        "We organize campaigns by buyer, offer, goal, and how well people know you. We do not put every audience in one ad set."
+      ],
+      [
+        "Audience strategy",
+        "We use the platform’s data along with your customer data, location, and service fit. We also exclude poor-fit groups."
+      ],
+      [
+        "Creative and conversion",
+        "Every ad pairs a clear logistics offer with a qualified next step, then tests the hooks and formats that earn attention."
+      ],
+      [
+        "Tracking and improvement",
+        "You see where the budget went, which audiences and creative produced useful conversations, and what we are changing next."
+      ],
+      [
+        "Landing pages",
+        "Send each ad to a page that matches the offer and makes the next step clear."
+      ],
+      [
+        "Lead checks",
+        "Use form details and sales feedback to see which leads are worth following up."
+      ],
+      [
+        "Ad testing",
+        "Test messages and images. Keep learning which offers bring useful replies."
+      ],
+      [
+        "Budget control",
+        "Review spend and results. Agree on changes before expanding the plan."
+      ],
+      [
+        "Clear reporting",
+        "Show the spend, leads, and sales feedback in a report your team can use."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "linkedin-ads-logistics",
+    "group": "paid",
+    "label": "LinkedIn Ads",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/team-meeting.webp",
+    "cards": [
+      [
+        "Campaign management",
+        "We organize campaigns by account, buyer role, offer, and sales stage. This helps us avoid sending the same message to everyone."
+      ],
+      [
+        "Account and role targeting",
+        "We use LinkedIn’s job data along with your CRM lists, target accounts, and locations. We also exclude poor-fit groups."
+      ],
+      [
+        "Offer and creative",
+        "Every ad pairs a specific logistics problem with a useful next step for the role and account seeing it."
+      ],
+      [
+        "Tracking and improvement",
+        "You see which accounts, roles, offers, and creative produced useful conversations—and what we are changing next."
+      ],
+      [
+        "Landing pages",
+        "Send each ad to a page that matches the offer and makes the next step clear."
+      ],
+      [
+        "Lead checks",
+        "Use form details and sales feedback to see which leads are worth following up."
+      ],
+      [
+        "Ad testing",
+        "Test messages and images. Keep learning which offers bring useful replies."
+      ],
+      [
+        "Budget control",
+        "Review spend and results. Agree on changes before expanding the plan."
+      ],
+      [
+        "Clear reporting",
+        "Show the spend, leads, and sales feedback in a report your team can use."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "freightleads",
+    "group": "outbound",
+    "label": "Freight Broker Lead Generation",
+    "audience": "freight brokers",
+    "heroImage": "assets/service-heroes/truck-highway.webp",
+    "cards": [
+      [
+        "ICP and list building",
+        "Agree on the lanes, freight, and companies you want to reach. Research a list that fits your goals."
+      ],
+      [
+        "Messaging",
+        "Build clear messages around your services and the needs of each shipper."
+      ],
+      [
+        "Campaign execution",
+        "Plan contact and follow-up through the channels in your scope of work."
+      ],
+      [
+        "CRM and reporting",
+        "Connect replies to your sales process and review what happens next."
+      ],
+      [
+        "Contact checks",
+        "Check company and contact details before your sales team reaches out."
+      ],
+      [
+        "Useful follow-up",
+        "Plan follow-up around the buyer’s needs, replies, and timing."
+      ],
+      [
+        "Lead handoff",
+        "Pass useful notes to sales so your team knows why each lead may fit."
+      ],
+      [
+        "Sales feedback",
+        "Review replies and meetings with your team. Learn which accounts need a different approach."
+      ],
+      [
+        "Clear reporting",
+        "Track outreach, replies, meetings, and lead quality. Use what we learn to update the plan."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "logistics-lead-generation",
+    "group": "demand",
+    "label": "Logistics Lead Generation",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/port-terminal.webp",
+    "cards": [
+      [
+        "Choose your market",
+        "Start with one service, buyer group, and clear problem to solve."
+      ],
+      [
+        "Useful pages and content",
+        "Answer buyer questions and give prospects a clear reason to contact sales."
+      ],
+      [
+        "Choose your channels",
+        "Connect search, ads, and content around the services you want to grow."
+      ],
+      [
+        "Connect sales and marketing",
+        "Track leads through your sales tools and use feedback to improve the work."
+      ],
+      [
+        "Contact checks",
+        "Check company and contact details before your sales team reaches out."
+      ],
+      [
+        "Useful follow-up",
+        "Plan follow-up around the buyer’s needs, replies, and timing."
+      ],
+      [
+        "Lead handoff",
+        "Pass useful notes to sales so your team knows why each lead may fit."
+      ],
+      [
+        "Sales feedback",
+        "Review replies and meetings with your team. Learn which accounts need a different approach."
+      ],
+      [
+        "Clear reporting",
+        "Track outreach, replies, meetings, and lead quality. Use what we learn to update the plan."
+      ]
+    ],
+    "faqCount": 5
+  },
+  {
+    "slug": "shipper-lead-generation",
+    "group": "outbound",
+    "label": "Shipper Lead Generation",
+    "audience": "freight brokers and carriers",
+    "heroImage": "assets/service-heroes/truck-highway.webp",
+    "cards": [
+      [
+        "Lane-market model",
+        "Start with the origins, destinations, equipment, and freight you want."
+      ],
+      [
+        "Facility research",
+        "Find plants, warehouses, and other sites that may need your services."
+      ],
+      [
+        "Buyer map",
+        "Research the people who plan freight and buy transport for each account."
+      ],
+      [
+        "Relevant approach",
+        "Use account details to shape a useful first message and follow-up plan."
+      ],
+      [
+        "Contact checks",
+        "Check company and contact details before your sales team reaches out."
+      ],
+      [
+        "Useful follow-up",
+        "Plan follow-up around the buyer’s needs, replies, and timing."
+      ],
+      [
+        "Lead handoff",
+        "Pass useful notes to sales so your team knows why each lead may fit."
+      ],
+      [
+        "Sales feedback",
+        "Review replies and meetings with your team. Learn which accounts need a different approach."
+      ],
+      [
+        "Clear reporting",
+        "Track outreach, replies, meetings, and lead quality. Use what we learn to update the plan."
+      ]
+    ],
+    "faqCount": 5
+  },
+  {
+    "slug": "logistics-web-design",
+    "group": "web",
+    "label": "Logistics Web Design",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/freight-labs-office.webp",
+    "cards": [
+      [
+        "Strategy and architecture",
+        "We organize the site around what buyers need to know before they trust you with their freight, inventory, or deliveries."
+      ],
+      [
+        "Messaging and UX",
+        "We turn complex services, facilities, and coverage areas into a clear story buyers can understand."
+      ],
+      [
+        "Fast, responsive development",
+        "Your approved design becomes a polished site that loads quickly, works across devices, and is easy for your team to manage."
+      ],
+      [
+        "Launch and improvement",
+        "We protect the launch, verify the tracking, and use real visitor behavior to make the website more useful over time."
+      ],
+      [
+        "Mobile experience",
+        "Make pages easy to read and use on phones, tablets, and desktop screens."
+      ],
+      [
+        "Search basics",
+        "Give each page a clear title and useful links so buyers and search engines can find it."
+      ],
+      [
+        "Quote forms",
+        "Ask for the details sales needs and send each form to the right team."
+      ],
+      [
+        "Launch checks",
+        "Test key pages, links, forms, and redirects before the site goes live."
+      ],
+      [
+        "Post-launch support",
+        "Review the site after launch and agree on any fixes or updates your team needs."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "web-design-trucking-companies",
+    "group": "web",
+    "label": "Trucking Web Design",
+    "audience": "trucking companies",
+    "heroImage": "assets/service-heroes/truck-highway.webp",
+    "cards": [
+      [
+        "Shipper and driver architecture",
+        "We separate sales, service, recruiting, and support paths so every visitor gets a clear next step."
+      ],
+      [
+        "Carrier messaging and UX",
+        "We turn lanes, modes, equipment, safety, and service strengths into a story buyers can scan without freight-industry guesswork."
+      ],
+      [
+        "Fast, responsive development",
+        "Your approved design becomes a polished site that loads quickly for buyers, dispatch teams, and drivers on any device."
+      ],
+      [
+        "Launch and conversion paths",
+        "We protect the migration, test the forms, and make sure shipper inquiries and driver applications reach the right people."
+      ],
+      [
+        "Mobile experience",
+        "Make pages easy to read and use on phones, tablets, and desktop screens."
+      ],
+      [
+        "Search basics",
+        "Give each page a clear title and useful links so buyers and search engines can find it."
+      ],
+      [
+        "Quote forms",
+        "Ask for the details sales needs and send each form to the right team."
+      ],
+      [
+        "Launch checks",
+        "Test key pages, links, forms, and redirects before the site goes live."
+      ],
+      [
+        "Post-launch support",
+        "Review the site after launch and agree on any fixes or updates your team needs."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "freightcontent",
+    "group": "content",
+    "label": "Logistics Content Marketing",
+    "audience": "logistics companies",
+    "heroImage": "assets/service-heroes/content-laptop.webp",
+    "cards": [
+      [
+        "Content strategy",
+        "Audience and topic research. Search opportunity mapping. Editorial roadmap. Content briefs."
+      ],
+      [
+        "Production",
+        "Service page copy. Articles and guides. Case studies. Sales enablement content."
+      ],
+      [
+        "Optimization",
+        "On-page SEO. Internal linking. Expert review workflow. Conversion paths."
+      ],
+      [
+        "Reporting",
+        "Publishing cadence. Content performance. Lead contribution. Refresh priorities."
+      ],
+      [
+        "Team interviews",
+        "Use your team’s knowledge to explain how your services work in real life."
+      ],
+      [
+        "Fact checks",
+        "Ask your team to review service claims and details before the work is published."
+      ],
+      [
+        "Search basics",
+        "Give pages clear titles, useful links, and answers to the questions buyers search for."
+      ],
+      [
+        "Sales support",
+        "Turn useful content into material your sales team can send to prospects."
+      ],
+      [
+        "Updates and reports",
+        "Review visits and leads. Refresh useful pages as your services and markets change."
+      ]
+    ],
+    "faqCount": 6
+  },
+  {
+    "slug": "logistics-consulting",
+    "group": "consulting",
+    "label": "Logistics Consulting",
+    "audience": "transportation companies",
+    "heroImage": "assets/service-heroes/team-meeting.webp",
+    "cards": [
+      [
+        "Commercial audit",
+        "Market and offer review. Sales process analysis. Pipeline assessment. Positioning gaps."
+      ],
+      [
+        "Operational review",
+        "Workflow mapping. Technology assessment. Handoff analysis. Constraint identification."
+      ],
+      [
+        "Growth roadmap",
+        "Prioritized initiatives. Ownership and milestones. What we track framework. Risk planning."
+      ],
+      [
+        "Implementation support",
+        "Vendor evaluation. Team alignment. Performance reviews. Ongoing advisory."
+      ],
+      [
+        "Clear priorities",
+        "Choose the issues that matter most and agree on what to work on first."
+      ],
+      [
+        "Team roles",
+        "Set clear owners so everyone knows who does what and when."
+      ],
+      [
+        "Tool review",
+        "Check whether your current tools support the way your team works."
+      ],
+      [
+        "Practical rollout",
+        "Break changes into steps that your team can put into use."
+      ],
+      [
+        "Progress reviews",
+        "Check the agreed measures, discuss what has changed, and adjust the plan."
+      ]
+    ],
+    "faqCount": 6
+  }
+]
