@@ -1,4 +1,4 @@
-.home-page .home-cta .warehouse-cta { background: #272e2b; }
+.home-page .home-cta .warehouse-cta { background: #fff; }
 .home-page .home-cta .warehouse-cta-panel {
     padding-top: clamp(9rem, 14vw, 13rem);
     border-radius: 0;
