@@ -37,25 +37,19 @@
 .trucking-offer-panel>a:focus-visible{outline:3px solid #202224;outline-offset:4px}
 @media(max-width:850px){.trucking-offer-panel{align-items:flex-start;flex-direction:column;gap:1.5rem;border-radius:1.75rem}}
 
-.trucking-faq{padding:clamp(4.5rem,7vw,7rem) 0;background:#272e2b;color:#f7f4ef}
-.service-page .trucking-faq h2{max-width:950px;margin:0 0 2.5rem;color:#f7f4ef;font-size:clamp(2rem,3.2vw,3.2rem);line-height:1.08;letter-spacing:-.045em}
+.trucking-faq{padding:clamp(4.5rem,7vw,8rem) 0;background:#f5f3ef;color:#292b2d}
+.trucking-faq .ads-channel-heading{display:block;margin-bottom:3rem}
+.service-page .trucking-faq h2{max-width:950px;margin:0;color:#292b2d;font-size:clamp(2rem,3.2vw,3.2rem);line-height:1.08;letter-spacing:-.045em}
 .trucking-faq-list{display:grid;gap:1rem}
-.trucking-faq details{overflow:hidden;border:1px solid #435149;border-radius:1.75rem;background:#34413a}
-.trucking-faq summary{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:clamp(1.5rem,3vw,2.4rem);color:#f7f4ef;font-size:clamp(1.1rem,1.8vw,1.5rem);font-weight:600;line-height:1.4;list-style:none;cursor:pointer}
+.trucking-faq details{overflow:hidden;border:1px solid rgba(41,43,45,.2);border-radius:1.75rem;background:#fff}
+.trucking-faq summary{display:flex;align-items:center;gap:1rem;padding:1.65rem 1.75rem;color:#292b2d;font-family:'Space Grotesk',sans-serif;font-size:clamp(1.15rem,2vw,1.55rem);font-weight:600;line-height:1.4;list-style:none;cursor:pointer}
 .trucking-faq summary::-webkit-details-marker{display:none}
-.trucking-faq summary::after{content:'+';flex:none;color:#eea180;font-size:1.8rem;font-weight:400;line-height:1}
+.trucking-faq summary::after{content:'+';flex:none;margin-left:auto;color:var(--accent);font-size:1.5rem;font-weight:400;line-height:1}
 .trucking-faq details[open] summary::after{content:'−'}
-.trucking-faq summary:hover{background:#3c4b42}
-.trucking-faq summary:focus-visible{outline:2px solid #eea180;outline-offset:-5px;border-radius:1.75rem}
-.service-page .trucking-faq details p{max-width:950px;margin:0;padding:0 clamp(1.5rem,3vw,2.4rem) clamp(1.5rem,3vw,2.4rem);color:#e2e7e2;font-size:1.05rem;line-height:1.7}
-.trucking-faq a{color:#ffb48e;text-underline-offset:3px}
-@media(max-width:640px){.trucking-faq details{border-radius:1.25rem}}
-
-.trucking-faq .ads-channel-heading{display:block;margin-bottom:2.5rem}
-.service-page .trucking-faq .ads-channel-heading h2{margin:0}
-.trucking-faq summary{justify-content:flex-start;padding:1.5rem 1.75rem;font-size:clamp(1.05rem,1.5vw,1.25rem)}
-.trucking-faq summary::after{margin-left:auto}
-.trucking-faq-number{flex:none;color:#eea180;font-size:.8rem;letter-spacing:.06em}
+.trucking-faq summary:hover{background:#efede8}
+.trucking-faq summary:focus-visible{outline:2px solid var(--accent);outline-offset:-5px;border-radius:1.75rem}
+.trucking-faq-number{flex:none;width:54px;color:var(--accent);font-size:.65rem;letter-spacing:.1em}
 .trucking-faq-question{flex:1}
-.service-page .trucking-faq details p{padding:0 1.75rem 1.75rem 4.4rem}
-@media(max-width:640px){.trucking-faq summary{padding:1.25rem;gap:1rem}.service-page .trucking-faq details p{padding:0 1.25rem 1.25rem}}
+.service-page .trucking-faq details p{max-width:950px;margin:0;padding:0 1.75rem 1.8rem calc(1.75rem + 70px);color:#505659;font-size:1rem;line-height:1.7}
+.trucking-faq a{color:#9a3d1e;text-underline-offset:3px}
+@media(max-width:640px){.trucking-faq details{border-radius:1.25rem}.trucking-faq summary{padding:1.25rem}.trucking-faq-number{width:24px}.service-page .trucking-faq details p{padding:0 1.25rem 1.25rem}}
