@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        title: "Marketing Strategies for Logistics Companies (11 That Work)",
+        slug: "../marketing-strategies-for-logistics-companies",
+        excerpt: "Explore 11 ways to reach the right shippers, build trust, and measure marketing results.",
+        date: "November 10, 2026",
+        category: "Marketing",
+        image: "../port-terminal.webp"
+    },
+    {
         title: "How to Run Google Ads for Logistics Companies: Full Tutorial for 2027",
         slug: "google-ads-tutorial",
         excerpt: "Learn how to plan campaigns, reach the right shippers, and track useful leads.",

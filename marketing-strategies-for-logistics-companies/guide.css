@@ -1,0 +1,23 @@
+.marketing-strategies-guide .guide-byline { margin: 0 auto; color: #c3cbc5; font-size: .95rem; line-height: 1.6; }
+.marketing-strategies-guide .guide-takeaways,
+.marketing-strategies-guide .guide-toc,
+.marketing-strategies-guide .guide-table-box { margin: 2rem 0; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid #d4d0c8; border-radius: 1.25rem; background: #f4f1ea; }
+.marketing-strategies-guide .guide-takeaways { border-left: 5px solid #c4552d; }
+.marketing-strategies-guide .guide-takeaways h2,
+.marketing-strategies-guide .guide-toc h2 { margin: 0 0 1rem; color: #292b2d; font-size: 1.4rem; }
+.marketing-strategies-guide .guide-toc ol,
+.marketing-strategies-guide .guide-takeaways ul { margin: 0; padding-left: 1.3rem; }
+.marketing-strategies-guide .guide-toc li + li,
+.marketing-strategies-guide .guide-takeaways li + li { margin-top: .45rem; }
+.marketing-strategies-guide .guide-toc a { color: #8e351b; text-decoration: underline; text-underline-offset: 3px; }
+.marketing-strategies-guide .guide-table-box { padding: 1rem; }
+.marketing-strategies-guide .guide-table-scroll { overflow-x: auto; }
+.marketing-strategies-guide .guide-table-box table { width: 100%; min-width: 600px; border-collapse: collapse; text-align: left; }
+.marketing-strategies-guide .guide-table-box th,
+.marketing-strategies-guide .guide-table-box td { padding: .8rem; border-bottom: 1px solid #d4d0c8; vertical-align: top; line-height: 1.5; }
+.marketing-strategies-guide .guide-table-box th { color: #292b2d; }
+.marketing-strategies-guide .guide-inline-cta { margin: 2.5rem 0; padding: clamp(1.5rem, 3vw, 2rem); border-radius: 1.25rem; background: #f2763e; color: #202522; }
+.marketing-strategies-guide .guide-inline-cta h3 { margin: 0 0 .75rem; color: #202522; }
+.marketing-strategies-guide .article-content .guide-inline-cta p { color: #202522; }
+.marketing-strategies-guide .guide-inline-cta a { display: inline-block; padding: .8rem 1.1rem; border-radius: 999px; background: #202c28; color: #fff; font-weight: 700; text-decoration: none; }
+.marketing-strategies-guide .scroll-help-widget { display: none !important; }
