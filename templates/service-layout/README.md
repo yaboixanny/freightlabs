@@ -15,14 +15,15 @@ Keep this page order:
 5. Timeline with four steps and three illustrated browser-style panels, using service-appropriate timing and copy.
 6. Quick explanation with a detailed checklist and five-row facts panel.
 7. Rounded orange “Book a call with Alex” banner.
-8. Relevant existing proof, reporting, or portfolio sections.
-9. Pricing area in the approved layout, preserving service-specific prices and plan details where listed.
-10. Light FAQ section with numbered, rounded question bubbles and a “Your [Service] Questions, Answered” heading.
-11. Closing CTA and the site's existing footer.
+8. Pricing follows the same custom-plan widget as the two core pages.
+9. Light FAQ section with numbered, rounded question bubbles and a “Your [Service] Questions, Answered” heading.
+10. Closing CTA and the site's existing footer.
+
+Do not add standalone sections that are absent from both core references.
 
 ## Content and links
 
-Keep URLs, canonical tags, titles, main headings, service details, prices, plan limits, FAQ answers, and existing useful links specific to the page. Hero subtitles should explain the current service without links or appended cross-promotions. Platform badges use the approved 10% larger text and icons, with tighter padding at narrow laptop widths to keep one row. Write new copy in short, plain sentences. Do not add unsupported client counts, results, or experience claims.
+Keep URLs, canonical tags, titles, main headings, service details, FAQ answers, and relevant existing links specific to the page. Hero subtitles should explain the current service without links or appended cross-promotions. Platform badges use the approved 10% larger text and icons, with tighter padding at narrow laptop widths to keep one row. Write new copy in short, plain sentences. Do not add unsupported client counts, results, or experience claims.
 
 SEO pages use SEO/GEO panels and may link contextually to `/ai-seo-logistics/`. AI search must not link to itself. Paid media uses campaign/lead tracking panels; outbound uses account research/outreach; websites use buyer experience/build delivery; content uses planning/publishing; consulting uses planning/action. Do not copy trucking terms or SEO promises onto unrelated services.
 
@@ -31,7 +32,7 @@ Use existing licensed site images or verified free stock images. Store shared op
 ## Checks before publishing
 
 - Verify one main heading, nine service cards, two supporting panels, one hero photo, one FAQ block, and unique IDs.
-- Keep hero headings, canonical URLs, and pricing consistent with the page's approved source.
+- Keep hero headings and canonical URLs consistent with the page's approved source; use the shared custom pricing widget.
 - Verify image, stylesheet, internal link, and fragment destinations.
 - Match visible FAQs to FAQ structured data when editing questions or answers.
 - Check three-column desktop and single-column mobile layouts, readable colors, image loading, and accordion behavior.
