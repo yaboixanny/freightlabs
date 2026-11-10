@@ -8788,3 +8788,10 @@ nav button.dropdown-toggle:focus-visible {
 .trucking-quick-facts dd { color: #292b2d; font-size: 1rem; }
 @media (max-width: 850px) { .trucking-quick-grid { grid-template-columns: 1fr; } }
 @media (max-width: 480px) { .trucking-quick-facts > div { grid-template-columns: minmax(105px, .7fr) minmax(0, 1.3fr); } .trucking-quick-facts dt, .trucking-quick-facts dd { padding: 1rem; } }
+
+/* Keep the services menu in its four-column layout when a link gains focus. */
+@media (min-width: 1241px) {
+    .services-dropdown:focus-within .services-mega {
+        display: grid;
+    }
+}
