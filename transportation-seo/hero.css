@@ -1,0 +1,6 @@
+@media (min-width: 1025px) {
+    .ads-hero h1 {
+        max-width: 95%;
+        font-size: clamp(3rem, 4.6vw, 4.9rem);
+    }
+}
