@@ -8616,8 +8616,9 @@ nav button.dropdown-toggle:focus-visible {
 
 .home-page .home-founder-photo {
     overflow: hidden;
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 1 / 1;
     max-height: 610px;
+    border-radius: 8px;
     background: #292b2d;
 }
 
@@ -8627,6 +8628,35 @@ nav button.dropdown-toggle:focus-visible {
     height: 100%;
     object-fit: cover;
     object-position: center 25%;
+}
+
+.home-page .home-founder-kicker {
+    display: block;
+    margin-bottom: 1rem;
+    color: #a33f1e;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.home-page .home-founder-call {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    padding: 1rem 1.6rem;
+    border-radius: 999px;
+    background: #bd4824;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.home-page .home-founder-call:hover,
+.home-page .home-founder-call:focus-visible {
+    background: #923519;
+    color: #fff;
 }
 
 .home-page .home-founder-copy h2 {
