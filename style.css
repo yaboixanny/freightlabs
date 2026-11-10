@@ -8728,3 +8728,21 @@ nav button.dropdown-toggle:focus-visible {
     font-style: normal;
 }
 .article-page.cold-email-guide .article-content blockquote p:last-child { margin-bottom: 0; }
+
+/* Cold email guide: reader-friendly examples and callouts. */
+.article-page.cold-email-guide .cold-guide-callout {
+    margin: 1.5rem 0 2rem; padding: 1.4rem 1.6rem;
+    border-left: 4px solid #bd4824; border-radius: 0 12px 12px 0; background: #f4e8dd;
+}
+.article-page.cold-email-guide .cold-guide-callout p { margin: 0; color: #292b2d; }
+.article-page.cold-email-guide .cold-guide-compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.article-page.cold-email-guide .cold-guide-compare > div { padding: 1.3rem; border: 1px solid #ddd4ca; border-radius: 12px; background: #f7f3ed; }
+.article-page.cold-email-guide .cold-guide-compare > div:last-child { border-color: #e0b49e; background: #f9ede4; }
+.article-page.cold-email-guide .cold-guide-compare strong { color: #8b351b; }
+.article-page.cold-email-guide .cold-guide-compare p { margin: .65rem 0 0; font-size: .98rem; line-height: 1.6; }
+.article-page.cold-email-guide .cold-guide-table-wrap { overflow-x: auto; margin: 1.75rem 0 2.25rem; }
+.article-page.cold-email-guide .cold-guide-table { width: 100%; border-collapse: collapse; background: #f7f4ee; color: #292b2d; }
+.article-page.cold-email-guide .cold-guide-table caption { padding: 0 0 .75rem; text-align: left; font-weight: 700; }
+.article-page.cold-email-guide .cold-guide-table th, .article-page.cold-email-guide .cold-guide-table td { padding: .9rem 1rem; border: 1px solid #ddd7ce; text-align: left; vertical-align: top; line-height: 1.5; }
+.article-page.cold-email-guide .cold-guide-table thead th { background: #e9e2d9; }
+@media (max-width: 600px) { .article-page.cold-email-guide .cold-guide-compare { grid-template-columns: 1fr; } }
