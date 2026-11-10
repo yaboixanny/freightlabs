@@ -8604,22 +8604,22 @@ nav button.dropdown-toggle:focus-visible {
 /* Homepage founder introduction */
 .home-page .home-founder {
     padding: clamp(5rem, 9vw, 8rem) 0;
-    background: #272e2b;
+    background: #efede9;
 }
 .home-page .home-founder-grid {
     display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
     align-items: center; gap: clamp(3rem, 8vw, 8rem);
 }
 .home-page .home-founder-kicker {
-    display: block; margin-bottom: 1.5rem; color: #ff9b6c;
+    display: block; margin-bottom: 1.5rem; color: #a33f1e;
     font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
 }
 .home-page .home-founder-copy h2 {
-    max-width: 720px; margin: 0 0 2rem; color: #f7f3ed; font-family: Inter, sans-serif;
+    max-width: 720px; margin: 0 0 2rem; color: #292b2d; font-family: Inter, sans-serif;
     font-size: clamp(2.6rem, 4.5vw, 4.6rem); line-height: 1.08; letter-spacing: -0.045em;
 }
 .home-page .home-founder-copy p, .home-page .home-founder-copy li {
-    color: #e0e2df; font-size: clamp(1rem, 1.25vw, 1.12rem); line-height: 1.75;
+    color: #505456; font-size: clamp(1rem, 1.25vw, 1.12rem); line-height: 1.75;
 }
 .home-page .home-founder-copy p { max-width: 650px; margin: 0 0 1.25rem; }
 .home-page .home-founder-copy ul { margin: 1.1rem 0 1.6rem; padding-left: 1.3rem; }
@@ -8628,10 +8628,10 @@ nav button.dropdown-toggle:focus-visible {
 .home-page .home-founder-profile { display: flex; flex-direction: column; align-items: center; }
 .home-page .home-founder-linkedin {
     display: inline-flex; align-items: center; gap: .5rem; margin-top: 1.5rem;
-    color: #ffd0b5; font-size: 1rem; font-weight: 700; text-decoration: none;
+    color: #993b20; font-size: 1rem; font-weight: 700; text-decoration: none;
 }
 .home-page .home-founder-linkedin:hover, .home-page .home-founder-linkedin:focus-visible {
-    color: #fff; text-decoration: underline; text-underline-offset: .2em;
+    color: #63220f; text-decoration: underline; text-underline-offset: .2em;
 }
 .home-page .home-founder-photo {
     position: relative; width: min(100%, 420px); aspect-ratio: 1;
