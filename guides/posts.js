@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        title: "How to Run Google Ads for Logistics Companies: Full Tutorial for 2027",
+        slug: "google-ads-tutorial",
+        excerpt: "Learn how to plan campaigns, reach the right shippers, and track useful leads.",
+        date: "November 10, 2026",
+        category: "Google Ads",
+        image: "../paid-media-dashboard.webp"
+    },
+    {
         title: "Cold Email for Freight Forwarders Full Tutorial for 2027",
         slug: "cold-email-for-freight-forwarders",
         excerpt: "Learn how to find the right shippers, write relevant cold emails, and measure results.",
