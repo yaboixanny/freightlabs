@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E35V2GVJDG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E35V2GVJDG');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO for Logistics Companies | Freight Labs Agency</title>
+    <link rel="canonical" href="https://freightlabsagency.com/freightseo/">
+    <meta name="description"
+        content="Freight Labs builds organic search programs for logistics companies, freight brokers, and 3PLs. More qualified traffic, lower cost per lead. See how we do it.">
+    <link rel="stylesheet" href="../style.css?v=20261109-expanded-footer">
+    <link rel="stylesheet" href="../seo-warehousing/warehouse-problem.css?v=20261031-3">
+    <link rel="stylesheet" href="../seo-warehousing/warehouse-seo-services.css?v=20261031-4">
+    <link rel="stylesheet" href="../seo-warehousing/warehouse-strategy.css?v=20261031-2">
+    <link rel="stylesheet" href="../seo-warehousing/warehouse-cta.css?v=20261031-6">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://freightlabsagency.com/#business",
+      "name": "Freight Labs",
+      "url": "https://freightlabsagency.com/",
+      "logo": "https://freightlabsagency.com/freightlabs-logo.png",
+      "email": "hello@freightlabsagency.com",
+      "telephone": "+1-289-698-4155",
+      "areaServed": "North America",
+      "description": "A logistics-specialist marketing agency serving freight brokers, 3PLs, carriers, warehousing providers, and transportation companies."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://freightlabsagency.com/freightseo/#service",
+      "name": "SEO for Logistics Companies",
+      "url": "https://freightlabsagency.com/freightseo/",
+      "description": "Technical SEO, search strategy, content, digital authority, local optimization, and lead attribution for logistics companies.",
+      "serviceType": [
+        "Logistics SEO",
+        "3PL SEO",
+        "Freight Forwarding SEO",
+        "Warehousing SEO"
+      ],
+      "provider": {
+        "@id": "https://freightlabsagency.com/#business"
+      },
+      "areaServed": "North America",
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Freight brokers, 3PLs, freight forwarders, and warehousing providers"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://freightlabsagency.com/freightseo/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://freightlabsagency.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO for Logistics Companies",
+          "item": "https://freightlabsagency.com/freightseo/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://freightlabsagency.com/freightseo/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does logistics SEO take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some site fixes can help early. Ranking for competitive searches often takes several months of steady work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you write the content?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Content planning and production can include service pages, location pages, guides, and updates to existing copy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you support local and national SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The strategy depends on whether buyers choose a nearby facility, a regional provider, or a national partner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about AI search visibility?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clear company details, helpful content, and trusted links can help people find you in search and AI tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you guarantee rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No SEO partner can promise a search ranking. We agree on the work and report on rankings, relevant traffic, and leads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is performance reported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reporting can include indexation, priority rankings, organic landing pages, qualified inquiries, and pipeline signals."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <script>document.documentElement.classList.add('js-enabled');</script>
+    <link rel="stylesheet" href="../assets/service-layout.css?v=20261110-2">
+</head>
+
+<body class="service-page dark-green-theme seo-service-page service-cta-page service-template-page service-layout-page">
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="../" class="logo site-logo" aria-label="Freight Labs home"><img loading="lazy" decoding="async" src="../freightlabs-logo.png" alt="Freight Labs"></a>
+            <div class="nav-links">
+                <a href="../">Home</a>
+                <div class="dropdown services-dropdown">
+                    <button type="button" class="dropdown-toggle" aria-expanded="false">Services</button>
+                    <div class="dropdown-menu services-mega">
+                        <div class="mega-column">
+                            <span class="mega-heading">SEO</span>
+                            <a href="../freightseo/">SEO for Logistics Companies</a>
+                            <a href="../transportation-seo/">Transportation SEO</a><a href="../seo-trucking-companies/">SEO for Trucking Companies</a><a href="../seo-warehousing/">SEO for Warehousing Companies</a><a href="../seo-supply-chain-companies/">SEO for Supply Chain Companies</a><a href="../seo-intermodal-logistics/">SEO for Intermodal Providers</a>
+                            <a href="../3pl-seo/">3PL SEO</a>
+                            <a href="../ai-seo-logistics/">AI Search Optimization</a>
+                        </div>
+                        <div class="mega-column">
+                            <span class="mega-heading">Paid Media</span>
+
+                            <a href="../google-ads-logistics/">Google Ads</a>
+                            <a href="../facebook-ads-logistics/">Facebook Ads</a><a href="../linkedin-ads-logistics/">LinkedIn Ads</a>
+                        </div>
+                        <div class="mega-column">
+                            <span class="mega-heading">Outbound</span>
+                            <a href="../freightleads/">Lead Generation for Freight Brokers</a>
+                            <a href="../logistics-lead-generation/">Logistics Lead Generation</a>
+                            <a href="../shipper-lead-generation/">Shipper Lead Generation</a>
+                        </div>
+                        <div class="mega-column">
+                            <span class="mega-heading">Website</span>
+                            <a href="../logistics-web-design/">Logistics Web Design</a>
+                            <a href="../web-design-trucking-companies/">Web Design for Trucking Companies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown industries-dropdown">
+                    <button type="button" class="dropdown-toggle" aria-expanded="false">Industries</button>
+                    <div class="dropdown-menu industries-menu">
+                        <a href="../warehousing-fulfillment/">Warehousing &amp; Fulfillment</a>
+                        <a href="../freight-forwarding-transportation/">Freight Forwarding &amp; Transportation</a>
+                        <a href="../supply-chain-technology/">Supply Chain Technology</a>
+                        <a href="../ecommerce-d2c-logistics/">E-commerce &amp; D2C Logistics</a>
+                        <a href="../cold-chain-logistics/">Cold Chain Logistics</a>
+                        <a href="../last-mile-urban-delivery/">Last-Mile &amp; Urban Delivery</a>
+                        <a href="../rail-freight-marketing/">Rail Freight Marketing</a>
+                    </div>
+                </div>
+                <a href="../about/">About</a>
+                <a href="../contact/">Contact</a>
+                <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-nav" target="_blank" rel="noopener noreferrer">Book a Call</a>
+            </div>
+            <div class="mobile-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO -->
+    <main>
+<header class="ads-hero"><div class="container ads-hero-grid"><div class="ads-hero-content"><div class="hero-eyebrow"><span></span> Logistics SEO / Freight growth</div><h1>SEO for <em>Logistics Companies</em></h1><p class="ads-hero-lead">We help freight brokers, 3PLs, and logistics companies show up in search and bring in more of the right leads.</p><div class="btn-group"><a class="btn-primary" href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" rel="noopener noreferrer" target="_blank">Book a Call <span aria-hidden="true">↗</span></a></div><div aria-labelledby="search-platforms-heading" class="search-platforms">
+<h2 id="search-platforms-heading">Where we get you found</h2>
+<ul class="search-platforms-list">
+<li><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.7 4.7 0 0 1-2 3.1v2.5h3.2c1.9-1.8 3-4.3 3-7.4Z" fill="currentColor"></path><path d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1a6 6 0 0 1-5.7-4.2H3v2.6A10 10 0 0 0 12 22Z" fill="currentColor"></path><path d="M6.3 13.9a6 6 0 0 1 0-3.8V7.5H3a10 10 0 0 0 0 9l3.3-2.6Z" fill="currentColor"></path><path d="M12 5.9c1.5 0 2.9.5 4 1.6l2.9-2.9A9.7 9.7 0 0 0 12 2a10 10 0 0 0-9 5.5l3.3 2.6A6 6 0 0 1 12 5.9Z" fill="currentColor"></path></svg>Google</li>
+<li><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.7 4.7 0 0 1-2 3.1v2.5h3.2c1.9-1.8 3-4.3 3-7.4Z" fill="currentColor"></path><path d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1a6 6 0 0 1-5.7-4.2H3v2.6A10 10 0 0 0 12 22Z" fill="currentColor"></path><path d="M6.3 13.9a6 6 0 0 1 0-3.8V7.5H3a10 10 0 0 0 0 9l3.3-2.6Z" fill="currentColor"></path><path d="M12 5.9c1.5 0 2.9.5 4 1.6l2.9-2.9A9.7 9.7 0 0 0 12 2a10 10 0 0 0-9 5.5l3.3 2.6A6 6 0 0 1 12 5.9Z" fill="currentColor"></path></svg>AI Overviews</li>
+<li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" viewbox="0 0 24 24"><path d="M12 2.4a4.2 4.2 0 0 1 4 2.9 4.2 4.2 0 0 1 4.5 6.5 4.2 4.2 0 0 1-3.4 7.1A4.2 4.2 0 0 1 9.5 21a4.2 4.2 0 0 1-5.7-5.5 4.2 4.2 0 0 1 2.7-7.4A4.2 4.2 0 0 1 12 2.4Z"></path><path d="m7 8 5-2.9 5 2.9v5.8l-5 2.9-5-2.9V8Zm0 5.8 5 2.9v4.5m5-7.4 3.8-2.2M12 5.1V2.4M7 8 3.5 10m13.5-2 3.5 2M7 13.8l-3.3 1.9m8.3 1 5-2.9V8l-5-2.9L7 8"></path></svg>ChatGPT</li>
+<li><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M4 3v13l8-6L20 16V3l-8 7L4 3Zm0 7H1v8l3-2m16-6h3v8l-3-2M12 2v20M4 16v5l8-7 8 7v-5"></path></svg>Perplexity</li>
+<li><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M12 1c1.3 6 4.2 8.9 11 11-6.8 2.1-9.7 5-11 11C10.7 17 7.8 14.1 1 12 7.8 9.9 10.7 7 12 1Z" fill="currentColor"></path></svg>Gemini</li>
+</ul>
+</div></div><figure class="service-layout-hero-photo"><img class="service-layout-hero-image" src="../assets/service-heroes/port-terminal.webp" alt="Freight containers and transport operations at a port" width="1000" height="1000" fetchpriority="high" decoding="async"><figcaption class="service-layout-hero-caption"><span>Logistics SEO for freight businesses</span><strong>Help the right buyers find your freight services and ask for a quote.</strong></figcaption></figure></div></header>
+<section class="warehouse-problem" aria-labelledby="service-problem-heading"><div class="container"><span class="section-kicker">What gets in the way</span><h2 id="service-problem-heading">Why your logistics SEO may not be working.</h2><div class="warehouse-problem-intro"><p><strong>Visibility means little without buyer intent.</strong><br>Organic search programs for freight brokers, 3PLs, and logistics providers that turn industry expertise into qualified inbound demand.</p><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-problem-button" target="_blank" rel="noopener noreferrer">Book a Discovery Call <span aria-hidden="true">→</span></a></div><div class="warehouse-problem-grid"><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Broad keyword competition</h3><p>Directories, aggregators, and national brands can absorb visibility without matching your niche strengths.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Fragmented service demand</h3><p>Modes, locations, lanes, verticals, and facility capabilities create different search journeys.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Authority takes structure</h3><p>A few blog posts cannot compensate for weak architecture, technical issues, or unclear service pages.</p></div></article><article><span class="warehouse-problem-icon" aria-hidden="true">×</span><div><h3>Slow attribution</h3><p>Long sales cycles make rankings and traffic incomplete measures of SEO performance.</p></div></article></div></div></section>
+<section class="ads-system"><div class="container"><div class="ads-system-heading"><span class="section-kicker section-kicker-light">How it works</span><h2>A simple plan.<br>No guessing.</h2><p>You’ll always know what we’re working on, why it matters, and what comes next.</p></div><div class="ads-system-list ads-process-list"><article><span class="ads-step">01 / Audit</span><h3>Audit</h3><p>Map technical, content, authority, and conversion gaps.</p></article><article><span class="ads-step">02 / Strategy</span><h3>Strategy</h3><p>Focus on search markets with business value.</p></article><article><span class="ads-step">03 / Build</span><h3>Build</h3><p>Improve architecture, core pages, and measurement.</p></article><article><span class="ads-step">04 / Publish</span><h3>Publish</h3><p>Create useful content around buyer decisions.</p></article><article><span class="ads-step">05 / Compound</span><h3>Compound</h3><p>Strengthen winners with links, updates, and conversion data.</p></article></div></div></section>
+<section class="service-layout-services" id="scope" aria-labelledby="service-scope-heading"><div class="container"><div class="service-layout-services-heading"><div><span class="service-layout-services-kicker">What’s included</span><h2 id="service-scope-heading">How we help your logistics company grow.</h2></div><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary" target="_blank" rel="noopener noreferrer">Talk about your goals <span aria-hidden="true">↗</span></a></div><div class="service-layout-services-grid"><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">⌘</span><span class="service-layout-service-number">01</span></div><h3>Technical foundation</h3><p>First, we make sure search engines can properly find, understand, and rank the pages that matter.</p><details class="service-layout-card-details"><summary>What this covers</summary><ul><li>Crawl and indexation audit</li><li>Clear site architecture</li><li>Core page optimization</li><li>Schema and internal linking</li></ul></details></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">↗</span><span class="service-layout-service-number">02</span></div><h3>Market strategy</h3><p>We find the searches that match your services and focus on the ones most likely to bring in good-fit buyers.</p><details class="service-layout-card-details"><summary>What this covers</summary><ul><li>Commercial keyword research</li><li>Service and location mapping</li><li>Competitor gap analysis</li><li>Search-intent prioritization</li></ul></details></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">{}</span><span class="service-layout-service-number">03</span></div><h3>Content system</h3><p>Then we build useful pages that answer buyer questions and give your sales team something worth sending to prospects.</p><details class="service-layout-card-details"><summary>What this covers</summary><ul><li>Service page briefs</li><li>Useful logistics guides</li><li>On-page optimization</li><li>AI search visibility</li></ul></details></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">▤</span><span class="service-layout-service-number">04</span></div><h3>Authority and reporting</h3><p>We strengthen trust around the site and show how search visibility connects to inquiries, leads, and sales activity.</p><details class="service-layout-card-details"><summary>What this covers</summary><ul><li>Relevant link strategy</li><li>Local citations where useful</li><li>Search visibility reporting</li><li>Track leads from search</li></ul></details></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">⌖</span><span class="service-layout-service-number">05</span></div><h3>Business details</h3><p>Keep your name, contact details, and business profiles up to date. Help buyers find the right location and reach your team.</p></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">◇</span><span class="service-layout-service-number">06</span></div><h3>Build trust</h3><p>Show your experience with real service details, team knowledge, and examples. Give buyers the facts they need to trust your business.</p></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">⇄</span><span class="service-layout-service-number">07</span></div><h3>Clear next steps</h3><p>Make it easy for buyers to ask for a quote or speak with sales. Track which pages bring in forms and calls.</p></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">✦</span><span class="service-layout-service-number">08</span></div><h3>AI search readiness</h3><p>Explain your services, locations, and freight needs in clear answers that search engines and AI tools can understand.</p></article><article class="service-layout-service-card"><div class="service-layout-service-card-top"><span class="service-layout-service-icon" aria-hidden="true">▥</span><span class="service-layout-service-number">09</span></div><h3>Track results</h3><p>Review search results, inquiries, and feedback from your sales team. Use what you learn to improve the pages that matter most.</p></article></div><div class="service-layout-search-panels"><article class="service-layout-search-panel"><div class="service-layout-panel-heading"><span>SEO</span><h3>Search engines and maps</h3></div><ul><li>Pages built around real buyer searches</li><li>Site fixes for speed, phones, and search results</li><li>Correct local details for your real locations</li><li>Clear answers that help buyers take the next step</li></ul></article><article class="service-layout-search-panel service-layout-search-panel-ai"><div class="service-layout-panel-heading"><span>GEO</span><h3>AI search and answers</h3></div><ul><li>Clear facts about your services and coverage</li><li>Site code that helps search tools read your business details</li><li>Useful answers based on your team’s knowledge</li><li>Search insights to guide what we improve next</li></ul><a href="../ai-seo-logistics/">Explore AI search optimization for logistics <span aria-hidden="true">→</span></a></article></div></div></section>
+<section class="warehouse-strategy" aria-labelledby="service-strategy-heading"><div class="container warehouse-strategy-grid"><div class="warehouse-strategy-copy"><h2 id="service-strategy-heading">How our logistics SEO strategy actually works.</h2><p class="warehouse-strategy-lead">Reach shippers and supply-chain buyers.</p><p>We start with your goals, services, and the buyers you want to reach. Then we look at the searches they use.</p><ul><li>Crawl and indexation audit</li><li>Clear site architecture</li><li>Core page optimization</li><li>Schema and internal linking</li><li>Commercial keyword research</li><li>Service and location mapping</li></ul><p>Each step helps turn interest into a useful sales conversation.</p></div><figure class="warehouse-strategy-visual" aria-label="Illustration of a marketing strategy connecting the right audience, clear messaging, and sales inquiries"><div class="warehouse-strategy-diagram"><div class="warehouse-strategy-label warehouse-strategy-label-search"><strong>AUDIENCE</strong><span>Right buyers</span></div><div class="warehouse-strategy-label warehouse-strategy-label-content"><strong>STRATEGY</strong><span>Clear message</span></div><div class="warehouse-strategy-site" aria-hidden="true"><div class="warehouse-strategy-browser"><i></i><i></i><i></i></div><div class="warehouse-strategy-site-hero"><small>LOGISTICS SEO</small><strong>Make it easier for the right buyers to find you.</strong><span>Explore services →</span></div><div class="warehouse-strategy-site-body"><b>Help buyers understand your business.</b><div class="warehouse-strategy-mini-grid"><span>Services</span><span>Markets</span><span>Expertise</span></div><div class="warehouse-strategy-lines"><i></i><i></i><i></i></div><em>Get in touch →</em></div></div><div class="warehouse-strategy-label warehouse-strategy-label-leads"><strong>LEADS</strong><span>Useful inquiries</span></div></div></figure></div></section>
+<section class="service-timeline" aria-labelledby="service-timeline-title">
+    <div class="container">
+        <span class="service-timeline-kicker">How it works</span>
+        <h2 id="service-timeline-title">How long does SEO for logistics companies take?</h2>
+        <p class="service-timeline-intro">Here is what we do first, what we build, and how we track results. The time it takes depends on your site, market, and goals.</p>
+        <div class="service-timeline-visuals" aria-label="Illustrations of logistics service pages, search visibility, and a quote form">
+            <div class="service-timeline-visual service-timeline-visual-site" aria-hidden="true">
+                <div class="service-timeline-browser"><span></span><span></span><span></span></div>
+                <div class="service-timeline-visual-copy"><small>LOGISTICS SERVICE PAGE</small><strong>The right services for your freight.</strong><i>Explore services →</i></div>
+            </div>
+            <div class="service-timeline-visual service-timeline-visual-search" aria-hidden="true">
+                <div class="service-timeline-browser"><span></span><span></span><span></span></div>
+                <div class="service-timeline-visual-copy"><small>SHIPPER SEARCH</small><strong>Find the right logistics partner.</strong><div class="service-timeline-search-bar">Logistics services near your market <b>⌕</b></div></div>
+            </div>
+            <div class="service-timeline-visual service-timeline-visual-quote" aria-hidden="true">
+                <div class="service-timeline-browser"><span></span><span></span><span></span></div>
+                <div class="service-timeline-form"><small>REQUEST A QUOTE</small><strong>Tell us about your freight.</strong><div><span>Origin</span><span>Destination</span></div><div><span>Freight type</span><span>Timing</span></div><i>Get a quote →</i></div>
+            </div>
+        </div>
+        <div class="service-timeline-steps">
+            <article><span>Weeks 1–2</span><h3>Audit</h3><p>Check your site, search results, and quote forms. Find the main problems and decide where to start.</p></article>
+            <article><span>Month 1</span><h3>Map</h3><p>Match your services, locations, and freight types to the terms buyers search for.</p></article>
+            <article><span>Months 2–6</span><h3>Build</h3><p>Fix the site and build pages that show your services, where you work, and who you help.</p></article>
+            <article><span>Every month</span><h3>Measure</h3><p>Check search results, quote requests, and lead quality. Use what we learn to update the plan.</p></article>
+        </div>
+        <p class="service-timeline-note">Some fixes can help early. Search growth often takes several months, and results are not guaranteed.</p>
+    </div>
+</section>
+<section class="service-layout-quick-answer" id="service-explained" aria-labelledby="service-explained-title"><div class="container service-layout-quick-grid"><div class="service-layout-quick-copy"><span class="service-layout-quick-kicker">Quick answer</span><h2 id="service-explained-title">What does logistics SEO include?</h2><p>We help freight brokers, 3PLs, and other logistics firms show up when buyers search online. We improve your site and write clear pages about your services and locations.</p><ul><li>Improve pages for your services, facilities, and locations</li><li>Fix site problems and help buyers find you in local search</li><li>Answer buyer questions and show why they can trust your business</li><li>Track quote requests, calls, and lead quality</li></ul><p>We agree on the work and how we will track it before we start.</p></div><dl class="service-layout-quick-facts"><div><dt>Built for</dt><dd>Freight brokers, 3PLs, carriers, and other logistics companies</dd></div><div><dt>Where you can appear</dt><dd>Search results, local listings, and AI search tools</dd></div><div><dt>What we focus on</dt><dd>Your services, facilities, locations, and buyer needs</dd></div><div><dt>When to expect progress</dt><dd>Some fixes can help early; competitive rankings often take several months</dd></div><div><dt>How we measure</dt><dd>Search visibility, quote requests, calls, and lead quality</dd></div></dl></div></section>
+<section class="service-layout-offer service-layout-offer-call" aria-labelledby="service-offer-title"><div class="container"><div class="service-layout-offer-panel"><div><h2 id="service-offer-title">Want a clear plan for your logistics SEO?</h2><p>Talk through your goals with Alex and find useful next steps for your business.</p></div><a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="btn-primary" target="_blank" rel="noopener noreferrer">Book a call with Alex <span aria-hidden="true">↗</span></a></div></div></section>
+
+<section class="pricing-template" id="pricing" aria-labelledby="pricing-template-title">
+    <div class="container">
+        <div class="pricing-template-panel">
+            <div class="pricing-template-intro">
+                <span class="pricing-template-kicker">Pricing</span>
+                <h2 id="pricing-template-title">How much does logistics SEO cost?</h2>
+                <p>Logistics SEO is a monthly service built around your business, website, and growth goals.<br>The price depends on the work your site needs and the services, locations, and markets you want to reach.</p>
+                <p>We’ll talk through your goals and suggest a plan that fits your business.</p>
+                <a class="pricing-template-button" href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" target="_blank" rel="noopener noreferrer">Get a plan and price <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="pricing-template-details">
+                <h3>What changes the price?</h3>
+                <ul>
+                    <li>Number of services, facilities, and locations</li>
+                    <li>Technical work your current website needs</li>
+                    <li>How much new or updated content you need</li>
+                    <li>How much competition you face in your markets</li>
+                </ul>
+                <p>We build the plan around your business, main goals, and budget.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="service-layout-faq" id="faq" aria-labelledby="service-faq-heading"><div class="container"><div class="section-heading ads-channel-heading"><h2 id="service-faq-heading">Your Logistics SEO Questions, Answered</h2></div><div class="service-layout-faq-list"><details><summary><span class="service-layout-faq-number" aria-hidden="true">01</span><span class="service-layout-faq-question">How long does logistics SEO take?</span></summary><p>Some site fixes can help early. Ranking for competitive searches often takes several months of steady work.</p></details><details><summary><span class="service-layout-faq-number" aria-hidden="true">02</span><span class="service-layout-faq-question">Do you write the content?</span></summary><p>Yes. Content planning and production can include service pages, location pages, guides, and updates to existing copy.</p></details><details><summary><span class="service-layout-faq-number" aria-hidden="true">03</span><span class="service-layout-faq-question">Can you support local and national SEO?</span></summary><p>Yes. The strategy depends on whether buyers choose a nearby facility, a regional provider, or a national partner.</p></details><details><summary><span class="service-layout-faq-number" aria-hidden="true">04</span><span class="service-layout-faq-question">What about AI search visibility?</span></summary><p>Clear company details, helpful content, and trusted links can help people find you in search and AI tools.</p></details><details><summary><span class="service-layout-faq-number" aria-hidden="true">05</span><span class="service-layout-faq-question">Do you guarantee rankings?</span></summary><p>No SEO partner can promise a search ranking. We agree on the work and report on rankings, relevant traffic, and leads.</p></details><details><summary><span class="service-layout-faq-number" aria-hidden="true">06</span><span class="service-layout-faq-question">How is performance reported?</span></summary><p>Reporting can include indexation, priority rankings, organic landing pages, qualified inquiries, and pipeline signals.</p></details></div></div></section>
+<section class="warehouse-cta" aria-labelledby="service-cta-title">
+    <div class="warehouse-cta-panel">
+        <div class="container warehouse-cta-grid">
+            <div class="warehouse-cta-copy">
+                <h2 id="service-cta-title">Ready to reach more shippers?</h2>
+                <p>Book a <strong>discovery call</strong> to talk through your logistics services and the buyers you want to reach, and where we can help.</p>
+                <ul>
+                    <li>Discuss your services and ideal customers</li>
+                    <li>Review how shippers find you in search</li>
+                    <li>Find useful next steps for your SEO</li>
+                </ul>
+            </div>
+            <div class="warehouse-cta-card">
+                <p class="warehouse-cta-card-heading">Let’s talk about your search visibility.</p>
+                <a href="https://cal.com/alexanderstefanseo/freight-labs-discovery-call" class="warehouse-cta-button" target="_blank" rel="noopener noreferrer">Schedule a Discovery Call <span aria-hidden="true">→</span></a>
+                <p class="warehouse-cta-note">No pressure. Just a helpful talk about your business.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+
+    <footer class="expanded-footer">
+            <div class="container footer-grid">
+            <div class="footer-brand"><a href="/" class="logo site-logo" aria-label="Freight Labs home"><img loading="lazy" decoding="async" src="/freightlabs-logo.png" alt="Freight Labs"></a><p>Predictable lead gen for logistics companies.</p><a class="footer-email" href="mailto:hello@freightlabsagency.com">hello@freightlabsagency.com</a><span>North America</span></div>
+            <div class="footer-col"><h4>SEO</h4>
+            <a href="/freightseo/">SEO for Logistics Companies</a>
+            <a href="/transportation-seo/">Transportation SEO</a>
+            <a href="/seo-trucking-companies/">SEO for Trucking Companies</a>
+            <a href="/seo-warehousing/">SEO for Warehousing Companies</a>
+            <a href="/seo-supply-chain-companies/">SEO for Supply Chain Companies</a>
+            <a href="/seo-intermodal-logistics/">SEO for Intermodal Providers</a>
+            <a href="/3pl-seo/">3PL SEO</a>
+            <a href="/ai-seo-logistics/">AI Search Optimization</a>
+            </div>
+            <div class="footer-col"><h4>Paid Media</h4>
+            <a href="/google-ads-logistics/">Google Ads</a>
+            <a href="/facebook-ads-logistics/">Facebook Ads</a>
+            <a href="/linkedin-ads-logistics/">LinkedIn Ads</a>
+            </div>
+            <div class="footer-col"><h4>Outbound</h4>
+            <a href="/freightleads/">Lead Generation for Freight Brokers</a>
+            <a href="/logistics-lead-generation/">Logistics Lead Generation</a>
+            <a href="/shipper-lead-generation/">Shipper Lead Generation</a>
+            </div>
+            <div class="footer-col"><h4>Website</h4>
+            <a href="/logistics-web-design/">Logistics Web Design</a>
+            <a href="/web-design-trucking-companies/">Web Design for Trucking Companies</a>
+            </div>
+            <div class="footer-col"><h4>Industries</h4>
+            <a href="/warehousing-fulfillment/">Warehousing &amp; Fulfillment</a>
+            <a href="/freight-forwarding-transportation/">Freight Forwarding &amp; Transportation</a>
+            <a href="/rail-freight-marketing/">Rail Freight &amp; Logistics</a>
+            <a href="/supply-chain-technology/">Supply Chain Technology</a>
+            <a href="/ecommerce-d2c-logistics/">E-commerce &amp; D2C Logistics</a>
+            <a href="/cold-chain-logistics/">Cold Chain Logistics</a>
+            <a href="/last-mile-urban-delivery/">Last-Mile &amp; Urban Delivery</a>
+            </div>
+            <div class="footer-col"><h4>More Services</h4>
+            <a href="/freightcontent/">Content Marketing</a>
+            <a href="/logistics-consulting/">Logistics Consulting</a>
+            </div>
+            <div class="footer-col"><h4>Company</h4>
+            <a href="/about/">About</a>
+            <a href="/why-choose-us/">Why Freight Labs</a>
+            <a href="/case-studies/">Case Studies</a>
+            <a href="/guides/">Guides</a>
+            <a href="/guides/freight-broker-lead-generation-strategies/">Freight Broker Leads Guide</a>
+            <a href="/contact/">Contact</a>
+            </div>
+            </div><div class="copyright"><div class="container"><p>&copy; 2026 Freight Labs. All rights reserved.</p></div></div>
+    </footer>
+
+    <script src="../script.js?v=20260910-navfix1"></script>
+</body>
+
+</html>

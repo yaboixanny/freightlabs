@@ -1,7 +1,6 @@
 # Freight Labs service-page layout
 
-Approved source: `seo-trucking-companies/index.html`, saved November 10, 2026.
-`reference.html.template` is the complete approved source snapshot, retained for layout fidelity. It is a reference file, not a published URL.
+Core references: `seo-trucking-companies/index.html` and `freightseo/index.html`. The approved snapshots are saved as `reference.html.template` and `logistics-reference.html.template`; these are reference files, not published URLs.
 
 ## Reuse
 
@@ -13,11 +12,11 @@ Keep this page order:
 2. Service problem and process sections.
 3. Nine service cards in three desktop columns; two supporting panels appropriate to the service.
 4. Service strategy, when present.
-5. Timeline with four steps and three compact visuals.
-6. Quick explanation with a checklist and paired facts panel.
+5. Timeline with four steps and three illustrated browser-style panels, using service-appropriate timing and copy.
+6. Quick explanation with a detailed checklist and five-row facts panel.
 7. Rounded orange “Book a call with Alex” banner.
 8. Relevant existing proof, reporting, or portfolio sections.
-9. Existing service pricing and plan details.
+9. Pricing area in the approved layout, preserving service-specific prices and plan details where listed.
 10. Light FAQ section with numbered, rounded question bubbles and a “Your [Service] Questions, Answered” heading.
 11. Closing CTA and the site's existing footer.
 

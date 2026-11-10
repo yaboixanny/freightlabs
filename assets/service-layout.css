@@ -223,3 +223,8 @@
     .search-platforms-list { gap: 0.18rem; }
     .search-platforms-list li { gap: 0.22rem; padding-inline: 0.28rem; }
 }
+
+/* Core template: rounded pricing area while retaining each service's plan details. */
+.service-layout-page .ads-pricing > .container { border-radius: 2rem; }
+.service-layout-page .ads-pricing .seo-pricing-card,
+.service-layout-page .ads-pricing .ads-pricing-card { border-radius: 1.5rem; }
