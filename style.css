@@ -8728,6 +8728,7 @@ nav button.dropdown-toggle:focus-visible {
 .pricing-template .pricing-template-intro p { max-width: 650px; margin: 0 0 1rem; color: #e3e5e1; font-size: 1.05rem; line-height: 1.7; }
 .pricing-template-button { display: inline-flex; align-items: center; gap: .9rem; margin-top: 1rem; padding: 1rem 1.5rem; border-radius: 999px; background: #f2763e; color: #202522; font-weight: 700; text-decoration: none; }
 .pricing-template-button:hover, .pricing-template-button:focus-visible { background: #ff9b6c; color: #202522; }
+.pricing-template-details { align-self: center; }
 .pricing-template-details h3 { margin: 0 0 .5rem; color: #c4ccc5; font-family: Inter, sans-serif; font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .pricing-template-details ul { margin: 0; padding: 0; list-style: none; }
 .pricing-template-details li { display: flex; gap: .85rem; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,.14); color: #f2f3ef; font-size: 1rem; line-height: 1.5; }
