@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        title: "Cold Email for Freight Forwarders Full Tutorial for 2027",
+        slug: "cold-email-for-freight-forwarders",
+        excerpt: "Learn how to find the right shippers, write relevant cold emails, and measure results.",
+        date: "November 10, 2026",
+        category: "Lead Generation",
+        image: "../content-laptop.webp"
+    },
+    {
         title: "Local SEO for 3PLs: How to Attract Nearby Shippers",
         slug: "../3pl-seo",
         excerpt: "Learn how local SEO can help 3PLs reach nearby shippers. Explore business profiles, local pages, and reviews.",
