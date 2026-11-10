@@ -23,7 +23,7 @@ Keep this page order:
 
 ## Content and links
 
-Keep URLs, canonical tags, titles, main headings, service details, prices, plan limits, FAQ answers, and existing useful links specific to the page. Write new copy in short, plain sentences. Do not add unsupported client counts, results, or experience claims.
+Keep URLs, canonical tags, titles, main headings, service details, prices, plan limits, FAQ answers, and existing useful links specific to the page. Hero subtitles should explain the current service without links or appended cross-promotions. Platform badges use the approved 10% larger text and icons, with tighter padding at narrow laptop widths to keep one row. Write new copy in short, plain sentences. Do not add unsupported client counts, results, or experience claims.
 
 SEO pages use SEO/GEO panels and may link contextually to `/ai-seo-logistics/`. AI search must not link to itself. Paid media uses campaign/lead tracking panels; outbound uses account research/outreach; websites use buyer experience/build delivery; content uses planning/publishing; consulting uses planning/action. Do not copy trucking terms or SEO promises onto unrelated services.
 
