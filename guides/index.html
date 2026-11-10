@@ -101,6 +101,29 @@
             gap: 0.5rem;
         }
 
+
+        .modern-site-page .guides-hero .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .modern-site-page .guides-hero h1 {
+            width: 100%;
+            margin: 0 auto 1.5rem;
+        }
+        .modern-site-page .guides-hero p { margin: 0 auto; }
+        .modern-site-page .blog-card { position: relative; }
+        .modern-site-page .blog-card .read-more::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+        }
+        .modern-site-page .blog-card:focus-within {
+            outline: 3px solid var(--accent);
+            outline-offset: 3px;
+        }
+
         /* Pagination */
         .pagination {
             display: flex;
@@ -385,7 +408,7 @@
     <script src="posts.js?v=20261110-logistics-strategies"></script>
     <script>
         // Pagination Logic
-        const postsPerPage = 5;
+        const postsPerPage = 6;
         let currentPage = 1;
 
         function renderPosts(page) {
