@@ -1,28 +1,28 @@
-.trucking-services{padding:clamp(4.5rem,7vw,7rem) 0;background:#172b29;color:#f2f0ec}
+.trucking-services{padding:clamp(4.5rem,7vw,7rem) 0;background:#272e2b;color:#f7f4ef}
 .trucking-services-heading{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:2.5rem}
 .trucking-services-kicker{display:block;margin-bottom:1rem;color:#e98a63;font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
-.trucking-services h2{max-width:850px;margin:0;color:#f2f0ec;font-size:clamp(2.3rem,4vw,4rem);line-height:1.08;letter-spacing:-.045em}
+.trucking-services h2{max-width:850px;margin:0;color:#f7f4ef;font-size:clamp(2.3rem,4vw,4rem);line-height:1.08;letter-spacing:-.045em}
 .trucking-services-heading>a,.trucking-search-panel>a{color:#eea180;font-weight:700;text-decoration:none}
 .trucking-services-heading>a{white-space:nowrap;padding-bottom:.4rem}
 .trucking-services-heading>a:hover,.trucking-search-panel>a:hover{text-decoration:underline}
 .trucking-services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
-.trucking-service-card{padding:clamp(1.5rem,2.3vw,2.2rem);border:1px solid #3e5751;border-radius:1.6rem;background:#1a302d}
+.trucking-service-card{padding:clamp(1.5rem,2.3vw,2.2rem);border:1px solid #3e5751;border-radius:1.6rem;background:#303934}
 .trucking-service-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem}
 .trucking-service-icon{display:grid;place-items:center;width:3rem;height:3rem;border-radius:1rem;background:rgba(196,85,45,.18);color:#ed946c;font-size:1.35rem;font-weight:600}
 .trucking-service-number{color:#8fa49d;font-size:.8rem;font-weight:600}
-.trucking-service-card h3{margin:0 0 .8rem;color:#f2f0ec;font-size:1.25rem;line-height:1.25}
-.trucking-service-card p{margin:0;color:#c4cfca;line-height:1.7;font-size:.95rem}
+.trucking-service-card h3{margin:0 0 .8rem;color:#f7f4ef;font-size:1.25rem;line-height:1.25}
+.service-page .trucking-services .trucking-service-card p{margin:0;color:#e2e7e2;line-height:1.7;font-size:.95rem}
 .trucking-search-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1rem}
-.trucking-search-panel{padding:clamp(1.5rem,2.5vw,2.5rem);border:1px solid #3e5751;border-radius:1.6rem;background:#1a302d}
-.trucking-search-panel-ai{border-color:#c4552d;background:#10201e}
+.trucking-search-panel{padding:clamp(1.5rem,2.5vw,2.5rem);border:1px solid #3e5751;border-radius:1.6rem;background:#303934}
+.trucking-search-panel-ai{border-color:#c4552d;background:#232a27}
 .trucking-panel-heading{display:flex;align-items:center;flex-wrap:wrap;gap:.8rem}
 .trucking-panel-heading span{padding:.3rem .7rem;border-radius:999px;background:#c4552d;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.12em}
-.trucking-panel-heading h3{margin:0;color:#f2f0ec;font-size:1rem}
-.trucking-search-panel ul{display:grid;gap:.75rem;margin:1.5rem 0 0;padding:0;list-style:none;color:#c4cfca;line-height:1.6}
+.trucking-panel-heading h3{margin:0;color:#f7f4ef;font-size:1rem}
+.trucking-search-panel ul{display:grid;gap:.75rem;margin:1.5rem 0 0;padding:0;list-style:none;color:#e2e7e2;line-height:1.6}
 .trucking-search-panel li{position:relative;padding-left:1.5rem}
 .trucking-search-panel li::before{content:'✓';position:absolute;left:0;color:#e98a63}
 .trucking-search-panel>a{display:inline-block;margin-top:1.4rem}
-.trucking-services-related{margin:1.75rem 0 0;color:#c4cfca;font-size:.95rem}
+.service-page .trucking-services .trucking-services-related{margin:1.75rem 0 0;color:#e2e7e2;font-size:.95rem}
 .trucking-services-related a{color:#eea180;text-underline-offset:3px}
 @media(max-width:900px){.trucking-services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.trucking-services-heading{align-items:start;flex-direction:column;gap:1.25rem}}
 @media(max-width:640px){.trucking-services-grid,.trucking-search-panels{grid-template-columns:1fr}.trucking-services-heading>a{white-space:normal}.trucking-service-card,.trucking-search-panel{border-radius:1.25rem}}
