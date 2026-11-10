@@ -61,3 +61,11 @@
         height: 1rem;
     }
 }
+
+.trucking-hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 6 / 5;
+    object-fit: cover;
+}
