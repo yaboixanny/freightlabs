@@ -8680,3 +8680,34 @@ nav button.dropdown-toggle:focus-visible {
     .home-page .home-founder-grid { grid-template-columns: 1fr; }
     .home-page .home-founder-photo { max-height: 520px; }
 }
+
+/* Homepage industries */
+.home-page .home-industries {
+    padding: clamp(4.5rem, 8vw, 7rem) 0;
+    background: #f5f2ec;
+}
+.home-page .home-industries-heading { max-width: 770px; margin-bottom: 3rem; }
+.home-page .home-industries-kicker {
+    display: block; margin-bottom: 1rem; color: #a33f1e;
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+}
+.home-page .home-industries-heading h2 {
+    margin: 0 0 1rem; color: #292b2d; font-family: Inter, sans-serif;
+    font-size: clamp(2.5rem, 4.5vw, 4.5rem); line-height: 1.05; letter-spacing: -0.045em;
+}
+.home-page .home-industries-heading p { margin: 0; color: #505456; font-size: 1.1rem; line-height: 1.7; }
+.home-page .home-industries-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.home-page .home-industry-card {
+    display: flex; flex-direction: column; align-items: flex-start; min-height: 245px;
+    padding: clamp(1.5rem, 2.5vw, 2.25rem); border: 1px solid #dedad2; border-radius: 8px;
+    background: #fff; color: #292b2d; text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.home-page .home-industry-card:hover, .home-page .home-industry-card:focus-visible {
+    border-color: #bd4824; transform: translateY(-3px); box-shadow: 0 10px 25px rgba(41,43,45,0.08);
+}
+.home-page .home-industry-card h3 { margin: 0 0 0.8rem; color: #292b2d; font-family: Inter, sans-serif; font-size: 1.35rem; line-height: 1.2; letter-spacing: -0.025em; }
+.home-page .home-industry-card p { margin: 0 0 1.5rem; color: #505456; font-size: 0.95rem; line-height: 1.6; }
+.home-page .home-industry-arrow { margin-top: auto; color: #b74220; font-size: 1.5rem; line-height: 1; }
+@media (max-width: 900px) { .home-page .home-industries-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .home-page .home-industries-grid { grid-template-columns: 1fr; } .home-page .home-industry-card { min-height: 0; } }
