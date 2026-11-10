@@ -1,0 +1,45 @@
+.search-platforms {
+    margin-top: 2.8rem;
+}
+
+.search-platforms h2 {
+    margin: 0 0 1rem;
+    color: #a4b4b0;
+    font-family: Inter, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.search-platforms-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.search-platforms-list li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 0.8rem;
+    border: 1px solid rgba(211, 229, 224, 0.35);
+    border-radius: 999px;
+    color: #edf8f4;
+    font-family: Inter, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.search-platforms-list svg {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    flex: none;
+}
