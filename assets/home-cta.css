@@ -1,0 +1,19 @@
+.home-page .home-cta .warehouse-cta { background: #272e2b; }
+.home-page .home-cta .warehouse-cta-panel {
+    padding-top: clamp(9rem, 14vw, 13rem);
+    border-radius: 0;
+    background: transparent;
+}
+.home-page .home-cta .warehouse-cta-panel::before {
+    inset: 0;
+    background: linear-gradient(125deg, #ffa468 0%, #ff8c4a 58%, #ffbd8b 100%);
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 100%);
+}
+.home-page .home-cta .warehouse-cta-panel::after { display: none; }
+.home-page .home-cta .warehouse-cta-copy > p { color: #273036; }
+.home-page .home-cta .warehouse-cta-card .warehouse-cta-card-heading { color: #202426; }
+.home-page .home-cta .warehouse-cta-card .warehouse-cta-note { color: #667078; }
+@media (max-width: 760px) {
+    .home-page .home-cta .warehouse-cta-panel { padding-top: 7.5rem; }
+    .home-page .home-cta .warehouse-cta-panel::before { clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%); }
+}
