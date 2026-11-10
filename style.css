@@ -8715,3 +8715,22 @@ nav button.dropdown-toggle:focus-visible {
 .article-page.cold-email-guide .cold-guide-table th, .article-page.cold-email-guide .cold-guide-table td { padding: .9rem 1rem; border: 1px solid #ddd7ce; text-align: left; vertical-align: top; line-height: 1.5; }
 .article-page.cold-email-guide .cold-guide-table thead th { background: #e9e2d9; }
 @media (max-width: 600px) { .article-page.cold-email-guide .cold-guide-compare { grid-template-columns: 1fr; } }
+
+/* Reusable service pricing template */
+.pricing-template { padding: clamp(3.5rem, 6vw, 6rem) 0; background: #272e2b; }
+.pricing-template .pricing-template-panel {
+    display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+    gap: clamp(2.5rem, 7vw, 7rem); padding: clamp(2rem, 4vw, 4rem);
+    border-radius: clamp(24px, 3vw, 42px); background: #353d3a; color: #f7f4ef;
+}
+.pricing-template .pricing-template-kicker { display: block; margin-bottom: 1.5rem; color: #ff9b6c; font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.pricing-template h2 { max-width: 760px; margin: 0 0 1.5rem; color: #fff; font-family: Inter, sans-serif; font-size: clamp(2.3rem, 4vw, 4rem); line-height: 1.08; letter-spacing: -.045em; }
+.pricing-template .pricing-template-intro p { max-width: 650px; margin: 0 0 1rem; color: #e3e5e1; font-size: 1.05rem; line-height: 1.7; }
+.pricing-template-button { display: inline-flex; align-items: center; gap: .9rem; margin-top: 1rem; padding: 1rem 1.5rem; border-radius: 999px; background: #f2763e; color: #202522; font-weight: 700; text-decoration: none; }
+.pricing-template-button:hover, .pricing-template-button:focus-visible { background: #ff9b6c; color: #202522; }
+.pricing-template-details h3 { margin: 0 0 .5rem; color: #c4ccc5; font-family: Inter, sans-serif; font-size: .75rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.pricing-template-details ul { margin: 0; padding: 0; list-style: none; }
+.pricing-template-details li { display: flex; gap: .85rem; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,.14); color: #f2f3ef; font-size: 1rem; line-height: 1.5; }
+.pricing-template-details li::before { content: "✓"; flex: none; color: #ff9b6c; font-weight: 700; }
+.pricing-template .pricing-template-details > p { margin: 1.5rem 0 0; color: #c4ccc5; font-size: .95rem; line-height: 1.6; }
+@media (max-width: 760px) { .pricing-template .pricing-template-panel { grid-template-columns: 1fr; gap: 2.5rem; } }
