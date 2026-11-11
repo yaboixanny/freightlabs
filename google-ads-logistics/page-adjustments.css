@@ -1,0 +1,16 @@
+.service-template-page .warehouse-problem-button {
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 1rem 1.35rem;
+    border-radius: 0.75rem;
+    background: #c4552d;
+    color: #fff;
+    font-size: 0.75rem;
+    letter-spacing: 0.07em;
+    box-shadow: none;
+}
+
+.service-template-page .warehouse-problem-button:hover,
+.service-template-page .warehouse-problem-button:focus-visible {
+    background: #202224;
+}
