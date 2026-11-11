@@ -132,3 +132,12 @@
         padding-inline: 0.28rem;
     }
 }
+
+@media (min-width: 851px) {
+    .trucking-quick-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.trucking-quick-answer .trucking-quick-copy > p:last-child { margin-bottom: 0; }

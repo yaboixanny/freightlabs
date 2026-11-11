@@ -228,3 +228,12 @@
 .service-layout-page .ads-pricing > .container { border-radius: 2rem; }
 .service-layout-page .ads-pricing .seo-pricing-card,
 .service-layout-page .ads-pricing .ads-pricing-card { border-radius: 1.5rem; }
+
+@media (min-width: 851px) {
+    .service-layout-quick-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.service-layout-quick-answer .service-layout-quick-copy > p:last-child { margin-bottom: 0; }

@@ -13,7 +13,7 @@ Keep this page order:
 3. Nine service cards in three desktop columns; two supporting panels appropriate to the service.
 4. Service strategy, when present.
 5. Timeline with four steps and three illustrated browser-style panels, using service-appropriate timing and copy.
-6. Quick explanation with a detailed checklist and five-row facts panel.
+6. Quick explanation with a detailed checklist and facts panel; vertically center the left content alongside the right panel on desktop.
 7. Rounded orange “Book a call with Alex” banner.
 8. Pricing follows the same custom-plan widget as the two core pages.
 9. Light FAQ section with numbered, rounded question bubbles and a “Your [Service] Questions, Answered” heading.
