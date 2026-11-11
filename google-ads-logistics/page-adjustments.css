@@ -14,3 +14,25 @@
 .service-template-page .warehouse-problem-button:focus-visible {
     background: #202224;
 }
+
+.service-layout-page .service-layout-services-heading > .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem 1.35rem;
+    border-radius: 0.75rem;
+    background: #c4552d !important;
+    border-color: #c4552d !important;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    box-shadow: none;
+    font-size: 0.75rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.service-layout-page .service-layout-services-heading > .btn-primary:hover,
+.service-layout-page .service-layout-services-heading > .btn-primary:focus-visible {
+    background: #202224 !important;
+    border-color: #202224 !important;
+}
