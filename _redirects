@@ -61,6 +61,11 @@
 /freightads/ /google-ads-logistics/ 301!
 /freightads/index.html /google-ads-logistics/ 301!
 
+# Retired Why Choose Us page: send all former URLs to the homepage.
+/why-choose-us / 301!
+/why-choose-us/ / 301!
+/why-choose-us/index.html / 301!
+
 # Directory routes are served by the host's built-in clean-URL handling.
 # Do not add redirects that differ only by a trailing slash: the host
 # normalizes both sides and can turn those rules into redirect loops.
