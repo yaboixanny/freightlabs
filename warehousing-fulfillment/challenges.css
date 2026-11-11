@@ -44,3 +44,10 @@
 .service-page .warehouse-marketing-card p { margin: 0; color: #e1e2df; font-size: 1rem; line-height: 1.65; }
 @media (max-width: 700px) { .warehouse-marketing-services-grid { grid-template-columns: 1fr; } .warehouse-marketing-visual { min-height: 0; } }
 @media (prefers-reduced-motion: reduce) { .warehouse-marketing-visual { transition: none; } }
+
+.service-page .warehouse-marketing-services h2 { margin-bottom: 1.25rem; }
+.service-page .warehouse-marketing-services .warehouse-marketing-subtitle { max-width: 760px; margin: 0 auto clamp(3rem, 5vw, 4rem); color: #e1e2df; font-size: 1.05rem; line-height: 1.7; text-align: center; }
+.warehouse-marketing-services-grid { grid-auto-rows: 1fr; }
+.warehouse-marketing-card { display: flex; flex-direction: column; height: 100%; }
+.warehouse-marketing-visual { flex: none; height: 280px; }
+@media (max-width: 700px) { .warehouse-marketing-services-grid { grid-auto-rows: auto; } .warehouse-marketing-visual { height: auto; min-height: 270px; } }
