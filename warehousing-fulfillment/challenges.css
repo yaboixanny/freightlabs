@@ -51,3 +51,7 @@
 .warehouse-marketing-card { display: flex; flex-direction: column; height: 100%; }
 .warehouse-marketing-visual { flex: none; height: 280px; }
 @media (max-width: 700px) { .warehouse-marketing-services-grid { grid-auto-rows: auto; } .warehouse-marketing-visual { height: auto; min-height: 270px; } }
+
+@media (min-width: 761px) {
+    .service-cta-page .warehouse-cta h2 { font-size: clamp(2.4rem, 4vw, 4.1rem); }
+}
