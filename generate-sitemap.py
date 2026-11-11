@@ -44,7 +44,6 @@ PAGE_CONFIG = {
     'facebook-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
     'linkedin-ads-logistics/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
     'web-design-trucking-companies/index.html': {'priority': '0.8', 'changefreq': 'weekly'},
-    'case-studies/index.html': {'priority': '0.9', 'changefreq': 'weekly'},
 }
 
 # Directories to skip

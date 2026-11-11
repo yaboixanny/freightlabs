@@ -45,10 +45,10 @@
 /local-seo-for-3pls /3pl-seo/ 301!
 /local-seo-for-3pls/ /3pl-seo/ 301!
 /local-seo-for-3pls/index.html /3pl-seo/ 301!
-/case-studies/scaling-regional-brokerage-google-ads /case-studies/ 301!
-/case-studies/scaling-regional-brokerage-google-ads/ /case-studies/ 301!
-/case-studies/scaling-regional-brokerage-google-ads.html /case-studies/ 301!
-/case-studies/scaling-regional-brokerage-google-ads/index.html /case-studies/ 301!
+/case-studies/scaling-regional-brokerage-google-ads / 301!
+/case-studies/scaling-regional-brokerage-google-ads/ / 301!
+/case-studies/scaling-regional-brokerage-google-ads.html / 301!
+/case-studies/scaling-regional-brokerage-google-ads/index.html / 301!
 /guides/freight-seo-guide.html /guides/freight-seo-guide/ 301!
 
 # Consolidate the retired duplicate web-design page into the primary service URL.
@@ -60,6 +60,11 @@
 /freightads /google-ads-logistics/ 301!
 /freightads/ /google-ads-logistics/ 301!
 /freightads/index.html /google-ads-logistics/ 301!
+
+# Retired case studies page: redirect its former URLs to the homepage.
+/case-studies / 301!
+/case-studies/ / 301!
+/case-studies/index.html / 301!
 
 # Retired Why Choose Us page: send all former URLs to the homepage.
 /why-choose-us / 301!

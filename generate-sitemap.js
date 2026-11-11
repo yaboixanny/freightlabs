@@ -35,7 +35,6 @@ const pageConfig = {
   'ecommerce-d2c-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'cold-chain-logistics/index.html': { priority: '0.9', changefreq: 'weekly' },
   'last-mile-urban-delivery/index.html': { priority: '0.9', changefreq: 'weekly' },
-  'case-studies/index.html': { priority: '0.9', changefreq: 'weekly' },
   'guides/index.html': { priority: '0.9', changefreq: 'weekly' },
 };
 
