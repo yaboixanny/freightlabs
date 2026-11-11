@@ -14,3 +14,33 @@
 .service-page .warehouse-challenge-card p { margin: 0; color: #505659; font-size: .95rem; line-height: 1.65; }
 @media (max-width: 900px) { .warehouse-challenges-panel { grid-template-columns: 1fr; } }
 @media (max-width: 540px) { .warehouse-challenges-grid { grid-template-columns: 1fr; } .warehouse-challenges-panel { border-radius: 1rem; } }
+
+.service-page .warehouse-marketing-services { padding: clamp(5rem, 8vw, 8rem) 0; background: #343638; }
+.service-page .warehouse-marketing-services h2 { max-width: 950px; margin: 0 auto clamp(3rem, 5vw, 4rem); color: #f7f4ef; font-size: clamp(2.3rem, 4vw, 4rem); line-height: 1.08; letter-spacing: -.045em; text-align: center; }
+.warehouse-marketing-services-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 4vw, 3.5rem); }
+.warehouse-marketing-card { display: block; min-width: 0; color: #f7f4ef; text-decoration: none; }
+.warehouse-marketing-card:focus-visible { outline: 3px solid #ff9b6c; outline-offset: 7px; border-radius: 1rem; }
+.warehouse-marketing-visual { overflow: hidden; min-height: 270px; border: 6px solid #c4552d; border-radius: 1.35rem; background: #f7f4ef; transition: border-color .2s ease; }
+.warehouse-marketing-card:hover .warehouse-marketing-visual { border-color: #f2763e; }
+.warehouse-marketing-browser { display: flex; align-items: center; gap: .35rem; height: 2rem; padding: 0 1rem; background: #dedbd5; }
+.warehouse-marketing-browser i { width: .4rem; height: .4rem; border-radius: 50%; background: #9fa19c; }
+.warehouse-marketing-screen { display: flex; min-height: 230px; flex-direction: column; align-items: flex-start; justify-content: center; gap: .75rem; padding: clamp(1.3rem, 3vw, 2rem); color: #292b2d; }
+.warehouse-marketing-screen > span { color: #a94220; font-size: .68rem; font-weight: 800; letter-spacing: .11em; }
+.warehouse-marketing-screen > strong { max-width: 360px; font-size: clamp(1.2rem, 2vw, 1.65rem); line-height: 1.2; }
+.warehouse-screen-seo, .warehouse-screen-leads { background: #e6e3dc; }
+.warehouse-screen-site { background: #263632; color: #fff; }
+.warehouse-screen-site > span { color: #ff9b6c; }
+.warehouse-search-bar { width: 100%; padding: .55rem .7rem; border: 1px solid #d0ccc3; border-radius: .4rem; background: #fff; color: #555b59; font-size: .8rem; }
+.warehouse-search-bar b { float: right; color: #c4552d; }
+.warehouse-result { display: grid; gap: .2rem; width: 100%; color: #303c3a; font-size: .8rem; }
+.warehouse-result small { color: #666; }
+.warehouse-result i { width: 70%; height: .35rem; background: #d4d7d1; }
+.warehouse-screen-tags, .warehouse-lead-steps { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.warehouse-screen-tags b, .warehouse-lead-steps b { padding: .5rem .65rem; border-radius: .4rem; background: #fff; color: #444a47; font-size: .75rem; }
+.warehouse-site-blocks { display: flex; width: 100%; gap: .6rem; }
+.warehouse-site-blocks i { width: 28%; height: 2.7rem; border-radius: .35rem; background: #51635a; }
+.service-page .warehouse-marketing-card h3 { display: flex; justify-content: space-between; gap: 1rem; margin: 1.3rem 0 .6rem; color: #fff; font-size: 1.3rem; }
+.warehouse-marketing-card h3 span { color: #ff9b6c; }
+.service-page .warehouse-marketing-card p { margin: 0; color: #e1e2df; font-size: 1rem; line-height: 1.65; }
+@media (max-width: 700px) { .warehouse-marketing-services-grid { grid-template-columns: 1fr; } .warehouse-marketing-visual { min-height: 0; } }
+@media (prefers-reduced-motion: reduce) { .warehouse-marketing-visual { transition: none; } }
