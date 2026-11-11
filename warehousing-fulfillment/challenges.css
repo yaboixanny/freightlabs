@@ -58,3 +58,15 @@
 
 .industry-page .google-ads-faq .ads-channel-heading { display: block; text-align: center; }
 .industry-page .google-ads-faq .ads-channel-heading h2 { margin-inline: auto; }
+
+.service-page .warehouse-quote-barriers { padding: clamp(5rem, 8vw, 8rem) 0; background: #f6f2e9; }
+.warehouse-quote-barriers-heading { max-width: 850px; margin-bottom: clamp(2rem, 4vw, 3.5rem); }
+.warehouse-quote-barriers-heading > span { display: block; margin-bottom: 1rem; color: #a83f1d; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.service-page .warehouse-quote-barriers h2 { margin: 0 0 1.2rem; color: #292b2d; font-size: clamp(2.2rem, 4vw, 4rem); line-height: 1.08; letter-spacing: -.045em; }
+.service-page .warehouse-quote-barriers-heading p { margin: 0; color: #505659; font-size: 1.05rem; line-height: 1.7; }
+.warehouse-quote-barriers-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.warehouse-quote-barriers-grid article { padding: clamp(1.5rem, 3vw, 2.5rem); border: 1px solid #ded9d1; border-radius: 1.25rem; background: #fff; }
+.warehouse-quote-barriers-grid article > span { display: block; margin-bottom: 1rem; color: #a83f1d; font-size: .75rem; font-weight: 700; letter-spacing: .1em; }
+.service-page .warehouse-quote-barriers-grid h3 { margin: 0 0 .75rem; color: #292b2d; font-size: 1.3rem; line-height: 1.25; }
+.service-page .warehouse-quote-barriers-grid p { margin: 0; color: #505659; line-height: 1.7; }
+@media (max-width: 700px) { .warehouse-quote-barriers-grid { grid-template-columns: 1fr; } }
