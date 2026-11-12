@@ -1,5 +1,13 @@
 const blogPosts = [
     {
+        title: "SEO for Courier Companies: How to Win Urgent Local Delivery Searches",
+        slug: "../seo-for-courier-companies",
+        excerpt: "Reach local delivery customers with service pages, business profiles, reviews, and practical SEO tracking.",
+        date: "November 12, 2026",
+        category: "SEO",
+        image: "../assets/industries/last-mile.webp"
+    },
+    {
         title: "Marketing Strategies for Logistics Companies (11 That Work)",
         slug: "../marketing-strategies-for-logistics-companies",
         excerpt: "Explore 11 ways to reach the right shippers, build trust, and measure marketing results.",
