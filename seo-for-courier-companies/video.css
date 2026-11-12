@@ -1,0 +1,4 @@
+.courier-guide-video { margin: 2.5rem 0; }
+.courier-guide-video-player { overflow: hidden; aspect-ratio: 16 / 9; border-radius: 1.25rem; background: #202426; }
+.courier-guide-video-player iframe { display: block; width: 100%; height: 100%; border: 0; }
+.courier-guide-video p { margin-top: .75rem; }
